@@ -13,7 +13,16 @@ path = os.path.dirname(os.path.abspath(filename))
 print(filename)
 print(path)
 
-subprocess.call(filename)
+
+filestring=str(filename)
+
+filestring='"'+filestring+'"'
+
+print(filestring)
+
+subprocess.call("start python "+filestring, shell=True)
+
+#os.system(filename)
 
 #exec(open(filename).read())
 
