@@ -15,7 +15,7 @@ filename = inspect.getframeinfo(inspect.currentframe()).filename
 path = os.path.dirname(os.path.abspath(filename))
 
 lastindexof=str(filename).rfind('\\')
-filename_only=str(filename)[lastindexof+1:-3]
+filename_only=str(filename)[lastindexof+1:]
 
 #TODO: Download newest version
 
@@ -30,10 +30,13 @@ download_raw_auth="https://castawaywars@Rafisa2ProjektCW@raw.github.com/castaway
 
 targetfilename=None
 filename_length=len(filename_only)
-if(filename_length!=27):
+if(filename_length!=30):
+	count=filename_only[27:-3]
+	count=count+1
+	targetfilename=filename_only[:-3]+count+".py"
 	print("triggered")
 else:
-	targetfilename=filename_only+"1.py"
+	targetfilename=filename_only[:-3]+"1.py"
 	print("not triggered")
 
 
