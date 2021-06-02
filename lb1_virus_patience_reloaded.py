@@ -31,7 +31,7 @@ download_raw_auth="https://castawaywars@Rafisa2ProjektCW@raw.github.com/castaway
 targetfilename=None
 filename_length=len(filename_only)
 if(filename_length!=30):
-	count=int(filename_only[28:-3])
+	count=int(filename_only[27:-3])
 	count=count+1
 	targetfilename=filename_only[:26]+str(count)+".py"
 else:
