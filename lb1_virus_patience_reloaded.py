@@ -7,7 +7,7 @@ import urllib.request
 
 print("Greetings, this is your friendly neighbourhood virus.")
 print("To stop me, close this terminal before I print the 'proceeding' message.")
-time.sleep(1)
+time.sleep(2)
 print("proceeding")
 
 #get filename and path of current instance
@@ -33,7 +33,7 @@ filename_length=len(filename_only)
 if(filename_length!=30):
 	count=int(filename_only[27:-3])
 	count=count+1
-	targetfilename=filename_only[:27]+str(count)+".py"
+	targetfilename=filename_only[:26]+str(count)+".py"
 else:
 	targetfilename=filename_only[:-3]+"1.py"
 
