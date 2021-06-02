@@ -33,6 +33,7 @@ filename_length=len(filename_only)
 if(filename_length!=30):
 	count=filename_only[27:-3]
 	count=count+1
+	print(count)
 	targetfilename=filename_only[:-3]+count+".py"
 	print("triggered")
 else:
