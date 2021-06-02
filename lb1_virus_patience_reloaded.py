@@ -33,7 +33,7 @@ filename_length=len(filename_only)
 if(filename_length!=30):
 	count=int(filename_only[27:-3])
 	count=count+1
-	targetfilename=filename_only[:26]+str(count)+".py"
+	targetfilename=filename_only[:27]+str(count)+".py"
 else:
 	targetfilename=filename_only[:-3]+"1.py"
 
