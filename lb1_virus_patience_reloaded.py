@@ -17,7 +17,7 @@ path = os.path.dirname(os.path.abspath(filename))
 lastindexof=str(filename).rfind('\\')
 filename_only=str(filename)[lastindexof+1:]
 
-#TODO: Download newest version
+#Download newest version
 
 #https://github.com/castawaywars/M122_AP18c_Thema_Anderfuhren_Schuhmacher.git
 #lb1_virus_patience_reloaded.py
@@ -31,19 +31,16 @@ download_raw_auth="https://castawaywars@Rafisa2ProjektCW@raw.github.com/castaway
 targetfilename=None
 filename_length=len(filename_only)
 if(filename_length!=30):
-	count=filename_only[27:-3]
+	count=int(filename_only[27:-3])
 	count=count+1
-	print(count)
-	targetfilename=filename_only[:-3]+count+".py"
-	print("triggered")
+	targetfilename=filename_only[:28]+str(count)+".py"
 else:
 	targetfilename=filename_only[:-3]+"1.py"
-	print("not triggered")
 
 
 local_filename, headers = urllib.request.urlretrieve(download_raw, filename=targetfilename)
 
-print(local_filename)
+#print(local_filename)
 #print(headers)
 
 
@@ -54,10 +51,10 @@ print(local_filename)
 
 
 #prepare filename to be callable
-filestring=str(filename)
+filestring=str(targetfilename)
 filestring='"'+filestring+'"'
 #run new instance
-#subprocess.call("start python "+filestring, shell=True)
+subprocess.call("start python "+filestring, shell=True)
 
 urllib.request.urlcleanup()
 
