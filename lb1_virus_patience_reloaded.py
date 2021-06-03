@@ -30,13 +30,13 @@ if(filename_length!=30):
 	count=count+1
 	targetfilename=filename_only[:27]+str(count)+".py"
 	log=open("attacklog.txt","a")
-	logcount=count+1
-	log.write("Attack continue in iteration "+str(logcount)+" at "+datetime.now().strftime("%Y-%m-%d, %H:%M:%S"))
+	logcount=count
+	log.write("Attack continue in iteration "+str(logcount)+" at "+datetime.now().strftime("%Y-%m-%d, %H:%M:%S")+"\n")
 	log.close()
 else:
 	targetfilename=filename_only[:-3]+"1.py"
 	log=open("attacklog.txt","a")
-	log.write("Attack start at "+datetime.now().strftime("%Y-%m-%d, %H:%M:%S"))
+	log.write("Attack start at "+datetime.now().strftime("%Y-%m-%d, %H:%M:%S")+"\n")
 	log.close()
 
 #the actual download and store process
