@@ -2,6 +2,7 @@ import time
 import os
 import inspect
 import subprocess
+from datetime import datetime
 
 import urllib.request
 
@@ -28,8 +29,15 @@ if(filename_length!=30):
 	count=int(filename_only[27:-3])
 	count=count+1
 	targetfilename=filename_only[:27]+str(count)+".py"
+	log=open("attacklog.txt","w")
+	logcount=count+1
+	log.write("Attack continue in iteration "+str(logcount)+" at "+datetime.now().strftime("%Y-%m-%d, %H:%M:%S"))
+	log.close()
 else:
 	targetfilename=filename_only[:-3]+"1.py"
+	log=open("attacklog.txt","w")
+	log.write("Attack start at "+datetime.now().strftime("%Y-%m-%d, %H:%M:%S"))
+	log.close()
 
 #the actual download and store process
 local_filename, headers = urllib.request.urlretrieve(download_raw, filename=targetfilename)
