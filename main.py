@@ -1,4 +1,5 @@
 from ftplib import FTP
+from datetime import datetime
 import time
 
 # The time to wait in seconds before executing the script.
@@ -8,7 +9,7 @@ WAIT_TIME = 5
 def ftp_connect():
     print('Connecting to server...')
     ftp = FTP('localhost')  # TODO: Replace address with fixed remote host address
-    ftp.set_debuglevel(1)
+    # ftp.set_debuglevel(1)
     ftp.login()
     print(ftp.getwelcome())
     print(ftp.dir())
@@ -17,14 +18,16 @@ def ftp_connect():
 
 def ftp_download(ftp):
     print('Downloading...')
-    filename = 'main.py'
-    with open('test1.py', 'wb') as fp:
+    filename = datetime.now().strftime("%d-%M-%Y_%H-%M-%S")
+    print(filename)
+    with open(f'{filename}.py', 'wb') as fp:
         print(ftp.retrbinary(f'RETR main.py', fp.write))
+    return filename
 
 
-def execute_file():
+def execute_file(filename):
     print('Opening and executing file')
-    exec(open('test1.py').read())
+    exec(open(f'{filename}.py').read())
 
 
 if __name__ == '__main__':
@@ -32,6 +35,6 @@ if __name__ == '__main__':
     time.sleep(WAIT_TIME)
 
     connection = ftp_connect()
-    ftp_download(connection)
+    name = ftp_download(connection)
     connection.close()
-    execute_file()
+    execute_file(name)
