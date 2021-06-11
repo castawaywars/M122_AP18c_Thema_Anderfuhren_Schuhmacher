@@ -21,7 +21,7 @@ USER_TELL_STRINGS = [
 # Connect to the FTP server
 def ftp_connect():
     logging.debug('Connecting to server...')
-    ftp = FTP('192.23.56.3')  # TODO: Replace address with fixed remote host address
+    ftp = FTP('localhost')  # TODO: Replace address with fixed remote host address
     ftp.login()
     return ftp
 
