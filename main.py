@@ -62,7 +62,6 @@ def read_config(config: ConfigParser):
         logging.debug('Custom section found, loading values')
         custom_config = config['CUSTOM']
         config_wait_time = custom_config.getint('WaitTime')
-        print(config_wait_time)
         config_logfile_name = custom_config['LogFileName']
         config_notification_chance = custom_config.getint('NotificationChance')
     else:
@@ -170,6 +169,9 @@ if __name__ == '__main__':
         # Continue with the execution
         zip_logfile(name)
         execute_file(name)
+    except SystemExit:
+        # If the exception is merely a system exit call from handling an actual exception, simply pass it on
+        sys.exit(1)
     except Exception as e:
         # All exceptions are caught, this is to ensure that they get logged properly
         # If any exception occurs, the program is to log it and exit
