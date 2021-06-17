@@ -50,20 +50,6 @@ def ftp_download(ftp):
     return filename
 
 
-def tell_user():
-    """Say something potentially useful to the user taken from the USER_TELL_STRINGS list"""
-    # To prevent spamming the user with notifications, there is only a 20% chance for one to be shown each run
-    if randint(1, 100) <= NOTIFICATION_CHANCE:
-        logging.info('Saying something to the user:')
-        # Select a random string from the list
-        notification_text = USER_TELL_STRINGS[randint(0, len(USER_TELL_STRINGS) - 1)]
-        logging.info(notification_text)
-        # Initialize the notification
-        notification = ToastNotifier()
-        # Pass data to the notification and show it
-        notification.show_toast('Attention please', notification_text, duration=3)
-
-
 def send_email():
     """Send an email about the current status, which includes the log file"""
     logging.debug('Sending mail about status')
@@ -85,6 +71,20 @@ def send_email():
     with smtplib.SMTP("smtp.mailtrap.io", 2525) as server:
         server.login("36438686bce063", "4954bd17d86bb6")  # TODO: Use a proper email service to actually send the email
         server.sendmail(sender, receiver, message.as_bytes())
+
+
+def tell_user():
+    """Say something potentially useful to the user taken from the USER_TELL_STRINGS list"""
+    # To prevent spamming the user with notifications, there is only a 20% chance for one to be shown each run
+    if randint(1, 100) <= NOTIFICATION_CHANCE:
+        logging.info('Saying something to the user:')
+        # Select a random string from the list
+        notification_text = USER_TELL_STRINGS[randint(0, len(USER_TELL_STRINGS) - 1)]
+        logging.info(notification_text)
+        # Initialize the notification
+        notification = ToastNotifier()
+        # Pass data to the notification and show it
+        notification.show_toast('Attention please', notification_text, duration=3)
 
 
 def zip_logfile(filename: str):
