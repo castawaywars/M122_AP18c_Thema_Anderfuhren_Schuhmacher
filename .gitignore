@@ -1,3 +1,5 @@
+# Ignore the config file, as it gets generated automatically when not found
+/*.ini
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,pycharm
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,pycharm
@@ -255,3 +257,4 @@ Thumbs.db
 
 
 # End of https://www.toptal.com/developers/gitignore/api/python,pycharm
+
