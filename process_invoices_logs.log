@@ -1,690 +1,1465 @@
-2021-07-05 20:03:59,013 Connecting to server...
-2021-07-05 20:03:59,451 Downloading rechnung21003.data
-2021-07-05 20:03:59,637 226 Transfer complete
-2021-07-05 20:04:49,520 Connecting to server...
-2021-07-05 20:04:50,022 Downloading rechnung21003.data
-2021-07-05 20:04:50,159 226 Transfer complete
-2021-07-05 20:04:50,175 An error occurred while extracting data from a file
+DEBUG at 2021-07-09 14:08:40,610: Connecting to server...
+DEBUG at 2021-07-09 14:08:40,959: Connecting to server...
+INFO at 2021-07-09 14:08:41,351: Downloading rechnung21003.data
+DEBUG at 2021-07-09 14:08:41,530: 226 Transfer complete
+INFO at 2021-07-09 14:08:41,532: Analyzing rechnung21003.data
+WARNING at 2021-07-09 14:08:41,534: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:148: FutureWarning: Possible nested set at position 23
+  result = re.findall(regex, text, flags=re.IGNORECASE)
+
+DEBUG at 2021-07-09 14:08:41,543: None
+DEBUG at 2021-07-09 14:08:41,728: 226-File successfully transferred
+226 0.043 seconds (measured here), 25.85 Kbytes per second
+DEBUG at 2021-07-09 14:08:41,902: 226-File successfully transferred
+226 0.036 seconds (measured here), 111.48 Kbytes per second
+INFO at 2021-07-09 14:08:41,902: Downloading rechnung21002.data
+DEBUG at 2021-07-09 14:08:42,071: 226 Transfer complete
+INFO at 2021-07-09 14:08:42,073: Analyzing rechnung21002.data
+ERROR at 2021-07-09 14:08:42,074: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 14:08:42,074: Downloading rechnung21004.data
+DEBUG at 2021-07-09 14:08:42,240: 226 Transfer complete
+INFO at 2021-07-09 14:08:42,241: Analyzing rechnung21004.data
+DEBUG at 2021-07-09 14:08:42,243: None
+DEBUG at 2021-07-09 14:08:42,414: 226-File successfully transferred
+226 0.037 seconds (measured here), 33.80 Kbytes per second
+DEBUG at 2021-07-09 14:08:42,587: 226-File successfully transferred
+226 0.036 seconds (measured here), 111.94 Kbytes per second
+DEBUG at 2021-07-09 14:19:38,714 on Line 24: Connecting to server...
+DEBUG at 2021-07-09 14:19:39,035 on Line 29: 250 CWD command successful
+DEBUG at 2021-07-09 14:19:39,035 on Line 24: Connecting to server...
+DEBUG at 2021-07-09 14:19:39,298 on Line 29: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-09 14:19:39,452 on Line 44: Downloading rechnung21003.data
+DEBUG at 2021-07-09 14:19:39,621 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:19:39,621 on Line 61: Analyzing rechnung21003.data
+WARNING at 2021-07-09 14:19:39,621 on Line 109: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:148: FutureWarning: Possible nested set at position 23
+  result = re.findall(regex, text, flags=re.IGNORECASE)
+
+DEBUG at 2021-07-09 14:19:39,637 on Line 203: None
+DEBUG at 2021-07-09 14:19:39,853 on Line 250: 226-File successfully transferred
+226 0.034 seconds (measured here), 32.96 Kbytes per second
+DEBUG at 2021-07-09 14:19:40,077 on Line 253: 226-File successfully transferred
+226 0.044 seconds (measured here), 92.20 Kbytes per second
+INFO at 2021-07-09 14:19:40,077 on Line 44: Downloading rechnung21002.data
+DEBUG at 2021-07-09 14:19:40,237 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:19:40,238 on Line 61: Analyzing rechnung21002.data
+ERROR at 2021-07-09 14:19:40,243 on Line 54: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 14:19:40,243 on Line 44: Downloading rechnung21004.data
+DEBUG at 2021-07-09 14:19:40,394 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:19:40,395 on Line 61: Analyzing rechnung21004.data
+DEBUG at 2021-07-09 14:19:40,402 on Line 203: None
+DEBUG at 2021-07-09 14:19:40,631 on Line 250: 226-File successfully transferred
+226 0.048 seconds (measured here), 26.32 Kbytes per second
+DEBUG at 2021-07-09 14:19:40,825 on Line 253: 226-File successfully transferred
+226 0.033 seconds (measured here), 120.32 Kbytes per second
+DEBUG at 2021-07-09 14:20:02,728 on Line 24: Connecting to server...
+DEBUG at 2021-07-09 14:20:03,060 on Line 29: 250 CWD command successful
+DEBUG at 2021-07-09 14:20:03,061 on Line 24: Connecting to server...
+DEBUG at 2021-07-09 14:20:03,749 on Line 29: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-09 14:20:03,944 on Line 44: Downloading rechnung21003.data
+DEBUG at 2021-07-09 14:20:04,112 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:20:04,113 on Line 61: Analyzing rechnung21003.data
+DEBUG at 2021-07-09 14:20:04,126 on Line 203: None
+DEBUG at 2021-07-09 14:20:04,306 on Line 250: 226-File successfully transferred
+226 0.038 seconds (measured here), 29.40 Kbytes per second
+DEBUG at 2021-07-09 14:20:04,540 on Line 253: 226-File successfully transferred
+226 0.046 seconds (measured here), 88.40 Kbytes per second
+INFO at 2021-07-09 14:20:04,541 on Line 44: Downloading rechnung21002.data
+DEBUG at 2021-07-09 14:20:04,735 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:20:04,735 on Line 61: Analyzing rechnung21002.data
+ERROR at 2021-07-09 14:20:04,735 on Line 54: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 14:20:04,735 on Line 44: Downloading rechnung21004.data
+DEBUG at 2021-07-09 14:20:04,905 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:20:04,905 on Line 61: Analyzing rechnung21004.data
+DEBUG at 2021-07-09 14:20:04,920 on Line 203: None
+DEBUG at 2021-07-09 14:20:05,108 on Line 250: 226-File successfully transferred
+226 0.042 seconds (measured here), 30.37 Kbytes per second
+DEBUG at 2021-07-09 14:20:05,297 on Line 253: 226-File successfully transferred
+226 0.037 seconds (measured here), 108.68 Kbytes per second
+INFO at 2021-07-09 14:21:44,270 on Line 264: STARTING EXECUTION
+DEBUG at 2021-07-09 14:21:44,271 on Line 24: Connecting to server...
+DEBUG at 2021-07-09 14:21:44,651 on Line 29: 250 CWD command successful
+DEBUG at 2021-07-09 14:21:44,651 on Line 24: Connecting to server...
+DEBUG at 2021-07-09 14:21:44,855 on Line 29: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-09 14:21:45,052 on Line 44: Downloading rechnung21003.data
+DEBUG at 2021-07-09 14:21:45,237 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:21:45,237 on Line 61: Analyzing rechnung21003.data
+WARNING at 2021-07-09 14:21:45,252 on Line 109: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:148: FutureWarning: Possible nested set at position 23
+  result = re.findall(regex, text, flags=re.IGNORECASE)
+
+DEBUG at 2021-07-09 14:21:45,252 on Line 203: None
+DEBUG at 2021-07-09 14:21:45,438 on Line 250: 226-File successfully transferred
+226 0.033 seconds (measured here), 33.98 Kbytes per second
+DEBUG at 2021-07-09 14:21:45,623 on Line 253: 226-File successfully transferred
+226 0.042 seconds (measured here), 95.46 Kbytes per second
+INFO at 2021-07-09 14:21:45,623 on Line 44: Downloading rechnung21002.data
+DEBUG at 2021-07-09 14:21:45,817 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:21:45,817 on Line 61: Analyzing rechnung21002.data
+ERROR at 2021-07-09 14:21:45,817 on Line 54: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 14:21:45,817 on Line 44: Downloading rechnung21004.data
+DEBUG at 2021-07-09 14:21:46,000 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:21:46,001 on Line 61: Analyzing rechnung21004.data
+DEBUG at 2021-07-09 14:21:46,009 on Line 203: None
+DEBUG at 2021-07-09 14:21:46,213 on Line 250: 226-File successfully transferred
+226 0.045 seconds (measured here), 27.79 Kbytes per second
+DEBUG at 2021-07-09 14:21:46,393 on Line 253: 226-File successfully transferred
+226 0.039 seconds (measured here), 103.97 Kbytes per second
+INFO at 2021-07-09 14:22:14,215 on Line 264: STARTING EXECUTION
+DEBUG at 2021-07-09 14:22:14,215 on Line 24: Connecting to server...
+DEBUG at 2021-07-09 14:22:14,459 on Line 29: 250 CWD command successful
+DEBUG at 2021-07-09 14:22:14,459 on Line 24: Connecting to server...
+DEBUG at 2021-07-09 14:22:14,659 on Line 29: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-09 14:22:14,846 on Line 44: Downloading rechnung21003.data
+DEBUG at 2021-07-09 14:22:15,013 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:22:15,014 on Line 61: Analyzing rechnung21003.data
+WARNING at 2021-07-09 14:22:15,021 on Line 109: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:148: FutureWarning: Possible nested set at position 23
+  result = re.findall(regex, text, flags=re.IGNORECASE)
+
+DEBUG at 2021-07-09 14:22:15,030 on Line 203: None
+DEBUG at 2021-07-09 14:22:15,202 on Line 250: 226-File successfully transferred
+226 0.035 seconds (measured here), 31.59 Kbytes per second
+DEBUG at 2021-07-09 14:22:15,371 on Line 253: 226-File successfully transferred
+226 0.032 seconds (measured here), 124.99 Kbytes per second
+INFO at 2021-07-09 14:22:15,371 on Line 44: Downloading rechnung21002.data
+DEBUG at 2021-07-09 14:22:15,544 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:22:15,544 on Line 61: Analyzing rechnung21002.data
+ERROR at 2021-07-09 14:22:15,545 on Line 54: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 14:22:15,545 on Line 44: Downloading rechnung21004.data
+DEBUG at 2021-07-09 14:22:15,711 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:22:15,712 on Line 61: Analyzing rechnung21004.data
+DEBUG at 2021-07-09 14:22:15,715 on Line 203: None
+DEBUG at 2021-07-09 14:22:15,908 on Line 250: 226-File successfully transferred
+226 0.039 seconds (measured here), 32.15 Kbytes per second
+DEBUG at 2021-07-09 14:22:16,098 on Line 253: 226-File successfully transferred
+226 0.037 seconds (measured here), 109.20 Kbytes per second
+INFO at 2021-07-09 14:22:38,318 on Line 264: Starting execution
+DEBUG at 2021-07-09 14:22:38,318 on Line 24: Connecting to server...
+DEBUG at 2021-07-09 14:22:38,626 on Line 29: 250 CWD command successful
+DEBUG at 2021-07-09 14:22:38,626 on Line 24: Connecting to server...
+DEBUG at 2021-07-09 14:22:38,875 on Line 29: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-09 14:22:39,065 on Line 44: Downloading rechnung21003.data
+DEBUG at 2021-07-09 14:22:39,225 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:22:39,226 on Line 61: Analyzing rechnung21003.data
+WARNING at 2021-07-09 14:22:39,229 on Line 109: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:148: FutureWarning: Possible nested set at position 23
+  result = re.findall(regex, text, flags=re.IGNORECASE)
+
+DEBUG at 2021-07-09 14:22:39,237 on Line 203: None
+DEBUG at 2021-07-09 14:22:39,410 on Line 250: 226-File successfully transferred
+226 0.033 seconds (measured here), 33.67 Kbytes per second
+DEBUG at 2021-07-09 14:22:39,598 on Line 253: 226-File successfully transferred
+226 0.039 seconds (measured here), 103.65 Kbytes per second
+INFO at 2021-07-09 14:22:39,598 on Line 44: Downloading rechnung21002.data
+DEBUG at 2021-07-09 14:22:39,762 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:22:39,762 on Line 61: Analyzing rechnung21002.data
+ERROR at 2021-07-09 14:22:39,764 on Line 54: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 14:22:39,764 on Line 44: Downloading rechnung21004.data
+DEBUG at 2021-07-09 14:22:39,940 on Line 46: 226 Transfer complete
+INFO at 2021-07-09 14:22:39,940 on Line 61: Analyzing rechnung21004.data
+DEBUG at 2021-07-09 14:22:39,942 on Line 203: None
+DEBUG at 2021-07-09 14:22:40,125 on Line 250: 226-File successfully transferred
+226 0.033 seconds (measured here), 37.95 Kbytes per second
+DEBUG at 2021-07-09 14:22:40,301 on Line 253: 226-File successfully transferred
+226 0.032 seconds (measured here), 124.49 Kbytes per second
+INFO at 2021-07-09 14:23:56,508 on Line 264: Starting execution
+INFO at 2021-07-09 14:23:57,254 on Line 44: Downloading rechnung21003.data
+INFO at 2021-07-09 14:23:57,427 on Line 61: Analyzing rechnung21003.data
+WARNING at 2021-07-09 14:23:57,427 on Line 109: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:148: FutureWarning: Possible nested set at position 23
+  result = re.findall(regex, text, flags=re.IGNORECASE)
+
+INFO at 2021-07-09 14:23:57,829 on Line 44: Downloading rechnung21002.data
+INFO at 2021-07-09 14:23:58,014 on Line 61: Analyzing rechnung21002.data
+ERROR at 2021-07-09 14:23:58,014 on Line 54: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 14:23:58,014 on Line 44: Downloading rechnung21004.data
+INFO at 2021-07-09 14:23:58,177 on Line 61: Analyzing rechnung21004.data
+INFO at 2021-07-09 14:32:45,172 on Line 271: Starting execution
+DEBUG at 2021-07-09 14:32:45,172 on Line 8: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-09 14:32:45,474 on Line 13: 250 CWD command successful
+DEBUG at 2021-07-09 14:32:45,474 on Line 8: Connecting to server 134.119.225.245
+DEBUG at 2021-07-09 14:32:45,679 on Line 13: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-09 14:32:45,845 on Line 47: Downloading rechnung21003.data
+DEBUG at 2021-07-09 14:32:46,022 on Line 49: 226 Transfer complete
+INFO at 2021-07-09 14:32:46,023 on Line 68: Analyzing rechnung21003.data
+WARNING at 2021-07-09 14:32:46,031 on Line 109: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:155: FutureWarning: Possible nested set at position 23
+  result = re.findall(regex, text, flags=re.IGNORECASE)
+
+DEBUG at 2021-07-09 14:32:46,040 on Line 210: None
+DEBUG at 2021-07-09 14:32:46,042 on Line 250: None
+DEBUG at 2021-07-09 14:32:46,207 on Line 257: 226-File successfully transferred
+226 0.035 seconds (measured here), 31.98 Kbytes per second
+DEBUG at 2021-07-09 14:32:46,390 on Line 260: 226-File successfully transferred
+226 0.039 seconds (measured here), 103.35 Kbytes per second
+INFO at 2021-07-09 14:32:46,390 on Line 47: Downloading rechnung21002.data
+DEBUG at 2021-07-09 14:32:46,562 on Line 49: 226 Transfer complete
+INFO at 2021-07-09 14:32:46,562 on Line 68: Analyzing rechnung21002.data
+ERROR at 2021-07-09 14:32:46,567 on Line 61: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 14:32:46,568 on Line 47: Downloading rechnung21004.data
+DEBUG at 2021-07-09 14:32:46,726 on Line 49: 226 Transfer complete
+INFO at 2021-07-09 14:32:46,727 on Line 68: Analyzing rechnung21004.data
+DEBUG at 2021-07-09 14:32:46,733 on Line 210: None
+DEBUG at 2021-07-09 14:32:46,735 on Line 250: None
+DEBUG at 2021-07-09 14:32:46,906 on Line 257: 226-File successfully transferred
+226 0.033 seconds (measured here), 38.65 Kbytes per second
+DEBUG at 2021-07-09 14:32:47,083 on Line 260: 226-File successfully transferred
+226 0.032 seconds (measured here), 124.81 Kbytes per second
+INFO at 2021-07-09 14:37:59,490: Starting execution
+DEBUG at 2021-07-09 14:37:59,490: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-09 14:37:59,760: 250 CWD command successful
+DEBUG at 2021-07-09 14:37:59,760: Connecting to server 134.119.225.245
+DEBUG at 2021-07-09 14:38:00,025: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-09 14:38:00,212: Downloading rechnung21003.data
+DEBUG at 2021-07-09 14:38:00,379: 226 Transfer complete
+INFO at 2021-07-09 14:38:00,379: Analyzing rechnung21003.data
+WARNING at 2021-07-09 14:38:00,379: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:154: FutureWarning: Possible nested set at position 23
+  result = re.findall(regex, text, flags=re.IGNORECASE)
+
+DEBUG at 2021-07-09 14:38:00,395: None
+DEBUG at 2021-07-09 14:38:00,395: None
+DEBUG at 2021-07-09 14:38:00,612: 226-File successfully transferred
+226 0.044 seconds (measured here), 24.99 Kbytes per second
+DEBUG at 2021-07-09 14:38:00,843: 226-File successfully transferred
+226 0.043 seconds (measured here), 92.98 Kbytes per second
+INFO at 2021-07-09 14:38:00,843: Downloading rechnung21002.data
+DEBUG at 2021-07-09 14:38:01,017: 226 Transfer complete
+INFO at 2021-07-09 14:38:01,018: Analyzing rechnung21002.data
+ERROR at 2021-07-09 14:38:01,019: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 14:38:01,019: Downloading rechnung21004.data
+DEBUG at 2021-07-09 14:38:01,189: 226 Transfer complete
+INFO at 2021-07-09 14:38:01,190: Analyzing rechnung21004.data
+DEBUG at 2021-07-09 14:38:01,193: None
+DEBUG at 2021-07-09 14:38:01,196: None
+DEBUG at 2021-07-09 14:38:01,405: 226-File successfully transferred
+226 0.037 seconds (measured here), 33.78 Kbytes per second
+DEBUG at 2021-07-09 14:38:01,613: 226-File successfully transferred
+226 0.037 seconds (measured here), 109.52 Kbytes per second
+INFO at 2021-07-09 14:38:06,540: Starting execution
+DEBUG at 2021-07-09 14:38:06,540: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-09 14:38:06,859: 250 CWD command successful
+DEBUG at 2021-07-09 14:38:06,859: Connecting to server 134.119.225.245
+DEBUG at 2021-07-09 14:38:07,085: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-09 14:38:07,302: Downloading rechnung21003.data
+DEBUG at 2021-07-09 14:38:07,462: 226 Transfer complete
+INFO at 2021-07-09 14:38:07,463: Analyzing rechnung21003.data
+WARNING at 2021-07-09 14:38:07,466: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:154: FutureWarning: Possible nested set at position 23
+  result = re.findall(regex, text, flags=re.IGNORECASE)
+
+DEBUG at 2021-07-09 14:38:07,474: None
+DEBUG at 2021-07-09 14:38:07,477: None
+DEBUG at 2021-07-09 14:38:07,700: 226-File successfully transferred
+226 0.053 seconds (measured here), 20.93 Kbytes per second
+DEBUG at 2021-07-09 14:38:07,878: 226-File successfully transferred
+226 0.037 seconds (measured here), 108.52 Kbytes per second
+INFO at 2021-07-09 14:38:07,878: Downloading rechnung21002.data
+DEBUG at 2021-07-09 14:38:08,068: 226 Transfer complete
+INFO at 2021-07-09 14:38:08,069: Analyzing rechnung21002.data
+ERROR at 2021-07-09 14:38:08,070: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 14:38:08,070: Downloading rechnung21004.data
+DEBUG at 2021-07-09 14:38:08,250: 226 Transfer complete
+INFO at 2021-07-09 14:38:08,251: Analyzing rechnung21004.data
+DEBUG at 2021-07-09 14:38:08,253: None
+DEBUG at 2021-07-09 14:38:08,255: None
+DEBUG at 2021-07-09 14:38:08,484: 226-File successfully transferred
+226 0.045 seconds (measured here), 27.97 Kbytes per second
+DEBUG at 2021-07-09 14:38:08,696: 226-File successfully transferred
+226 0.048 seconds (measured here), 83.48 Kbytes per second
+INFO at 2021-07-09 14:52:51,078: Starting execution
+DEBUG at 2021-07-09 14:52:51,078: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-09 14:52:51,350: 250 CWD command successful
+DEBUG at 2021-07-09 14:52:51,350: Connecting to server 134.119.225.245
+DEBUG at 2021-07-09 14:52:51,565: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-09 14:52:51,739: Downloading rechnung21003.data
+DEBUG at 2021-07-09 14:52:51,909: 226 Transfer complete
+INFO at 2021-07-09 14:52:51,910: Analyzing rechnung21003.data
+WARNING at 2021-07-09 14:52:51,918: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:154: FutureWarning: Possible nested set at position 23
+  result = re.findall(regex, text, flags=re.IGNORECASE)
+
+DEBUG at 2021-07-09 14:52:51,926: None
+DEBUG at 2021-07-09 14:52:51,929: None
+DEBUG at 2021-07-09 14:52:52,107: 226-File successfully transferred
+226 0.032 seconds (measured here), 34.13 Kbytes per second
+DEBUG at 2021-07-09 14:52:52,273: 226-File successfully transferred
+226 0.038 seconds (measured here), 106.65 Kbytes per second
+INFO at 2021-07-09 14:52:52,273: Downloading rechnung21002.data
+DEBUG at 2021-07-09 14:52:52,445: 226 Transfer complete
+INFO at 2021-07-09 14:52:52,446: Analyzing rechnung21002.data
+ERROR at 2021-07-09 14:52:52,452: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 14:52:52,452: Downloading rechnung21004.data
+DEBUG at 2021-07-09 14:52:52,622: 226 Transfer complete
+INFO at 2021-07-09 14:52:52,623: Analyzing rechnung21004.data
+DEBUG at 2021-07-09 14:52:52,625: None
+DEBUG at 2021-07-09 14:52:52,628: None
+DEBUG at 2021-07-09 14:52:52,809: 226-File successfully transferred
+226 0.037 seconds (measured here), 33.90 Kbytes per second
+DEBUG at 2021-07-09 14:52:52,991: 226-File successfully transferred
+226 0.038 seconds (measured here), 106.22 Kbytes per second
+INFO at 2021-07-09 14:59:44,615: Starting execution
+DEBUG at 2021-07-09 14:59:44,615: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-09 14:59:44,998: 250 CWD command successful
+DEBUG at 2021-07-09 14:59:44,998: Connecting to server 134.119.225.245
+DEBUG at 2021-07-09 14:59:45,206: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-09 14:59:45,390: Downloading rechnung21003.data
+DEBUG at 2021-07-09 14:59:45,552: 226 Transfer complete
+INFO at 2021-07-09 14:59:45,553: Analyzing rechnung21003.data
+ERROR at 2021-07-09 14:59:45,555: Could not find required value "Generation Place" in file "rechnung21003.data"
+INFO at 2021-07-09 14:59:45,555: Downloading rechnung21002.data
+DEBUG at 2021-07-09 14:59:45,717: 226 Transfer complete
+INFO at 2021-07-09 14:59:45,718: Analyzing rechnung21002.data
+ERROR at 2021-07-09 14:59:45,719: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 14:59:45,719: Downloading rechnung21004.data
+DEBUG at 2021-07-09 14:59:45,897: 226 Transfer complete
+INFO at 2021-07-09 14:59:45,898: Analyzing rechnung21004.data
+ERROR at 2021-07-09 14:59:45,899: Could not find required value "Generation Place" in file "rechnung21004.data"
+INFO at 2021-07-09 15:00:28,567: Starting execution
+DEBUG at 2021-07-09 15:00:28,567: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-09 15:00:28,889: 250 CWD command successful
+DEBUG at 2021-07-09 15:00:28,889: Connecting to server 134.119.225.245
+DEBUG at 2021-07-09 15:00:29,103: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-09 15:00:29,275: Downloading rechnung21003.data
+DEBUG at 2021-07-09 15:00:29,445: 226 Transfer complete
+INFO at 2021-07-09 15:00:29,445: Analyzing rechnung21003.data
+WARNING at 2021-07-09 15:00:29,445: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:154: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+DEBUG at 2021-07-09 15:00:29,445: None
+DEBUG at 2021-07-09 15:00:29,460: None
+DEBUG at 2021-07-09 15:00:29,630: 226-File successfully transferred
+226 0.037 seconds (measured here), 29.89 Kbytes per second
+DEBUG at 2021-07-09 15:00:29,830: 226-File successfully transferred
+226 0.042 seconds (measured here), 95.61 Kbytes per second
+INFO at 2021-07-09 15:00:29,830: Downloading rechnung21002.data
+DEBUG at 2021-07-09 15:00:30,019: 226 Transfer complete
+INFO at 2021-07-09 15:00:30,021: Analyzing rechnung21002.data
+ERROR at 2021-07-09 15:00:30,022: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 15:00:30,022: Downloading rechnung21004.data
+DEBUG at 2021-07-09 15:00:30,193: 226 Transfer complete
+INFO at 2021-07-09 15:00:30,193: Analyzing rechnung21004.data
+DEBUG at 2021-07-09 15:00:30,193: None
+DEBUG at 2021-07-09 15:00:30,193: None
+DEBUG at 2021-07-09 15:00:30,363: 226-File successfully transferred
+226 0.034 seconds (measured here), 37.40 Kbytes per second
+DEBUG at 2021-07-09 15:00:30,564: 226-File successfully transferred
+226 0.039 seconds (measured here), 102.34 Kbytes per second
+INFO at 2021-07-09 15:00:48,056: Starting execution
+DEBUG at 2021-07-09 15:00:48,056: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-09 15:00:48,381: 250 CWD command successful
+DEBUG at 2021-07-09 15:00:48,381: Connecting to server 134.119.225.245
+DEBUG at 2021-07-09 15:00:48,597: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-09 15:00:48,762: Downloading rechnung21003.data
+DEBUG at 2021-07-09 15:00:48,913: 226 Transfer complete
+INFO at 2021-07-09 15:00:48,914: Analyzing rechnung21003.data
+WARNING at 2021-07-09 15:00:48,917: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:155: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+DEBUG at 2021-07-09 15:00:48,925: None
+DEBUG at 2021-07-09 15:00:48,928: None
+DEBUG at 2021-07-09 15:00:49,122: 226-File successfully transferred
+226 0.046 seconds (measured here), 23.94 Kbytes per second
+DEBUG at 2021-07-09 15:00:49,290: 226-File successfully transferred
+226 0.032 seconds (measured here), 126.39 Kbytes per second
+INFO at 2021-07-09 15:00:49,290: Downloading rechnung21002.data
+DEBUG at 2021-07-09 15:00:49,447: 226 Transfer complete
+INFO at 2021-07-09 15:00:49,448: Analyzing rechnung21002.data
+ERROR at 2021-07-09 15:00:49,449: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 15:00:49,449: Downloading rechnung21004.data
+DEBUG at 2021-07-09 15:00:49,630: 226 Transfer complete
+INFO at 2021-07-09 15:00:49,630: Analyzing rechnung21004.data
+DEBUG at 2021-07-09 15:00:49,633: None
+DEBUG at 2021-07-09 15:00:49,636: None
+DEBUG at 2021-07-09 15:00:49,806: 226-File successfully transferred
+226 0.040 seconds (measured here), 31.66 Kbytes per second
+DEBUG at 2021-07-09 15:00:49,969: 226-File successfully transferred
+226 0.032 seconds (measured here), 124.73 Kbytes per second
+INFO at 2021-07-09 15:01:22,824: Starting execution
+DEBUG at 2021-07-09 15:01:22,824: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-09 15:01:23,173: 250 CWD command successful
+DEBUG at 2021-07-09 15:01:23,173: Connecting to server 134.119.225.245
+DEBUG at 2021-07-09 15:01:23,386: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-09 15:01:23,571: Downloading rechnung21003.data
+DEBUG at 2021-07-09 15:01:23,734: 226 Transfer complete
+INFO at 2021-07-09 15:01:23,734: Analyzing rechnung21003.data
+WARNING at 2021-07-09 15:01:23,734: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:157: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+DEBUG at 2021-07-09 15:01:23,750: None
+DEBUG at 2021-07-09 15:01:23,750: None
+DEBUG at 2021-07-09 15:01:23,928: 226-File successfully transferred
+226 0.041 seconds (measured here), 27.29 Kbytes per second
+DEBUG at 2021-07-09 15:01:24,108: 226-File successfully transferred
+226 0.040 seconds (measured here), 100.29 Kbytes per second
+INFO at 2021-07-09 15:01:24,108: Downloading rechnung21002.data
+DEBUG at 2021-07-09 15:01:24,308: 226 Transfer complete
+INFO at 2021-07-09 15:01:24,309: Analyzing rechnung21002.data
+ERROR at 2021-07-09 15:01:24,311: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-09 15:01:24,311: Downloading rechnung21004.data
+DEBUG at 2021-07-09 15:01:24,486: 226 Transfer complete
+INFO at 2021-07-09 15:01:24,489: Analyzing rechnung21004.data
+DEBUG at 2021-07-09 15:01:24,492: None
+DEBUG at 2021-07-09 15:01:24,494: None
+DEBUG at 2021-07-09 15:01:24,711: 226-File successfully transferred
+226 0.045 seconds (measured here), 27.98 Kbytes per second
+DEBUG at 2021-07-09 15:01:24,893: 226-File successfully transferred
+226 0.036 seconds (measured here), 113.12 Kbytes per second
+INFO at 2021-07-12 22:01:03,346: Starting execution
+DEBUG at 2021-07-12 22:01:03,347: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-12 22:01:03,556: 250 CWD command successful
+DEBUG at 2021-07-12 22:01:03,556: Connecting to server 134.119.225.245
+DEBUG at 2021-07-12 22:01:03,747: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-12 22:01:03,892: Downloading rechnung21003.data
+ERROR at 2021-07-12 22:01:03,892: [Errno 2] No such file or directory: '\\files\\in\\rechnung21003.data'
 Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 57, in extract_invoice_data
-    file_values['invoice_number'] = regex_extractor(file, 'Rechnung_([1-0]);')[0]
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 65, in regex_extractor
-    return re.findall(regex, text, flags=re.IGNORECASE)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 284, in <module>
+    download_invoices(connection_customer, connection_payment)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 38, in download_invoices
+    with open(file=f'{config["PATHS"]["pathtoin"]}{file}', mode='wb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '\\files\\in\\rechnung21003.data'
+INFO at 2021-07-12 22:01:25,606: Starting execution
+DEBUG at 2021-07-12 22:01:25,606: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-12 22:01:25,842: 250 CWD command successful
+DEBUG at 2021-07-12 22:01:25,842: Connecting to server 134.119.225.245
+DEBUG at 2021-07-12 22:01:26,036: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-12 22:01:26,178: Downloading rechnung21003.data
+ERROR at 2021-07-12 22:01:26,179: [Errno 2] No such file or directory: '\\files\\in\\rechnung21003.data'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 284, in <module>
+    download_invoices(connection_customer, connection_payment)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 38, in download_invoices
+    with open(file=f'{config["PATHS"]["pathtoin"]}{file}', mode='wb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '\\files\\in\\rechnung21003.data'
+INFO at 2021-07-12 22:02:25,063: Starting execution
+DEBUG at 2021-07-12 22:02:25,072: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-12 22:02:25,399: 250 CWD command successful
+DEBUG at 2021-07-12 22:02:25,399: Connecting to server 134.119.225.245
+DEBUG at 2021-07-12 22:02:25,588: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-12 22:02:25,733: Downloading rechnung21003.data
+ERROR at 2021-07-12 22:02:28,120: [Errno 2] No such file or directory: '\\\\files\\\\in\\\\rechnung21003.data'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 284, in <module>
+    download_invoices(connection_customer, connection_payment)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 38, in download_invoices
+    with open(file=f'{config["PATHS"]["pathtoin"]}{file}', mode='wb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\files\\\\in\\\\rechnung21003.data'
+INFO at 2021-07-12 22:03:21,895: Starting execution
+DEBUG at 2021-07-12 22:03:21,895: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-12 22:03:22,091: 250 CWD command successful
+DEBUG at 2021-07-12 22:03:22,092: Connecting to server 134.119.225.245
+DEBUG at 2021-07-12 22:03:22,278: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-12 22:03:22,407: Downloading rechnung21003.data
+ERROR at 2021-07-12 22:03:22,408: [Errno 2] No such file or directory: '\\files\\in\\rechnung21003.data'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 284, in <module>
+    download_invoices(connection_customer, connection_payment)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 38, in download_invoices
+    with open(file=f'{config["PATHS"].get("pathtoin")}{file}', mode='wb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '\\files\\in\\rechnung21003.data'
+INFO at 2021-07-12 22:17:54,636: Starting execution
+DEBUG at 2021-07-12 22:17:54,636: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-12 22:17:55,005: 250 CWD command successful
+DEBUG at 2021-07-12 22:17:55,005: Connecting to server 134.119.225.245
+DEBUG at 2021-07-12 22:17:55,173: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-12 22:17:55,310: Downloading rechnung21003.data
+ERROR at 2021-07-12 22:17:55,311: [Errno 2] No such file or directory: '/files/in/rechnung21003.data'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 284, in <module>
+    download_invoices(connection_customer, connection_payment)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 38, in download_invoices
+    with open(file=f'{config["PATHS"]["pathtoin"]}{file}', mode='wb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/files/in/rechnung21003.data'
+INFO at 2021-07-12 22:18:52,632: Starting execution
+DEBUG at 2021-07-12 22:18:52,632: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-12 22:18:52,995: 250 CWD command successful
+DEBUG at 2021-07-12 22:18:52,995: Connecting to server 134.119.225.245
+DEBUG at 2021-07-12 22:18:53,199: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-12 22:18:53,333: Downloading rechnung21003.data
+ERROR at 2021-07-12 22:18:53,334: [Errno 2] No such file or directory: '/files/in/rechnung21003.data'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 284, in <module>
+    download_invoices(connection_customer, connection_payment)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 38, in download_invoices
+    with open(file=f'{config["PATHS"]["pathtoin"]}{file}', mode='wb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/files/in/rechnung21003.data'
+INFO at 2021-07-12 22:19:28,888: Starting execution
+DEBUG at 2021-07-12 22:19:28,888: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-12 22:19:29,149: 250 CWD command successful
+DEBUG at 2021-07-12 22:19:29,149: Connecting to server 134.119.225.245
+DEBUG at 2021-07-12 22:19:29,402: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-12 22:19:29,592: Downloading rechnung21003.data
+ERROR at 2021-07-12 22:19:29,593: [Errno 2] No such file or directory: '/files/in/rechnung21003.data'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 284, in <module>
+    download_invoices(connection_customer, connection_payment)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 38, in download_invoices
+    with open(file=f'{config["PATHS"]["pathtoin"]}{file}', mode='wb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/files/in/rechnung21003.data'
+INFO at 2021-07-12 22:21:27,939: Starting execution
+DEBUG at 2021-07-12 22:21:27,943: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-12 22:21:28,272: 250 CWD command successful
+DEBUG at 2021-07-12 22:21:28,272: Connecting to server 134.119.225.245
+DEBUG at 2021-07-12 22:21:28,486: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-12 22:21:28,861: Downloading rechnung21003.data
+ERROR at 2021-07-12 22:21:28,862: [Errno 2] No such file or directory: '/files/in/rechnung21003.data'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 284, in <module>
+    download_invoices(connection_customer, connection_payment)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 38, in download_invoices
+    with open(file=f'{config["PATHS"]["pathtoin"]}{file}', mode='wb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/files/in/rechnung21003.data'
+INFO at 2021-07-12 23:15:08,353: Starting execution
+DEBUG at 2021-07-12 23:15:08,354: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-12 23:15:08,634: 250 CWD command successful
+DEBUG at 2021-07-12 23:15:08,635: Connecting to server 134.119.225.245
+DEBUG at 2021-07-12 23:15:08,831: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-12 23:15:08,963: Downloading rechnung21003.data
+ERROR at 2021-07-12 23:15:08,964: [Errno 2] No such file or directory: '\\files\\in\\rechnung21003.data'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 284, in <module>
+    download_invoices(connection_customer, connection_payment)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 38, in download_invoices
+    with open(file=f'{config["PATHS"]["pathtoin"]}{file}', mode='wb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '\\files\\in\\rechnung21003.data'
+INFO at 2021-07-13 19:36:03,402: Starting execution
+DEBUG at 2021-07-13 19:36:03,402: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 19:36:03,730: 250 CWD command successful
+DEBUG at 2021-07-13 19:36:03,730: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 19:36:03,902: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-13 19:36:04,011: Downloading rechnung21003.data
+ERROR at 2021-07-13 19:36:04,011: [Errno 2] No such file or directory: '/files/in/rechnung21003.data'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 284, in <module>
+    download_invoices(connection_customer, connection_payment)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 38, in download_invoices
+    with open(file=f'/{config["PATHS"]["pathtofiles"]}/{config["PATHS"]["pathtoin"]}/{file}', mode='wb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/files/in/rechnung21003.data'
+INFO at 2021-07-13 19:36:27,777: Starting execution
+DEBUG at 2021-07-13 19:36:27,777: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 19:36:27,949: 250 CWD command successful
+DEBUG at 2021-07-13 19:36:27,949: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 19:36:28,105: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-13 19:36:28,199: Downloading rechnung21003.data
+ERROR at 2021-07-13 19:36:28,199: [Errno 2] No such file or directory: '\\files\\in\\rechnung21003.data'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 284, in <module>
+    download_invoices(connection_customer, connection_payment)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 38, in download_invoices
+    with open(file=f'\\{config["PATHS"]["pathtofiles"]}\\{config["PATHS"]["pathtoin"]}\\{file}', mode='wb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '\\files\\in\\rechnung21003.data'
+INFO at 2021-07-13 19:36:49,880: Starting execution
+DEBUG at 2021-07-13 19:36:49,880: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 19:36:50,036: 250 CWD command successful
+DEBUG at 2021-07-13 19:36:50,036: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 19:36:50,208: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-13 19:36:50,317: Downloading rechnung21003.data
+ERROR at 2021-07-13 19:36:50,317: [Errno 2] No such file or directory: '\\files\\in\\rechnung21003.data'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 284, in <module>
+    download_invoices(connection_customer, connection_payment)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 38, in download_invoices
+    with open(file=f'\{config["PATHS"]["pathtofiles"]}\{config["PATHS"]["pathtoin"]}\{file}', mode='wb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '\\files\\in\\rechnung21003.data'
+INFO at 2021-07-13 19:38:40,338: Starting execution
+DEBUG at 2021-07-13 19:38:40,338: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 19:38:40,549: 250 CWD command successful
+DEBUG at 2021-07-13 19:38:40,549: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 19:38:40,701: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-13 19:38:40,804: Downloading rechnung21003.data
+DEBUG at 2021-07-13 19:38:40,930: 226 Transfer complete
+INFO at 2021-07-13 19:38:40,938: Analyzing rechnung21003.data
+WARNING at 2021-07-13 19:38:40,938: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:147: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+WARNING at 2021-07-13 19:38:40,950: Position total differs from expected value
+INFO at 2021-07-13 19:38:40,950: Position total matches expected value
+DEBUG at 2021-07-13 19:38:40,950: None
+DEBUG at 2021-07-13 19:38:40,958: None
+DEBUG at 2021-07-13 19:38:41,105: 226-File successfully transferred
+226 0.029 seconds (measured here), 37.85 Kbytes per second
+DEBUG at 2021-07-13 19:38:41,274: 226-File successfully transferred
+226 0.036 seconds (measured here), 113.07 Kbytes per second
+INFO at 2021-07-13 19:38:41,274: Downloading rechnung21002.data
+DEBUG at 2021-07-13 19:38:41,413: 226 Transfer complete
+INFO at 2021-07-13 19:38:41,413: Analyzing rechnung21002.data
+ERROR at 2021-07-13 19:38:41,413: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-13 19:38:41,413: Downloading rechnung21004.data
+DEBUG at 2021-07-13 19:38:41,534: 226 Transfer complete
+INFO at 2021-07-13 19:38:41,535: Analyzing rechnung21004.data
+INFO at 2021-07-13 19:38:41,536: Position total matches expected value
+INFO at 2021-07-13 19:38:41,536: Position total matches expected value
+INFO at 2021-07-13 19:38:41,537: Position total matches expected value
+INFO at 2021-07-13 19:38:41,537: Position total matches expected value
+DEBUG at 2021-07-13 19:38:41,542: None
+DEBUG at 2021-07-13 19:38:41,544: None
+DEBUG at 2021-07-13 19:38:41,676: 226-File successfully transferred
+226 0.031 seconds (measured here), 40.56 Kbytes per second
+DEBUG at 2021-07-13 19:38:41,814: 226-File successfully transferred
+226 0.031 seconds (measured here), 128.31 Kbytes per second
+INFO at 2021-07-13 19:57:06,077: Starting execution
+INFO at 2021-07-13 19:57:54,648: Starting execution
+INFO at 2021-07-13 19:58:14,956: Starting execution
+ERROR at 2021-07-13 19:58:14,956: 
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 277, in <module>
+    raise Exception
+Exception
+INFO at 2021-07-13 19:59:05,172: Starting execution
+ERROR at 2021-07-13 19:59:05,173: 
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 277, in <module>
+    raise Exception
+Exception
+INFO at 2021-07-13 19:59:59,270: Starting execution
+ERROR at 2021-07-13 19:59:59,270: 
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 277, in <module>
+    raise Exception
+Exception
+INFO at 2021-07-13 20:00:19,880: Starting execution
+DEBUG at 2021-07-13 20:00:19,881: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 20:00:20,075: 250 CWD command successful
+ERROR at 2021-07-13 20:00:20,075: 
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 283, in <module>
+    raise Exception
+Exception
+INFO at 2021-07-13 20:00:26,327: Starting execution
+DEBUG at 2021-07-13 20:00:26,327: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 20:00:26,488: 250 CWD command successful
+DEBUG at 2021-07-13 20:00:26,488: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 20:00:26,682: 250 OK. Current directory is /out/AP18cSchuhmacher
+ERROR at 2021-07-13 20:00:26,682: 
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 287, in <module>
+    raise Exception
+Exception
+INFO at 2021-07-13 20:09:03,044: Starting execution
+DEBUG at 2021-07-13 20:09:03,044: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 20:09:03,281: 250 CWD command successful
+DEBUG at 2021-07-13 20:09:03,281: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 20:09:03,456: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-13 20:09:03,560: Downloading rechnung21003.data
+DEBUG at 2021-07-13 20:09:03,691: 226 Transfer complete
+INFO at 2021-07-13 20:09:03,691: Analyzing rechnung21003.data
+WARNING at 2021-07-13 20:09:03,694: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:148: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+WARNING at 2021-07-13 20:09:03,707: Discrepancy in rechnung21003.data detected: Position 1 total is 160.00, but should be 150.00
+INFO at 2021-07-13 20:09:03,707: Position total matches expected value
+DEBUG at 2021-07-13 20:09:03,708: None
+DEBUG at 2021-07-13 20:09:03,716: None
+DEBUG at 2021-07-13 20:09:03,865: 226-File successfully transferred
+226 0.039 seconds (measured here), 28.64 Kbytes per second
+DEBUG at 2021-07-13 20:09:04,013: 226-File successfully transferred
+226 0.032 seconds (measured here), 127.59 Kbytes per second
+INFO at 2021-07-13 20:09:04,013: Downloading rechnung21002.data
+DEBUG at 2021-07-13 20:09:04,151: 226 Transfer complete
+INFO at 2021-07-13 20:09:04,152: Analyzing rechnung21002.data
+ERROR at 2021-07-13 20:09:04,153: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-13 20:09:04,153: Downloading rechnung21004.data
+DEBUG at 2021-07-13 20:09:04,285: 226 Transfer complete
+INFO at 2021-07-13 20:09:04,286: Analyzing rechnung21004.data
+INFO at 2021-07-13 20:09:04,287: Position total matches expected value
+INFO at 2021-07-13 20:09:04,287: Position total matches expected value
+INFO at 2021-07-13 20:09:04,287: Position total matches expected value
+INFO at 2021-07-13 20:09:04,287: Position total matches expected value
+DEBUG at 2021-07-13 20:09:04,288: None
+DEBUG at 2021-07-13 20:09:04,290: None
+DEBUG at 2021-07-13 20:09:04,446: 226-File successfully transferred
+226 0.037 seconds (measured here), 34.19 Kbytes per second
+DEBUG at 2021-07-13 20:09:04,603: 226-File successfully transferred
+226 0.031 seconds (measured here), 127.98 Kbytes per second
+INFO at 2021-07-13 20:27:45,580: Starting execution
+DEBUG at 2021-07-13 20:27:45,580: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 20:27:45,826: 250 CWD command successful
+DEBUG at 2021-07-13 20:27:45,826: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 20:27:45,999: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-13 20:27:46,151: Downloading rechnung21003.data
+DEBUG at 2021-07-13 20:27:46,303: 226 Transfer complete
+INFO at 2021-07-13 20:27:46,311: Analyzing rechnung21003.data
+WARNING at 2021-07-13 20:27:46,313: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:148: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+WARNING at 2021-07-13 20:27:46,334: Discrepancy in rechnung21003.data detected: Position 1 total is 160.00, but should be 150.00
+INFO at 2021-07-13 20:27:46,334: Position total matches expected value
+DEBUG at 2021-07-13 20:27:46,334: None
+DEBUG at 2021-07-13 20:27:46,334: None
+DEBUG at 2021-07-13 20:27:46,483: 226-File successfully transferred
+226 0.030 seconds (measured here), 36.93 Kbytes per second
+DEBUG at 2021-07-13 20:27:46,634: 226-File successfully transferred
+226 0.034 seconds (measured here), 119.47 Kbytes per second
+INFO at 2021-07-13 20:27:46,634: Downloading rechnung21002.data
+DEBUG at 2021-07-13 20:27:46,766: 226 Transfer complete
+INFO at 2021-07-13 20:27:46,766: Analyzing rechnung21002.data
+ERROR at 2021-07-13 20:27:46,766: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-13 20:27:46,766: Downloading rechnung21004.data
+DEBUG at 2021-07-13 20:27:46,866: 226 Transfer complete
+INFO at 2021-07-13 20:27:46,866: Analyzing rechnung21004.data
+INFO at 2021-07-13 20:27:46,866: Position total matches expected value
+INFO at 2021-07-13 20:27:46,866: Position total matches expected value
+INFO at 2021-07-13 20:27:46,866: Position total matches expected value
+INFO at 2021-07-13 20:27:46,866: Position total matches expected value
+DEBUG at 2021-07-13 20:27:46,866: None
+DEBUG at 2021-07-13 20:27:46,866: None
+DEBUG at 2021-07-13 20:27:47,020: 226-File successfully transferred
+226 0.034 seconds (measured here), 37.63 Kbytes per second
+DEBUG at 2021-07-13 20:27:47,190: 226-File successfully transferred
+226 0.029 seconds (measured here), 139.72 Kbytes per second
+INFO at 2021-07-13 20:48:52,128: Starting execution
+DEBUG at 2021-07-13 20:48:52,128: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 20:48:52,717: 250 CWD command successful
+DEBUG at 2021-07-13 20:48:52,717: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 20:48:53,509: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-13 20:48:53,811: Downloading rechnung21003.data
+DEBUG at 2021-07-13 20:48:53,990: 226 Transfer complete
+INFO at 2021-07-13 20:48:53,990: Analyzing rechnung21003.data
+WARNING at 2021-07-13 20:48:53,990: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:148: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+WARNING at 2021-07-13 20:48:53,990: Discrepancy in rechnung21003.data detected: Position 1 total is 160.00, but should be 150.00
+INFO at 2021-07-13 20:48:53,990: Position total matches expected value
+DEBUG at 2021-07-13 20:48:53,990: 1068
+DEBUG at 2021-07-13 20:48:54,005: None
+DEBUG at 2021-07-13 20:48:54,562: 226-File successfully transferred
+226 0.057 seconds (measured here), 19.50 Kbytes per second
+DEBUG at 2021-07-13 20:48:54,716: 226-File successfully transferred
+226 0.033 seconds (measured here), 120.85 Kbytes per second
+INFO at 2021-07-13 20:48:54,716: Downloading rechnung21002.data
+DEBUG at 2021-07-13 20:48:54,849: 226 Transfer complete
+INFO at 2021-07-13 20:48:54,849: Analyzing rechnung21002.data
+ERROR at 2021-07-13 20:48:54,849: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-13 20:48:54,849: Downloading rechnung21004.data
+DEBUG at 2021-07-13 20:48:54,965: 226 Transfer complete
+INFO at 2021-07-13 20:48:54,965: Analyzing rechnung21004.data
+INFO at 2021-07-13 20:48:54,965: Position total matches expected value
+INFO at 2021-07-13 20:48:54,965: Position total matches expected value
+INFO at 2021-07-13 20:48:54,965: Position total matches expected value
+INFO at 2021-07-13 20:48:54,965: Position total matches expected value
+DEBUG at 2021-07-13 20:48:54,965: 1228
+DEBUG at 2021-07-13 20:48:54,965: None
+DEBUG at 2021-07-13 20:48:55,118: 226-File successfully transferred
+226 0.039 seconds (measured here), 32.52 Kbytes per second
+DEBUG at 2021-07-13 20:48:55,266: 226-File successfully transferred
+226 0.028 seconds (measured here), 143.98 Kbytes per second
+INFO at 2021-07-13 20:50:04,896: Starting execution
+DEBUG at 2021-07-13 20:50:04,896: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 20:50:05,050: 250 CWD command successful
+DEBUG at 2021-07-13 20:50:05,050: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 20:50:05,266: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-13 20:50:05,350: Downloading rechnung21003.data
+DEBUG at 2021-07-13 20:50:05,497: 226 Transfer complete
+INFO at 2021-07-13 20:50:05,497: Analyzing rechnung21003.data
+WARNING at 2021-07-13 20:50:05,497: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:150: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+WARNING at 2021-07-13 20:50:05,513: Discrepancy in rechnung21003.data detected: Position 1 total is 160.00, but should be 150.00
+INFO at 2021-07-13 20:50:05,513: Position total matches expected value
+DEBUG at 2021-07-13 20:50:05,513: 1068
+DEBUG at 2021-07-13 20:50:05,520: None
+DEBUG at 2021-07-13 20:50:05,520: 45
+DEBUG at 2021-07-13 20:50:05,651: 226-File successfully transferred
+226 0.031 seconds (measured here), 35.15 Kbytes per second
+DEBUG at 2021-07-13 20:50:05,798: 226-File successfully transferred
+226 0.032 seconds (measured here), 126.52 Kbytes per second
+INFO at 2021-07-13 20:50:05,798: Downloading rechnung21002.data
+DEBUG at 2021-07-13 20:50:05,921: 226 Transfer complete
+INFO at 2021-07-13 20:50:05,921: Analyzing rechnung21002.data
+ERROR at 2021-07-13 20:50:05,921: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-13 20:50:05,921: Downloading rechnung21004.data
+DEBUG at 2021-07-13 20:50:06,021: 226 Transfer complete
+INFO at 2021-07-13 20:50:06,021: Analyzing rechnung21004.data
+INFO at 2021-07-13 20:50:06,021: Position total matches expected value
+INFO at 2021-07-13 20:50:06,021: Position total matches expected value
+INFO at 2021-07-13 20:50:06,021: Position total matches expected value
+INFO at 2021-07-13 20:50:06,021: Position total matches expected value
+DEBUG at 2021-07-13 20:50:06,021: 1228
+DEBUG at 2021-07-13 20:50:06,021: None
+DEBUG at 2021-07-13 20:50:06,021: 45
+DEBUG at 2021-07-13 20:50:06,185: 226-File successfully transferred
+226 0.030 seconds (measured here), 41.51 Kbytes per second
+DEBUG at 2021-07-13 20:50:06,323: 226-File successfully transferred
+226 0.028 seconds (measured here), 145.23 Kbytes per second
+INFO at 2021-07-13 22:21:57,042: Starting execution
+DEBUG at 2021-07-13 22:21:57,042: Connecting to server ftp.haraldmueller.ch
+INFO at 2021-07-13 22:22:13,872: Starting execution
+DEBUG at 2021-07-13 22:22:13,872: Connecting to server ftp.haraldmueller.ch
+ERROR at 2021-07-13 22:22:14,088: 550 /AP18cSchuhmacher: No such file or directory
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 51, in <module>
+    connection_customer = shared.ftp_connect(host=config['FTP']['customerhost'], user=config['FTP']['customeruser'],
+  File "C:\Users\grish\PycharmProjects\M112_LB2\shared.py", line 35, in ftp_connect
+    logging.debug(ftp.cwd(path))
+  File "C:\Python39\lib\ftplib.py", line 625, in cwd
+    return self.voidcmd(cmd)
+  File "C:\Python39\lib\ftplib.py", line 286, in voidcmd
+    return self.voidresp()
+  File "C:\Python39\lib\ftplib.py", line 259, in voidresp
+    resp = self.getresp()
+  File "C:\Python39\lib\ftplib.py", line 254, in getresp
+    raise error_perm(resp)
+ftplib.error_perm: 550 /AP18cSchuhmacher: No such file or directory
+INFO at 2021-07-13 22:22:26,768: Starting execution
+DEBUG at 2021-07-13 22:22:26,768: Connecting to server ftp.haraldmueller.ch
+ERROR at 2021-07-13 22:22:27,023: 550 /AP18cSchuhmacher: No such file or directory
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 52, in <module>
+    connection_customer = shared.ftp_connect(host=config['FTP']['customerhost'], user=config['FTP']['customeruser'],
+  File "C:\Users\grish\PycharmProjects\M112_LB2\shared.py", line 35, in ftp_connect
+    logging.debug(ftp.cwd(path))
+  File "C:\Python39\lib\ftplib.py", line 625, in cwd
+    return self.voidcmd(cmd)
+  File "C:\Python39\lib\ftplib.py", line 286, in voidcmd
+    return self.voidresp()
+  File "C:\Python39\lib\ftplib.py", line 259, in voidresp
+    resp = self.getresp()
+  File "C:\Python39\lib\ftplib.py", line 254, in getresp
+    raise error_perm(resp)
+ftplib.error_perm: 550 /AP18cSchuhmacher: No such file or directory
+INFO at 2021-07-13 22:26:07,142: Starting execution
+DEBUG at 2021-07-13 22:26:07,158: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:26:07,312: 250 CWD command successful
+DEBUG at 2021-07-13 22:26:07,312: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:26:07,490: 250 OK. Current directory is /out/AP18cSchuhmacher
+ERROR at 2021-07-13 22:26:07,591: [Errno 2] No such file or directory: '.\\files\\wait\\quittungsfile20210713_205503.txt'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 61, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 20, in get_receipts
+    with open(file=f'{config["PATHS"]["pathtowait"]}{file}', mode='wb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '.\\files\\wait\\quittungsfile20210713_205503.txt'
+INFO at 2021-07-13 22:26:20,399: Starting execution
+DEBUG at 2021-07-13 22:26:20,399: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:26:20,668: 250 CWD command successful
+DEBUG at 2021-07-13 22:26:20,668: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:26:20,832: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:26:21,071: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.01 Mbytes per second
+DEBUG at 2021-07-13 22:26:21,288: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.88 Mbytes per second
+DEBUG at 2021-07-13 22:26:21,405: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.68 Mbytes per second
+INFO at 2021-07-13 22:26:47,100: Starting execution
+DEBUG at 2021-07-13 22:26:47,100: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:26:47,355: 250 CWD command successful
+DEBUG at 2021-07-13 22:26:47,355: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:26:47,540: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:26:47,773: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.39 Mbytes per second
+DEBUG at 2021-07-13 22:26:47,890: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.49 Mbytes per second
+DEBUG at 2021-07-13 22:26:48,005: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.70 Mbytes per second
+INFO at 2021-07-13 22:27:13,488: Starting execution
+DEBUG at 2021-07-13 22:27:13,488: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:27:13,721: 250 CWD command successful
+DEBUG at 2021-07-13 22:27:13,721: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:27:13,875: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-13 22:27:13,991: Downloading rechnung21003.data
+DEBUG at 2021-07-13 22:27:14,123: 226 Transfer complete
+INFO at 2021-07-13 22:27:14,123: Analyzing rechnung21003.data
+WARNING at 2021-07-13 22:27:14,123: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:150: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+WARNING at 2021-07-13 22:27:14,138: Discrepancy in rechnung21003.data detected: Position 1 total is 160.00, but should be 150.00
+INFO at 2021-07-13 22:27:14,138: Position total matches expected value
+DEBUG at 2021-07-13 22:27:14,138: 1068
+DEBUG at 2021-07-13 22:27:14,138: None
+DEBUG at 2021-07-13 22:27:14,138: 57
+DEBUG at 2021-07-13 22:27:14,277: 226-File successfully transferred
+226 0.034 seconds (measured here), 32.43 Kbytes per second
+DEBUG at 2021-07-13 22:27:14,423: 226-File successfully transferred
+226 0.029 seconds (measured here), 136.76 Kbytes per second
+INFO at 2021-07-13 22:27:14,423: Downloading rechnung21002.data
+DEBUG at 2021-07-13 22:27:14,540: 226 Transfer complete
+INFO at 2021-07-13 22:27:14,540: Analyzing rechnung21002.data
+ERROR at 2021-07-13 22:27:14,540: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-13 22:27:14,540: Downloading rechnung21004.data
+DEBUG at 2021-07-13 22:27:14,656: 226 Transfer complete
+INFO at 2021-07-13 22:27:14,656: Analyzing rechnung21004.data
+INFO at 2021-07-13 22:27:14,662: Position total matches expected value
+INFO at 2021-07-13 22:27:14,662: Position total matches expected value
+INFO at 2021-07-13 22:27:14,662: Position total matches expected value
+INFO at 2021-07-13 22:27:14,662: Position total matches expected value
+DEBUG at 2021-07-13 22:27:14,662: 1228
+DEBUG at 2021-07-13 22:27:14,662: None
+DEBUG at 2021-07-13 22:27:14,662: 57
+DEBUG at 2021-07-13 22:27:14,800: 226-File successfully transferred
+226 0.028 seconds (measured here), 45.37 Kbytes per second
+DEBUG at 2021-07-13 22:27:14,926: 226-File successfully transferred
+226 0.025 seconds (measured here), 158.18 Kbytes per second
+INFO at 2021-07-13 22:27:21,578: Starting execution
+DEBUG at 2021-07-13 22:27:21,578: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:27:21,833: 250 CWD command successful
+DEBUG at 2021-07-13 22:27:21,833: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:27:22,011: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:27:22,236: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.84 Mbytes per second
+DEBUG at 2021-07-13 22:27:22,367: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.05 Mbytes per second
+DEBUG at 2021-07-13 22:27:22,484: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.07 Mbytes per second
+ERROR at 2021-07-13 22:27:22,484: unbalanced parenthesis at position 13
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 62, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 34, in get_receipts
+    match_txt = re.findall(pattern=rf'[0-9]+-[0-9]+)  K{split[2]}_{split[0]}_invoice\.txt',
   File "C:\Python39\lib\re.py", line 241, in findall
     return _compile(pattern, flags).findall(string)
   File "C:\Python39\lib\re.py", line 304, in _compile
     p = sre_compile.compile(pattern, flags)
   File "C:\Python39\lib\sre_compile.py", line 764, in compile
     p = sre_parse.parse(p, flags)
-  File "C:\Python39\lib\sre_parse.py", line 948, in parse
-    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
-  File "C:\Python39\lib\sre_parse.py", line 443, in _parse_sub
-    itemsappend(_parse(source, state, verbose, nested + 1,
-  File "C:\Python39\lib\sre_parse.py", line 834, in _parse
-    p = _parse_sub(source, state, sub_verbose, nested + 1)
-  File "C:\Python39\lib\sre_parse.py", line 443, in _parse_sub
-    itemsappend(_parse(source, state, verbose, nested + 1,
-  File "C:\Python39\lib\sre_parse.py", line 598, in _parse
-    raise source.error(msg, len(this) + 1 + len(that))
-re.error: bad character range 1-0 at position 11
-2021-07-05 20:05:20,015 Connecting to server...
-2021-07-05 20:05:20,463 Downloading rechnung21003.data
-2021-07-05 20:05:20,903 226 Transfer complete
-2021-07-05 20:05:20,903 An error occurred while extracting data from a file
+  File "C:\Python39\lib\sre_parse.py", line 962, in parse
+    raise source.error("unbalanced parenthesis")
+re.error: unbalanced parenthesis at position 13
+INFO at 2021-07-13 22:43:46,044: Starting execution
+DEBUG at 2021-07-13 22:43:46,044: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:43:46,213: 250 CWD command successful
+DEBUG at 2021-07-13 22:43:46,213: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:43:46,361: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-13 22:43:46,477: Downloading rechnung21003.data
+DEBUG at 2021-07-13 22:43:46,579: 226 Transfer complete
+INFO at 2021-07-13 22:43:46,579: Analyzing rechnung21003.data
+WARNING at 2021-07-13 22:43:46,579: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:150: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+WARNING at 2021-07-13 22:43:46,594: Discrepancy in rechnung21003.data detected: Position 1 total is 160.00, but should be 150.00
+INFO at 2021-07-13 22:43:46,594: Position total matches expected value
+DEBUG at 2021-07-13 22:43:46,594: 1068
+DEBUG at 2021-07-13 22:43:46,594: None
+DEBUG at 2021-07-13 22:43:46,594: 57
+DEBUG at 2021-07-13 22:43:46,733: 226-File successfully transferred
+226 0.032 seconds (measured here), 34.97 Kbytes per second
+DEBUG at 2021-07-13 22:43:46,881: 226-File successfully transferred
+226 0.026 seconds (measured here), 153.15 Kbytes per second
+INFO at 2021-07-13 22:43:46,881: Downloading rechnung21002.data
+DEBUG at 2021-07-13 22:43:46,965: 226 Transfer complete
+INFO at 2021-07-13 22:43:46,981: Analyzing rechnung21002.data
+ERROR at 2021-07-13 22:43:46,981: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-13 22:43:46,981: Downloading rechnung21004.data
+DEBUG at 2021-07-13 22:43:47,081: 226 Transfer complete
+INFO at 2021-07-13 22:43:47,081: Analyzing rechnung21004.data
+INFO at 2021-07-13 22:43:47,081: Position total matches expected value
+INFO at 2021-07-13 22:43:47,081: Position total matches expected value
+INFO at 2021-07-13 22:43:47,081: Position total matches expected value
+INFO at 2021-07-13 22:43:47,081: Position total matches expected value
+DEBUG at 2021-07-13 22:43:47,081: 1228
+DEBUG at 2021-07-13 22:43:47,081: None
+DEBUG at 2021-07-13 22:43:47,081: 57
+DEBUG at 2021-07-13 22:43:47,219: 226-File successfully transferred
+226 0.029 seconds (measured here), 43.91 Kbytes per second
+DEBUG at 2021-07-13 22:43:47,367: 226-File successfully transferred
+226 0.031 seconds (measured here), 128.77 Kbytes per second
+INFO at 2021-07-14 09:18:04,124: Starting execution
+DEBUG at 2021-07-14 09:18:04,124: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 09:18:04,732: 250 CWD command successful
+DEBUG at 2021-07-14 09:18:04,732: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 09:18:04,967: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 09:18:05,159: Downloading rechnung21003.data
+DEBUG at 2021-07-14 09:18:05,394: 226 Transfer complete
+INFO at 2021-07-14 09:18:05,396: Analyzing rechnung21003.data
+WARNING at 2021-07-14 09:18:05,410: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:150: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+WARNING at 2021-07-14 09:18:05,444: Discrepancy in rechnung21003.data detected: Position 1 total is 160.00, but should be 150.00
+INFO at 2021-07-14 09:18:05,444: Position total matches expected value
+DEBUG at 2021-07-14 09:18:05,446: 1068
+DEBUG at 2021-07-14 09:18:05,471: None
+DEBUG at 2021-07-14 09:18:05,473: 57
+DEBUG at 2021-07-14 09:18:05,693: 226-File successfully transferred
+226 0.048 seconds (measured here), 22.99 Kbytes per second
+DEBUG at 2021-07-14 09:18:05,930: 226-File successfully transferred
+226 0.057 seconds (measured here), 70.37 Kbytes per second
+INFO at 2021-07-14 09:18:05,930: Downloading rechnung21002.data
+DEBUG at 2021-07-14 09:18:06,138: 226 Transfer complete
+INFO at 2021-07-14 09:18:06,140: Analyzing rechnung21002.data
+ERROR at 2021-07-14 09:18:06,142: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-14 09:18:06,142: Downloading rechnung21004.data
+DEBUG at 2021-07-14 09:18:06,332: 226 Transfer complete
+INFO at 2021-07-14 09:18:06,334: Analyzing rechnung21004.data
+INFO at 2021-07-14 09:18:06,336: Position total matches expected value
+INFO at 2021-07-14 09:18:06,336: Position total matches expected value
+INFO at 2021-07-14 09:18:06,336: Position total matches expected value
+INFO at 2021-07-14 09:18:06,336: Position total matches expected value
+DEBUG at 2021-07-14 09:18:06,336: 1228
+DEBUG at 2021-07-14 09:18:06,355: None
+DEBUG at 2021-07-14 09:18:06,355: 57
+DEBUG at 2021-07-14 09:18:06,574: 226-File successfully transferred
+226 0.048 seconds (measured here), 26.14 Kbytes per second
+DEBUG at 2021-07-14 09:18:06,791: 226-File successfully transferred
+226 0.049 seconds (measured here), 82.07 Kbytes per second
+INFO at 2021-07-14 09:59:49,690: Starting execution
+DEBUG at 2021-07-14 09:59:49,690: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 09:59:49,987: 250 CWD command successful
+DEBUG at 2021-07-14 09:59:49,987: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 09:59:50,243: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 09:59:50,454: Downloading rechnung21003.data
+DEBUG at 2021-07-14 09:59:50,694: 226 Transfer complete
+INFO at 2021-07-14 09:59:50,701: Analyzing rechnung21003.data
+WARNING at 2021-07-14 09:59:50,712: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:150: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+WARNING at 2021-07-14 09:59:50,738: Discrepancy in rechnung21003.data detected: Position 1 total is 160.00, but should be 150.00
+INFO at 2021-07-14 09:59:50,738: Position total matches expected value
+DEBUG at 2021-07-14 09:59:50,752: 1068
+DEBUG at 2021-07-14 09:59:50,761: None
+DEBUG at 2021-07-14 09:59:50,762: 57
+DEBUG at 2021-07-14 09:59:50,982: 226-File successfully transferred
+226 0.051 seconds (measured here), 21.61 Kbytes per second
+DEBUG at 2021-07-14 09:59:51,210: 226-File successfully transferred
+226 0.058 seconds (measured here), 69.03 Kbytes per second
+INFO at 2021-07-14 09:59:51,210: Downloading rechnung21002.data
+DEBUG at 2021-07-14 09:59:51,422: 226 Transfer complete
+INFO at 2021-07-14 09:59:51,433: Analyzing rechnung21002.data
+ERROR at 2021-07-14 09:59:51,437: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-14 09:59:51,437: Downloading rechnung21004.data
+DEBUG at 2021-07-14 09:59:51,675: 226 Transfer complete
+INFO at 2021-07-14 09:59:51,677: Analyzing rechnung21004.data
+INFO at 2021-07-14 09:59:51,684: Position total matches expected value
+INFO at 2021-07-14 09:59:51,684: Position total matches expected value
+INFO at 2021-07-14 09:59:51,684: Position total matches expected value
+INFO at 2021-07-14 09:59:51,687: Position total matches expected value
+DEBUG at 2021-07-14 09:59:51,692: 1228
+DEBUG at 2021-07-14 09:59:51,699: None
+DEBUG at 2021-07-14 09:59:51,700: 57
+DEBUG at 2021-07-14 09:59:51,897: 226-File successfully transferred
+226 0.052 seconds (measured here), 24.22 Kbytes per second
+DEBUG at 2021-07-14 09:59:52,153: 226-File successfully transferred
+226 0.060 seconds (measured here), 67.08 Kbytes per second
+INFO at 2021-07-14 10:12:43,220: Starting execution
+DEBUG at 2021-07-14 10:12:43,220: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 10:12:43,517: 250 CWD command successful
+DEBUG at 2021-07-14 10:12:43,517: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 10:12:43,752: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 10:12:43,964: Downloading rechnung21003.data
+DEBUG at 2021-07-14 10:12:44,161: 226 Transfer complete
+INFO at 2021-07-14 10:12:44,166: Analyzing rechnung21003.data
+WARNING at 2021-07-14 10:12:44,172: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:150: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+WARNING at 2021-07-14 10:12:44,213: Discrepancy in rechnung21003.data detected: Position 1 total is 160.00, but should be 150.00
+INFO at 2021-07-14 10:12:44,214: Position total matches expected value
+DEBUG at 2021-07-14 10:12:44,215: 1068
+DEBUG at 2021-07-14 10:12:44,224: None
+DEBUG at 2021-07-14 10:12:44,225: 57
+DEBUG at 2021-07-14 10:12:44,466: 226-File successfully transferred
+226 0.053 seconds (measured here), 20.87 Kbytes per second
+DEBUG at 2021-07-14 10:12:44,705: 226-File successfully transferred
+226 0.058 seconds (measured here), 69.11 Kbytes per second
+INFO at 2021-07-14 10:12:44,705: Downloading rechnung21002.data
+DEBUG at 2021-07-14 10:12:44,902: 226 Transfer complete
+INFO at 2021-07-14 10:12:44,905: Analyzing rechnung21002.data
+ERROR at 2021-07-14 10:12:44,906: Could not find required value "Invoice Number" in file "rechnung21002.data"
+INFO at 2021-07-14 10:12:44,906: Downloading rechnung21004.data
+DEBUG at 2021-07-14 10:12:45,093: 226 Transfer complete
+INFO at 2021-07-14 10:12:45,095: Analyzing rechnung21004.data
+INFO at 2021-07-14 10:12:45,102: Position total matches expected value
+INFO at 2021-07-14 10:12:45,102: Position total matches expected value
+INFO at 2021-07-14 10:12:45,102: Position total matches expected value
+INFO at 2021-07-14 10:12:45,102: Position total matches expected value
+DEBUG at 2021-07-14 10:12:45,106: 1228
+DEBUG at 2021-07-14 10:12:45,112: None
+DEBUG at 2021-07-14 10:12:45,114: 57
+DEBUG at 2021-07-14 10:12:45,330: 226-File successfully transferred
+226 0.057 seconds (measured here), 22.08 Kbytes per second
+DEBUG at 2021-07-14 10:12:45,585: 226-File successfully transferred
+226 0.061 seconds (measured here), 65.81 Kbytes per second
+INFO at 2021-07-14 10:13:06,427: Starting execution
+DEBUG at 2021-07-14 10:13:06,427: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 10:13:06,714: 250 CWD command successful
+DEBUG at 2021-07-14 10:13:06,714: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 10:13:06,931: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 10:13:07,115: Downloading rechnung21004.data
+DEBUG at 2021-07-14 10:13:07,286: 226 Transfer complete
+INFO at 2021-07-14 10:13:07,298: Analyzing rechnung21004.data
+WARNING at 2021-07-14 10:13:07,304: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:150: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 10:13:07,337: Position total matches expected value
+INFO at 2021-07-14 10:13:07,337: Position total matches expected value
+INFO at 2021-07-14 10:13:07,337: Position total matches expected value
+INFO at 2021-07-14 10:13:07,337: Position total matches expected value
+DEBUG at 2021-07-14 10:13:07,337: 1228
+DEBUG at 2021-07-14 10:13:07,349: None
+DEBUG at 2021-07-14 10:13:07,350: 57
+DEBUG at 2021-07-14 10:13:07,586: 226-File successfully transferred
+226 0.051 seconds (measured here), 24.68 Kbytes per second
+DEBUG at 2021-07-14 10:13:07,813: 226-File successfully transferred
+226 0.047 seconds (measured here), 85.28 Kbytes per second
+INFO at 2021-07-14 11:20:54,340: Starting execution
+DEBUG at 2021-07-14 11:20:54,353: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:20:54,687: 250 CWD command successful
+DEBUG at 2021-07-14 11:20:54,687: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:20:54,922: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 11:20:55,123: Downloading rechnung21004.data
+DEBUG at 2021-07-14 11:20:55,293: 226 Transfer complete
+INFO at 2021-07-14 11:20:55,296: Analyzing rechnung21004.data
+WARNING at 2021-07-14 11:20:55,300: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:151: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 11:20:55,308: Position total matches expected value
+INFO at 2021-07-14 11:20:55,308: Position total matches expected value
+INFO at 2021-07-14 11:20:55,308: Position total matches expected value
+INFO at 2021-07-14 11:20:55,308: Position total matches expected value
+DEBUG at 2021-07-14 11:20:55,318: 1228
+DEBUG at 2021-07-14 11:20:55,327: None
+DEBUG at 2021-07-14 11:20:55,328: 57
+DEBUG at 2021-07-14 11:20:55,584: 226-File successfully transferred
+226 0.044 seconds (measured here), 28.73 Kbytes per second
+DEBUG at 2021-07-14 11:20:55,785: 226-File successfully transferred
+226 0.053 seconds (measured here), 75.53 Kbytes per second
+INFO at 2021-07-14 11:20:55,791: Finished
+INFO at 2021-07-14 11:24:24,221: Starting execution
+DEBUG at 2021-07-14 11:24:24,221: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:24:24,595: 250 CWD command successful
+DEBUG at 2021-07-14 11:24:24,596: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:24:24,830: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 11:24:25,005: Downloading rechnung21004.data
+DEBUG at 2021-07-14 11:24:25,183: 226 Transfer complete
+INFO at 2021-07-14 11:24:25,184: Analyzing rechnung21004.data
+WARNING at 2021-07-14 11:24:25,200: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:151: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 11:24:25,230: Position total matches expected value
+INFO at 2021-07-14 11:24:25,230: Position total matches expected value
+INFO at 2021-07-14 11:24:25,230: Position total matches expected value
+INFO at 2021-07-14 11:24:25,230: Position total matches expected value
+DEBUG at 2021-07-14 11:24:25,230: 1228
+DEBUG at 2021-07-14 11:24:25,253: None
+DEBUG at 2021-07-14 11:24:25,255: 57
+DEBUG at 2021-07-14 11:24:25,494: 226-File successfully transferred
+226 0.053 seconds (measured here), 23.70 Kbytes per second
+DEBUG at 2021-07-14 11:24:25,731: 226-File successfully transferred
+226 0.059 seconds (measured here), 67.96 Kbytes per second
+INFO at 2021-07-14 11:24:25,731: Finished
+INFO at 2021-07-14 11:25:46,248: Starting execution
+DEBUG at 2021-07-14 11:25:46,248: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:25:46,555: 250 CWD command successful
+DEBUG at 2021-07-14 11:25:46,555: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:25:46,775: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 11:25:46,994: Downloading rechnung21004.data
+DEBUG at 2021-07-14 11:25:47,196: 226 Transfer complete
+INFO at 2021-07-14 11:25:47,197: Analyzing rechnung21004.data
+WARNING at 2021-07-14 11:25:47,202: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:151: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 11:25:47,216: Position total matches expected value
+INFO at 2021-07-14 11:25:47,216: Position total matches expected value
+INFO at 2021-07-14 11:25:47,217: Position total matches expected value
+INFO at 2021-07-14 11:25:47,217: Position total matches expected value
+DEBUG at 2021-07-14 11:25:47,217: 1228
+DEBUG at 2021-07-14 11:25:47,221: None
+DEBUG at 2021-07-14 11:25:47,222: 57
+DEBUG at 2021-07-14 11:25:47,442: 226-File successfully transferred
+226 0.047 seconds (measured here), 26.76 Kbytes per second
+DEBUG at 2021-07-14 11:25:47,691: 226-File successfully transferred
+226 0.065 seconds (measured here), 61.96 Kbytes per second
+INFO at 2021-07-14 11:25:47,692: Finished
+INFO at 2021-07-14 11:37:01,086: Starting execution
+DEBUG at 2021-07-14 11:37:01,086: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:37:01,346: 250 CWD command successful
+DEBUG at 2021-07-14 11:37:01,360: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:37:01,573: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 11:37:01,780: Downloading rechnung21004.data
+DEBUG at 2021-07-14 11:37:01,968: 226 Transfer complete
+INFO at 2021-07-14 11:37:01,970: Analyzing rechnung21004.data
+WARNING at 2021-07-14 11:37:01,972: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:151: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 11:37:02,010: Position total matches expected value
+INFO at 2021-07-14 11:37:02,011: Position total matches expected value
+INFO at 2021-07-14 11:37:02,011: Position total matches expected value
+INFO at 2021-07-14 11:37:02,011: Position total matches expected value
+DEBUG at 2021-07-14 11:37:02,013: 1228
+DEBUG at 2021-07-14 11:37:02,022: None
+DEBUG at 2021-07-14 11:37:02,023: 57
+DEBUG at 2021-07-14 11:37:02,229: 226-File successfully transferred
+226 0.042 seconds (measured here), 29.96 Kbytes per second
+DEBUG at 2021-07-14 11:37:02,447: 226-File successfully transferred
+226 0.053 seconds (measured here), 75.84 Kbytes per second
+INFO at 2021-07-14 11:37:02,447: Finished
+INFO at 2021-07-14 11:45:43,870: Starting execution
+DEBUG at 2021-07-14 11:45:43,870: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:45:44,319: 250 CWD command successful
+DEBUG at 2021-07-14 11:45:44,319: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:45:44,533: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 11:45:44,733: Downloading rechnung21004.data
+DEBUG at 2021-07-14 11:45:44,923: 226 Transfer complete
+INFO at 2021-07-14 11:45:44,928: Analyzing rechnung21004.data
+WARNING at 2021-07-14 11:45:44,933: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:151: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 11:45:44,968: Position total matches expected value
+INFO at 2021-07-14 11:45:44,968: Position total matches expected value
+INFO at 2021-07-14 11:45:44,968: Position total matches expected value
+INFO at 2021-07-14 11:45:44,968: Position total matches expected value
+DEBUG at 2021-07-14 11:45:44,969: 1228
+DEBUG at 2021-07-14 11:45:44,977: None
+DEBUG at 2021-07-14 11:45:44,978: 57
+DEBUG at 2021-07-14 11:45:45,200: 226-File successfully transferred
+226 0.040 seconds (measured here), 31.32 Kbytes per second
+DEBUG at 2021-07-14 11:45:45,432: 226-File successfully transferred
+226 0.058 seconds (measured here), 68.99 Kbytes per second
+INFO at 2021-07-14 11:45:45,432: Finished
+INFO at 2021-07-14 11:55:11,526: Starting execution
+DEBUG at 2021-07-14 11:55:11,527: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:55:11,765: 250 CWD command successful
+DEBUG at 2021-07-14 11:55:11,765: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:55:12,030: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 11:55:12,211: Downloading rechnung21004.data
+DEBUG at 2021-07-14 11:55:12,394: 226 Transfer complete
+INFO at 2021-07-14 11:55:12,396: Analyzing rechnung21004.data
+WARNING at 2021-07-14 11:55:12,398: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:151: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 11:55:12,432: Position total matches expected value
+INFO at 2021-07-14 11:55:12,432: Position total matches expected value
+INFO at 2021-07-14 11:55:12,432: Position total matches expected value
+INFO at 2021-07-14 11:55:12,432: Position total matches expected value
+DEBUG at 2021-07-14 11:55:12,432: 1228
+DEBUG at 2021-07-14 11:55:12,446: None
+DEBUG at 2021-07-14 11:55:12,447: 57
+DEBUG at 2021-07-14 11:55:12,639: 226-File successfully transferred
+226 0.048 seconds (measured here), 26.29 Kbytes per second
+DEBUG at 2021-07-14 11:55:12,881: 226-File successfully transferred
+226 0.052 seconds (measured here), 77.10 Kbytes per second
+INFO at 2021-07-14 11:55:12,886: Finished
+INFO at 2021-07-14 11:55:19,888: Starting execution
+DEBUG at 2021-07-14 11:55:19,888: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:55:20,209: 250 CWD command successful
+DEBUG at 2021-07-14 11:55:20,210: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:55:20,464: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 11:55:20,679: Downloading rechnung21004.data
+DEBUG at 2021-07-14 11:55:20,846: 226 Transfer complete
+INFO at 2021-07-14 11:55:20,856: Analyzing rechnung21004.data
+WARNING at 2021-07-14 11:55:20,858: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:151: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 11:55:20,892: Position total matches expected value
+INFO at 2021-07-14 11:55:20,892: Position total matches expected value
+INFO at 2021-07-14 11:55:20,892: Position total matches expected value
+INFO at 2021-07-14 11:55:20,892: Position total matches expected value
+DEBUG at 2021-07-14 11:55:20,892: 1228
+DEBUG at 2021-07-14 11:55:20,909: None
+DEBUG at 2021-07-14 11:55:20,911: 57
+DEBUG at 2021-07-14 11:55:21,158: 226-File successfully transferred
+226 0.058 seconds (measured here), 21.58 Kbytes per second
+DEBUG at 2021-07-14 11:55:21,408: 226-File successfully transferred
+226 0.070 seconds (measured here), 57.27 Kbytes per second
+INFO at 2021-07-14 11:55:21,409: Finished
+INFO at 2021-07-14 12:12:20,208: Starting execution
+DEBUG at 2021-07-14 12:12:20,208: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 12:12:20,620: 250 CWD command successful
+DEBUG at 2021-07-14 12:12:20,620: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 12:12:20,864: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 12:12:21,058: Downloading rechnung21004.data
+DEBUG at 2021-07-14 12:12:21,238: 226 Transfer complete
+INFO at 2021-07-14 12:12:21,240: Analyzing rechnung21004.data
+WARNING at 2021-07-14 12:12:21,245: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:151: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 12:12:21,277: Position total matches expected value
+INFO at 2021-07-14 12:12:21,277: Position total matches expected value
+INFO at 2021-07-14 12:12:21,277: Position total matches expected value
+INFO at 2021-07-14 12:12:21,282: Position total matches expected value
+DEBUG at 2021-07-14 12:12:21,283: 1228
+DEBUG at 2021-07-14 12:12:21,292: None
+DEBUG at 2021-07-14 12:12:21,292: 57
+DEBUG at 2021-07-14 12:12:21,544: 226-File successfully transferred
+226 0.061 seconds (measured here), 20.64 Kbytes per second
+DEBUG at 2021-07-14 12:12:21,792: 226-File successfully transferred
+226 0.065 seconds (measured here), 62.36 Kbytes per second
+INFO at 2021-07-14 12:12:21,792: Finished
+INFO at 2021-07-14 12:18:29,453: Starting execution
+DEBUG at 2021-07-14 12:18:29,453: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 12:18:29,717: 250 CWD command successful
+DEBUG at 2021-07-14 12:18:29,717: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 12:18:29,941: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 12:18:30,147: Downloading rechnung21004.data
+DEBUG at 2021-07-14 12:18:30,335: 226 Transfer complete
+INFO at 2021-07-14 12:18:30,336: Analyzing rechnung21004.data
+WARNING at 2021-07-14 12:18:30,343: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:151: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 12:18:30,360: Position total matches expected value
+INFO at 2021-07-14 12:18:30,360: Position total matches expected value
+INFO at 2021-07-14 12:18:30,360: Position total matches expected value
+INFO at 2021-07-14 12:18:30,360: Position total matches expected value
+DEBUG at 2021-07-14 12:18:30,360: 1228
+DEBUG at 2021-07-14 12:18:30,370: None
+DEBUG at 2021-07-14 12:18:30,371: 57
+DEBUG at 2021-07-14 12:18:30,597: 226-File successfully transferred
+226 0.056 seconds (measured here), 22.51 Kbytes per second
+DEBUG at 2021-07-14 12:18:30,850: 226-File successfully transferred
+226 0.059 seconds (measured here), 67.94 Kbytes per second
+INFO at 2021-07-14 12:18:30,850: Finished
+INFO at 2021-07-14 12:24:40,792: Starting execution
+DEBUG at 2021-07-14 12:24:40,792: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 12:24:41,058: 250 CWD command successful
+DEBUG at 2021-07-14 12:24:41,058: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 12:24:41,320: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 12:24:41,512: Downloading rechnung21004.data
+DEBUG at 2021-07-14 12:24:41,725: 226 Transfer complete
+INFO at 2021-07-14 12:24:41,727: Analyzing rechnung21004.data
+WARNING at 2021-07-14 12:24:41,743: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:151: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 12:24:41,781: Position total matches expected value
+INFO at 2021-07-14 12:24:41,782: Position total matches expected value
+INFO at 2021-07-14 12:24:41,782: Position total matches expected value
+INFO at 2021-07-14 12:24:41,783: Position total matches expected value
+DEBUG at 2021-07-14 12:24:41,785: 1228
+DEBUG at 2021-07-14 12:24:41,796: None
+DEBUG at 2021-07-14 12:24:41,798: 57
+DEBUG at 2021-07-14 12:24:42,022: 226-File successfully transferred
+226 0.050 seconds (measured here), 25.15 Kbytes per second
+DEBUG at 2021-07-14 12:24:42,292: 226-File successfully transferred
+226 0.076 seconds (measured here), 52.74 Kbytes per second
+INFO at 2021-07-14 12:24:42,292: Finished
+INFO at 2021-07-14 13:08:16,442: Starting execution
+DEBUG at 2021-07-14 13:08:16,442: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:08:16,954: 250 CWD command successful
+DEBUG at 2021-07-14 13:08:16,955: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:08:17,197: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 13:08:17,393: Downloading rechnung21004.data
+DEBUG at 2021-07-14 13:08:17,571: 226 Transfer complete
+INFO at 2021-07-14 13:08:17,572: Analyzing rechnung21004.data
+WARNING at 2021-07-14 13:08:17,587: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:151: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 13:08:17,620: Position total matches expected value
+INFO at 2021-07-14 13:08:17,621: Position total matches expected value
+INFO at 2021-07-14 13:08:17,621: Position total matches expected value
+INFO at 2021-07-14 13:08:17,621: Position total matches expected value
+DEBUG at 2021-07-14 13:08:17,622: 1228
+DEBUG at 2021-07-14 13:08:17,633: None
+DEBUG at 2021-07-14 13:08:17,634: 57
+DEBUG at 2021-07-14 13:08:17,876: 226-File successfully transferred
+226 0.048 seconds (measured here), 26.25 Kbytes per second
+DEBUG at 2021-07-14 13:08:18,089: 226-File successfully transferred
+226 0.050 seconds (measured here), 80.42 Kbytes per second
+INFO at 2021-07-14 13:08:18,090: Finished
+INFO at 2021-07-14 13:13:53,612: Starting execution
+DEBUG at 2021-07-14 13:13:53,620: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:13:53,971: 250 CWD command successful
+DEBUG at 2021-07-14 13:13:53,971: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:13:54,187: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 13:13:54,355: Downloading rechnung21004.data
+DEBUG at 2021-07-14 13:13:54,539: 226 Transfer complete
+INFO at 2021-07-14 13:13:54,541: Analyzing rechnung21004.data
+WARNING at 2021-07-14 13:13:54,554: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:151: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 13:13:54,604: Position total matches expected value
+INFO at 2021-07-14 13:13:54,604: Position total matches expected value
+INFO at 2021-07-14 13:13:54,604: Position total matches expected value
+INFO at 2021-07-14 13:13:54,605: Position total matches expected value
+DEBUG at 2021-07-14 13:13:54,610: 1228
+DEBUG at 2021-07-14 13:13:54,625: None
+DEBUG at 2021-07-14 13:13:54,627: 57
+DEBUG at 2021-07-14 13:13:55,856: 226-File successfully transferred
+226 0.047 seconds (measured here), 26.80 Kbytes per second
+DEBUG at 2021-07-14 13:13:56,055: 226-File successfully transferred
+226 0.053 seconds (measured here), 75.83 Kbytes per second
+INFO at 2021-07-14 13:13:56,056: Finished
+INFO at 2021-07-14 13:17:01,089: Starting execution
+DEBUG at 2021-07-14 13:17:01,089: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:17:01,321: 250 CWD command successful
+DEBUG at 2021-07-14 13:17:01,322: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:17:01,563: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 13:17:01,725: Downloading rechnung21004.data
+DEBUG at 2021-07-14 13:17:01,892: 226 Transfer complete
+INFO at 2021-07-14 13:17:01,902: Analyzing rechnung21004.data
+WARNING at 2021-07-14 13:17:01,910: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:155: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 13:17:01,941: Position total matches expected value
+INFO at 2021-07-14 13:17:01,941: Position total matches expected value
+INFO at 2021-07-14 13:17:01,941: Position total matches expected value
+INFO at 2021-07-14 13:17:01,941: Position total matches expected value
+DEBUG at 2021-07-14 13:17:01,941: 1228
+DEBUG at 2021-07-14 13:17:01,949: None
+DEBUG at 2021-07-14 13:17:01,950: 57
+DEBUG at 2021-07-14 13:17:02,172: 226-File successfully transferred
+226 0.058 seconds (measured here), 21.72 Kbytes per second
+DEBUG at 2021-07-14 13:17:02,394: 226-File successfully transferred
+226 0.051 seconds (measured here), 78.63 Kbytes per second
+DEBUG at 2021-07-14 13:17:02,407: None
+INFO at 2021-07-14 13:17:02,408: Finished
+INFO at 2021-07-14 13:18:26,897: Starting execution
+DEBUG at 2021-07-14 13:18:26,897: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:18:27,207: 250 CWD command successful
+DEBUG at 2021-07-14 13:18:27,207: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:18:27,454: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 13:18:27,643: Downloading rechnung21004.data
+DEBUG at 2021-07-14 13:18:27,800: 226 Transfer complete
+INFO at 2021-07-14 13:18:27,803: Analyzing rechnung21004.data
+WARNING at 2021-07-14 13:18:27,813: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:155: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 13:18:27,843: Position total matches expected value
+INFO at 2021-07-14 13:18:27,843: Position total matches expected value
+INFO at 2021-07-14 13:18:27,844: Position total matches expected value
+INFO at 2021-07-14 13:18:27,844: Position total matches expected value
+DEBUG at 2021-07-14 13:18:27,846: 1228
+DEBUG at 2021-07-14 13:18:27,854: None
+DEBUG at 2021-07-14 13:18:27,857: 57
+DEBUG at 2021-07-14 13:18:28,092: 226-File successfully transferred
+226 0.058 seconds (measured here), 21.71 Kbytes per second
+DEBUG at 2021-07-14 13:18:28,345: 226-File successfully transferred
+226 0.056 seconds (measured here), 71.39 Kbytes per second
+DEBUG at 2021-07-14 13:18:28,348: None
+INFO at 2021-07-14 13:18:28,348: Finished
+INFO at 2021-07-14 13:31:28,979: Starting execution
+DEBUG at 2021-07-14 13:31:28,979: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:31:29,342: 250 CWD command successful
+DEBUG at 2021-07-14 13:31:29,342: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:31:29,575: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 13:31:29,784: Downloading rechnung21004.data
+DEBUG at 2021-07-14 13:31:29,949: 226 Transfer complete
+INFO at 2021-07-14 13:31:29,950: Analyzing rechnung21004.data
+WARNING at 2021-07-14 13:31:29,957: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:155: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 13:31:29,977: Position total matches expected value
+INFO at 2021-07-14 13:31:29,978: Position total matches expected value
+INFO at 2021-07-14 13:31:29,978: Position total matches expected value
+INFO at 2021-07-14 13:31:29,978: Position total matches expected value
+DEBUG at 2021-07-14 13:31:29,980: 1228
+DEBUG at 2021-07-14 13:31:29,993: None
+DEBUG at 2021-07-14 13:31:29,993: 57
+DEBUG at 2021-07-14 13:31:30,213: 226-File successfully transferred
+226 0.058 seconds (measured here), 21.70 Kbytes per second
+DEBUG at 2021-07-14 13:31:30,440: 226-File successfully transferred
+226 0.065 seconds (measured here), 61.65 Kbytes per second
+DEBUG at 2021-07-14 13:31:30,441: None
+INFO at 2021-07-14 13:31:30,441: Finished
+INFO at 2021-07-14 13:40:23,978: Starting execution
+DEBUG at 2021-07-14 13:40:23,978: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:40:24,246: 250 CWD command successful
+DEBUG at 2021-07-14 13:40:24,246: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:40:24,509: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 13:40:24,723: Downloading rechnung21004.data
+DEBUG at 2021-07-14 13:40:24,893: 226 Transfer complete
+INFO at 2021-07-14 13:40:24,895: Analyzing rechnung21004.data
+WARNING at 2021-07-14 13:40:24,910: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:155: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 13:40:24,940: Position total matches expected value
+INFO at 2021-07-14 13:40:24,940: Position total matches expected value
+INFO at 2021-07-14 13:40:24,940: Position total matches expected value
+INFO at 2021-07-14 13:40:24,940: Position total matches expected value
+DEBUG at 2021-07-14 13:40:24,941: 1228
+DEBUG at 2021-07-14 13:40:24,954: None
+DEBUG at 2021-07-14 13:40:24,955: 57
+DEBUG at 2021-07-14 13:40:25,193: 226-File successfully transferred
+226 0.050 seconds (measured here), 25.21 Kbytes per second
+DEBUG at 2021-07-14 13:40:25,434: 226-File successfully transferred
+226 0.054 seconds (measured here), 74.03 Kbytes per second
+DEBUG at 2021-07-14 13:40:25,435: None
+INFO at 2021-07-14 13:40:25,436: Finished
+INFO at 2021-07-14 13:48:51,719: Starting execution
+DEBUG at 2021-07-14 13:48:51,720: Connecting to server ftp.haraldmueller.ch
+ERROR at 2021-07-14 13:49:12,783: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat
 Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 58, in extract_invoice_data
-    file_values['invoice_number'] = regex_extractor(file, 'Rechnung_([1-0]);')[0]
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 66, in regex_extractor
-    return re.findall(regex, text, flags=re.IGNORECASE)
-  File "C:\Python39\lib\re.py", line 241, in findall
-    return _compile(pattern, flags).findall(string)
-  File "C:\Python39\lib\re.py", line 304, in _compile
-    p = sre_compile.compile(pattern, flags)
-  File "C:\Python39\lib\sre_compile.py", line 764, in compile
-    p = sre_parse.parse(p, flags)
-  File "C:\Python39\lib\sre_parse.py", line 948, in parse
-    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
-  File "C:\Python39\lib\sre_parse.py", line 443, in _parse_sub
-    itemsappend(_parse(source, state, verbose, nested + 1,
-  File "C:\Python39\lib\sre_parse.py", line 834, in _parse
-    p = _parse_sub(source, state, sub_verbose, nested + 1)
-  File "C:\Python39\lib\sre_parse.py", line 443, in _parse_sub
-    itemsappend(_parse(source, state, verbose, nested + 1,
-  File "C:\Python39\lib\sre_parse.py", line 598, in _parse
-    raise source.error(msg, len(this) + 1 + len(that))
-re.error: bad character range 1-0 at position 11
-2021-07-05 20:05:34,685 Connecting to server...
-2021-07-05 20:05:35,150 Downloading rechnung21003.data
-2021-07-05 20:05:35,273 226 Transfer complete
-2021-07-05 20:37:28,445 Connecting to server...
-2021-07-05 20:37:28,777 Downloading rechnung21003.data
-2021-07-05 20:37:28,931 226 Transfer complete
-2021-07-05 20:37:28,931 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 71, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 68, in extract_invoice_data
-    file_values['invoice_number'] = regex_extractor(file, 'Rechnung_([0-9]);', True)[0]
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 82, in regex_extractor
-    raise ValueNotFoundError(f'No result for required expression {regex}')
-ValueNotFoundError: No result for required expression Rechnung_([0-9]);
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 97, in <module>
-    analyse_files()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 61, in analyse_files
-    raise type(value_error)(str(value_error) + f' in file {file}').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 71, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 68, in extract_invoice_data
-    file_values['invoice_number'] = regex_extractor(file, 'Rechnung_([0-9]);', True)[0]
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 82, in regex_extractor
-    raise ValueNotFoundError(f'No result for required expression {regex}')
-ValueNotFoundError: No result for required expression Rechnung_([0-9]); in file rechnung21003.data
-2021-07-05 20:39:17,353 Connecting to server...
-2021-07-05 20:39:17,785 Downloading rechnung21003.data
-2021-07-05 20:39:17,916 226 Transfer complete
-2021-07-05 20:39:17,916 An error occurred while extracting data from a file
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 68, in extract_invoice_data
-    file_values['invoice_number'] = regex_extractor(file, 'Rechnung_([0-9]+);', True)[0]
-TypeError: 'NoneType' object is not subscriptable
-2021-07-05 20:39:43,291 Connecting to server...
-2021-07-05 20:39:43,755 Downloading rechnung21003.data
-2021-07-05 20:39:43,910 226 Transfer complete
-2021-07-05 20:42:59,378 Connecting to server...
-2021-07-05 20:42:59,801 Downloading rechnung21003.data
-2021-07-05 20:42:59,949 226 Transfer complete
-2021-07-05 20:42:59,964 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 71, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 68, in extract_invoice_data
-    file_values['invoice_number'] = regex_extractor(file, r'Rechnung_([0-9]);', True)[0]
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 82, in regex_extractor
-    raise ValueNotFoundError(f'No result for required expression {regex}')
-ValueNotFoundError: No result for required expression Rechnung_([0-9]);
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 99, in <module>
-    analyse_files()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 61, in analyse_files
-    raise type(value_error)(str(value_error) + f' in file {file}').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 71, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 68, in extract_invoice_data
-    file_values['invoice_number'] = regex_extractor(file, r'Rechnung_([0-9]);', True)[0]
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 82, in regex_extractor
-    raise ValueNotFoundError(f'No result for required expression {regex}')
-ValueNotFoundError: No result for required expression Rechnung_([0-9]); in file rechnung21003.data
-2021-07-05 23:01:52,994 Connecting to server...
-2021-07-05 23:01:54,647 Downloading rechnung21003.data
-2021-07-05 23:01:54,873 226 Transfer complete
-2021-07-05 23:01:54,876 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:88: FutureWarning: Possible nested set at position 24
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-05 23:01:54,876 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 80, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 70, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'[a-z_0-9]+;[a-z_0-9]+;([[a-z\u00F0-\u02AF]+);', True)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 91, in regex_extractor
-    raise ValueNotFoundError(f'No result for required expression "{regex}"')
-ValueNotFoundError: No result for required expression "[a-z_0-9]+;[a-z_0-9]+;([[a-z\u00F0-\u02AF]+);"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 108, in <module>
-    analyse_files()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 61, in analyse_files
-    raise type(value_error)(str(value_error) + f' in file "{file}"').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 80, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 70, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'[a-z_0-9]+;[a-z_0-9]+;([[a-z\u00F0-\u02AF]+);', True)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 91, in regex_extractor
-    raise ValueNotFoundError(f'No result for required expression "{regex}"')
-ValueNotFoundError: No result for required expression "[a-z_0-9]+;[a-z_0-9]+;([[a-z\u00F0-\u02AF]+);" in file "rechnung21003.data"
-2021-07-06 21:50:50,923 Connecting to server...
-2021-07-06 21:50:51,363 Downloading rechnung21003.data
-2021-07-06 21:50:51,541 226 Transfer complete
-2021-07-06 21:50:51,547 An error occurred while extracting data from a file
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 68, in extract_invoice_data
-    file_values['invoice_number'] = regex_extractor(file, r'Rechnung_([0-9]+);', True)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 92, in regex_extractor
-    if required & result is None:
-TypeError: unsupported operand type(s) for &: 'bool' and 'NoneType'
-2021-07-06 21:57:51,550 Connecting to server...
-2021-07-06 21:57:52,004 Downloading rechnung21003.data
-2021-07-06 21:57:52,184 226 Transfer complete
-2021-07-06 21:57:52,192 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:90: FutureWarning: Possible nested set at position 24
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 21:57:52,192 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 82, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 70, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'[a-z_0-9]+;[a-z_0-9]+;([[a-z\u00F0-\u02AF]+);', True)  # FAILS
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 93, in regex_extractor
-    raise ValueNotFoundError(f'No result for required expression "{regex}"')
-ValueNotFoundError: No result for required expression "[a-z_0-9]+;[a-z_0-9]+;([[a-z\u00F0-\u02AF]+);"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 110, in <module>
-    analyse_files()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 61, in analyse_files
-    raise type(value_error)(str(value_error) + f' in file "{file}"').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 82, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 70, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'[a-z_0-9]+;[a-z_0-9]+;([[a-z\u00F0-\u02AF]+);', True)  # FAILS
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 93, in regex_extractor
-    raise ValueNotFoundError(f'No result for required expression "{regex}"')
-ValueNotFoundError: No result for required expression "[a-z_0-9]+;[a-z_0-9]+;([[a-z\u00F0-\u02AF]+);" in file "rechnung21003.data"
-2021-07-06 22:00:32,641 Connecting to server...
-2021-07-06 22:00:33,011 Downloading rechnung21003.data
-2021-07-06 22:00:33,358 226 Transfer complete
-2021-07-06 22:00:33,374 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:90: FutureWarning: Possible nested set at position 24
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 22:00:33,374 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 82, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 70, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'[a-z_0-9]+;[a-z_0-9]+;([[a-z\u00F0-\u02AF]+);', 'Send Place')  # FAILS
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 93, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Send Place"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 110, in <module>
-    analyse_files()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 61, in analyse_files
-    raise type(value_error)(str(value_error) + f' in file "{file}"').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 82, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 70, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'[a-z_0-9]+;[a-z_0-9]+;([[a-z\u00F0-\u02AF]+);', 'Send Place')  # FAILS
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 93, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Send Place" in file "rechnung21003.data"
-2021-07-06 22:01:04,627 Connecting to server...
-2021-07-06 22:01:04,967 Downloading rechnung21003.data
-2021-07-06 22:01:05,083 226 Transfer complete
-2021-07-06 22:01:05,083 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 82, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 70, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'[a-z_0-9]+;[a-z_0-9]+;([a-z\u00F0-\u02AF]+);', 'Send Place')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 93, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Send Place"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 110, in <module>
-    analyse_files()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 61, in analyse_files
-    raise type(value_error)(str(value_error) + f' in file "{file}"').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 82, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 70, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'[a-z_0-9]+;[a-z_0-9]+;([a-z\u00F0-\u02AF]+);', 'Send Place')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 93, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Send Place" in file "rechnung21003.data"
-2021-07-06 22:01:33,092 Connecting to server...
-2021-07-06 22:01:33,479 Downloading rechnung21003.data
-2021-07-06 22:01:33,711 226 Transfer complete
-2021-07-06 22:01:33,711 An error occurred while extracting data from a file
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 70, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'[a-z_0-9]+;[a-z_0-9]+;([a-z\u00F0-\u02AF]+);', 'Send Place')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 95, in regex_extractor
-    return result[0]
-IndexError: list index out of range
-2021-07-06 22:02:02,163 Connecting to server...
-2021-07-06 22:02:02,580 Downloading rechnung21003.data
-2021-07-06 22:02:02,697 226 Transfer complete
-2021-07-06 22:02:02,712 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 82, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 70, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'[a-z_0-9]+;[a-z_0-9]+;([a-z\u00F0-\u02AF]+);', 'Send Place')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 93, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Send Place"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 110, in <module>
-    analyse_files()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 61, in analyse_files
-    raise type(value_error)(str(value_error) + f' in file "{file}"').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 82, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 70, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'[a-z_0-9]+;[a-z_0-9]+;([a-z\u00F0-\u02AF]+);', 'Send Place')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 93, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Send Place" in file "rechnung21003.data"
-2021-07-06 22:07:29,068 Connecting to server...
-2021-07-06 22:07:29,411 Downloading rechnung21003.data
-2021-07-06 22:07:29,530 226 Transfer complete
-2021-07-06 22:07:29,546 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 82, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 70, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'"[a-z_0-9]+;[a-z_0-9]+;([a-zהצü]+);"is', 'Send Place')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 93, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Send Place"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 110, in <module>
-    analyse_files()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 61, in analyse_files
-    raise type(value_error)(str(value_error) + f' in file "{file}"').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 82, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 70, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'"[a-z_0-9]+;[a-z_0-9]+;([a-zהצü]+);"is', 'Send Place')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 93, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Send Place" in file "rechnung21003.data"
-2021-07-06 22:09:21,640 Connecting to server...
-2021-07-06 22:09:22,946 Downloading rechnung21003.data
-2021-07-06 22:09:23,184 226 Transfer complete
-2021-07-06 22:09:23,184 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 111, in <module>
-    analyse_files()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 57, in analyse_files
-    with open(file=f'{PATH_TO_FILES}{file}', mode='r', errors='strict', encoding='uft8') as f:
-LookupError: unknown encoding: uft8
-2021-07-06 22:09:29,914 Connecting to server...
-2021-07-06 22:09:30,882 Downloading rechnung21003.data
-2021-07-06 22:09:30,998 226 Transfer complete
-2021-07-06 22:09:30,998 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 60, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 83, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 71, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'"[a-z_0-9]+;[a-z_0-9]+;([a-zהצü]+);"is', 'Send Place')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 94, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Send Place"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 111, in <module>
-    analyse_files()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 62, in analyse_files
-    raise type(value_error)(str(value_error) + f' in file "{file}"').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 60, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 83, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 71, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'"[a-z_0-9]+;[a-z_0-9]+;([a-zהצü]+);"is', 'Send Place')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 94, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Send Place" in file "rechnung21003.data"
-2021-07-06 22:12:42,990 Connecting to server...
-2021-07-06 22:12:43,405 Downloading rechnung21003.data
-2021-07-06 22:12:43,537 226 Transfer complete
-2021-07-06 22:12:43,552 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 60, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 83, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 71, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'"[a-z_0-9]+;[a-z_0-9]+;([a-zהצü]+);"', 'Send Place')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 94, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Send Place"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 111, in <module>
-    analyse_files()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 62, in analyse_files
-    raise type(value_error)(str(value_error) + f' in file "{file}"').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 60, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 83, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 71, in extract_invoice_data
-    file_values['send_place'] = regex_extractor(file, r'"[a-z_0-9]+;[a-z_0-9]+;([a-zהצü]+);"', 'Send Place')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 94, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Send Place" in file "rechnung21003.data"
-2021-07-06 22:12:52,868 Connecting to server...
-2021-07-06 22:12:53,437 Downloading rechnung21003.data
-2021-07-06 22:12:53,568 226 Transfer complete
-2021-07-06 22:12:53,568 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:91: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 22:13:24,350 Connecting to server...
-2021-07-06 22:13:24,720 Downloading rechnung21003.data
-2021-07-06 22:13:24,867 226 Transfer complete
-2021-07-06 22:13:24,882 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:91: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 22:15:15,945 Connecting to server...
-2021-07-06 22:15:16,378 Downloading rechnung21003.data
-2021-07-06 22:15:16,484 226 Transfer complete
-2021-07-06 22:15:16,484 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:91: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 22:15:16,484 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 60, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 83, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 79, in extract_invoice_data
-    file_values['sender_id'] = regex_extractor(file, r'"Herkunft;([0-9]+);"is', 'Sender ID')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 94, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Sender ID"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 111, in <module>
-    analyse_files()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 62, in analyse_files
-    raise type(value_error)(str(value_error) + f' in file "{file}"').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 60, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 83, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 79, in extract_invoice_data
-    file_values['sender_id'] = regex_extractor(file, r'"Herkunft;([0-9]+);"is', 'Sender ID')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 94, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Sender ID" in file "rechnung21003.data"
-2021-07-06 22:15:22,809 Connecting to server...
-2021-07-06 22:15:23,257 Downloading rechnung21003.data
-2021-07-06 22:15:23,379 226 Transfer complete
-2021-07-06 22:15:23,379 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:91: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 22:15:23,395 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 60, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 83, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 79, in extract_invoice_data
-    file_values['sender_id'] = regex_extractor(file, r'"Herkunft;([0-9]+);"', 'Sender ID')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 94, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Sender ID"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 111, in <module>
-    analyse_files()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 62, in analyse_files
-    raise type(value_error)(str(value_error) + f' in file "{file}"').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 60, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 83, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 79, in extract_invoice_data
-    file_values['sender_id'] = regex_extractor(file, r'"Herkunft;([0-9]+);"', 'Sender ID')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 94, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Sender ID" in file "rechnung21003.data"
-2021-07-06 22:15:46,456 Connecting to server...
-2021-07-06 22:15:46,843 Downloading rechnung21003.data
-2021-07-06 22:15:46,959 226 Transfer complete
-2021-07-06 22:15:46,959 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:91: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 22:19:49,461 Connecting to server...
-2021-07-06 22:19:49,800 Downloading rechnung21003.data
-2021-07-06 22:19:49,917 226 Transfer complete
-2021-07-06 22:19:49,917 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:91: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 22:23:49,872 Connecting to server...
-2021-07-06 22:23:50,228 Downloading rechnung21003.data
-2021-07-06 22:23:50,359 226 Transfer complete
-2021-07-06 22:23:50,359 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:93: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 22:34:18,121 Connecting to server...
-2021-07-06 22:34:18,576 Downloading rechnung21003.data
-2021-07-06 22:34:18,780 226 Transfer complete
-2021-07-06 22:34:18,784 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:102: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 22:34:18,788 An error occurred while extracting data from a file
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 90, in extract_invoice_data
-    file_values['sender_place'] = regex_extractor(file, r'')
-TypeError: regex_extractor() missing 1 required positional argument: 'required'
-2021-07-06 22:43:05,868 Connecting to server...
-2021-07-06 22:43:06,375 Downloading rechnung21003.data
-2021-07-06 22:43:06,518 226 Transfer complete
-2021-07-06 22:43:06,521 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:105: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 22:43:06,528 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 97, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 93, in extract_invoice_data
-    file_values['email'] = regex_extractor(file, r'(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)', 'Email')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 108, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Email"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 125, in <module>
-    analyse_files()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 61, in analyse_files
-    raise type(value_error)(str(value_error) + f' in file "{file}"').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 59, in analyse_files
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 97, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 93, in extract_invoice_data
-    file_values['email'] = regex_extractor(file, r'(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)', 'Email')
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 108, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required}"')
-ValueNotFoundError: Could not find required value "Email" in file "rechnung21003.data"
-2021-07-06 22:45:37,339 Connecting to server...
-2021-07-06 22:45:37,877 Downloading rechnung21003.data
-2021-07-06 22:45:38,045 226 Transfer complete
-2021-07-06 22:45:38,049 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:105: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 23:22:36,742 Connecting to server...
-2021-07-06 23:22:37,275 Downloading rechnung21003.data
-2021-07-06 23:22:37,453 226 Transfer complete
-2021-07-06 23:22:37,459 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:125: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 23:22:58,171 Connecting to server...
-2021-07-06 23:22:58,599 Downloading rechnung21003.data
-2021-07-06 23:22:58,860 226 Transfer complete
-2021-07-06 23:22:58,864 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:125: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 23:25:38,808 Connecting to server...
-2021-07-06 23:25:39,424 Downloading rechnung21003.data
-2021-07-06 23:25:39,611 226 Transfer complete
-2021-07-06 23:25:39,616 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:124: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 23:26:41,682 Connecting to server...
-2021-07-06 23:26:42,585 Downloading rechnung21003.data
-2021-07-06 23:26:44,629 226 Transfer complete
-2021-07-06 23:26:44,633 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:128: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-06 23:27:24,062 Connecting to server...
-2021-07-06 23:27:28,398 Downloading rechnung21003.data
-2021-07-06 23:27:28,508 226 Transfer complete
-2021-07-06 23:27:28,512 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:128: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-08 17:48:29,538 Connecting to server...
-2021-07-08 17:48:33,569 Downloading rechnung21003.data
-2021-07-08 17:48:34,636 226 Transfer complete
-2021-07-08 17:48:34,642 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:129: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-08 17:55:29,663 Connecting to server...
-2021-07-08 17:55:34,483 Downloading rechnung21003.data
-2021-07-08 17:55:38,303 226 Transfer complete
-2021-07-08 17:56:00,870 Connecting to server...
-2021-07-08 17:56:08,983 Downloading rechnung21003.data
-2021-07-08 17:56:13,746 226 Transfer complete
-2021-07-08 17:56:13,746 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:129: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-08 17:59:31,139 Connecting to server...
-2021-07-08 17:59:38,263 Downloading rechnung21003.data
-2021-07-08 17:59:40,403 226 Transfer complete
-2021-07-08 17:59:40,420 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:129: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-08 17:59:40,420 Could not find required value "Sender Address" in file "rechnung21003.data"
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 60, in analyse_file
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 121, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 86, in extract_invoice_data
-    file_values['sender_address'] = regex_extractor(file, r'uHerkunft;[0-9]+;[a-z0-9]+;[a-z הצü]+;([a-z &\-'
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 132, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required_name}"')
-ValueNotFoundError: Could not find required value "Sender Address"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 46, in ftp_download
-    analyse_file(file)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 62, in analyse_file
-    raise type(value_error)(str(value_error) + f' in file "{filename}"').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 60, in analyse_file
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 121, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 86, in extract_invoice_data
-    file_values['sender_address'] = regex_extractor(file, r'uHerkunft;[0-9]+;[a-z0-9]+;[a-z הצü]+;([a-z &\-'
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 132, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required_name}"')
-ValueNotFoundError: Could not find required value "Sender Address" in file "rechnung21003.data"
-2021-07-08 18:00:15,914 Connecting to server...
-2021-07-08 18:00:23,454 Downloading rechnung21003.data
-2021-07-08 18:00:23,635 226 Transfer complete
-2021-07-08 18:00:23,635 C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:129: FutureWarning: Possible nested set at position 23
-  result = re.findall(regex, text, flags=re.IGNORECASE)
-
-2021-07-08 18:00:23,650 Could not find required value "Sender Address" in file "rechnung21003.data"
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 60, in analyse_file
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 121, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 86, in extract_invoice_data
-    file_values['sender_address'] = regex_extractor(file, r'uHerkunft;[0-9]+;[a-z0-9]+;[a-z הצü]+;([a-z &\-'
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 132, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required_name}"')
-ValueNotFoundError: Could not find required value "Sender Address"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 46, in ftp_download
-    analyse_file(file)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 62, in analyse_file
-    raise type(value_error)(str(value_error) + f' in file "{filename}"').with_traceback(sys.exc_info()[2])
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 60, in analyse_file
-    extract_invoice_data(file_content_text)
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 121, in extract_invoice_data
-    raise value_error
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 86, in extract_invoice_data
-    file_values['sender_address'] = regex_extractor(file, r'uHerkunft;[0-9]+;[a-z0-9]+;[a-z הצü]+;([a-z &\-'
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 132, in regex_extractor
-    raise ValueNotFoundError(f'Could not find required value "{required_name}"')
-ValueNotFoundError: Could not find required value "Sender Address" in file "rechnung21003.data"
-2021-07-08 21:42:37,785 Connecting to server...
-2021-07-08 21:42:58,938 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 169, in <module>
-    connection_customer = ftp_connect()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 25, in ftp_connect
-    ftp = FTP(host='ftp.haraldmueller.ch', user='schoolerinvoices', passwd='Berufsschule8005!')
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 290, in <module>
+    connection_customer = shared.ftp_connect(host=config['FTP']['customerhost'], user=config['FTP']['customeruser'],
+  File "C:\Users\grish\PycharmProjects\M112_LB2\shared.py", line 32, in ftp_connect
+    ftp = FTP(host=host, user=user, passwd=passwd)
   File "C:\Python39\lib\ftplib.py", line 121, in __init__
     self.connect(host)
   File "C:\Python39\lib\ftplib.py", line 158, in connect
@@ -694,131 +1469,147 @@ Traceback (most recent call last):
   File "C:\Python39\lib\socket.py", line 831, in create_connection
     sock.connect(sa)
 TimeoutError: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat
-2021-07-08 21:43:18,779 Connecting to server...
-2021-07-08 21:43:39,860 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 169, in <module>
-    connection_customer = ftp_connect()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 25, in ftp_connect
-    ftp = FTP(host='ftp.haraldmueller.ch', user='schoolerinvoices', passwd='Berufsschule8005!')
-  File "C:\Python39\lib\ftplib.py", line 121, in __init__
-    self.connect(host)
-  File "C:\Python39\lib\ftplib.py", line 158, in connect
-    self.sock = socket.create_connection((self.host, self.port), self.timeout,
-  File "C:\Python39\lib\socket.py", line 843, in create_connection
-    raise err
-  File "C:\Python39\lib\socket.py", line 831, in create_connection
-    sock.connect(sa)
-TimeoutError: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat
-2021-07-08 21:46:57,888 Connecting to server...
-2021-07-08 21:47:18,975 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 169, in <module>
-    connection_customer = ftp_connect()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 25, in ftp_connect
-    ftp = FTP(host='ftp.haraldmueller.ch', user='schoolerinvoices', passwd='Berufsschule8005!')
-  File "C:\Python39\lib\ftplib.py", line 121, in __init__
-    self.connect(host)
-  File "C:\Python39\lib\ftplib.py", line 158, in connect
-    self.sock = socket.create_connection((self.host, self.port), self.timeout,
-  File "C:\Python39\lib\socket.py", line 843, in create_connection
-    raise err
-  File "C:\Python39\lib\socket.py", line 831, in create_connection
-    sock.connect(sa)
-TimeoutError: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat
-2021-07-08 21:48:35,801 Connecting to server...
-2021-07-08 21:48:56,864 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 169, in <module>
-    connection_customer = ftp_connect()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 25, in ftp_connect
-    ftp = FTP(host='ftp.haraldmueller.ch', user='schoolerinvoices', passwd='Berufsschule8005!')
-  File "C:\Python39\lib\ftplib.py", line 121, in __init__
-    self.connect(host)
-  File "C:\Python39\lib\ftplib.py", line 158, in connect
-    self.sock = socket.create_connection((self.host, self.port), self.timeout,
-  File "C:\Python39\lib\socket.py", line 843, in create_connection
-    raise err
-  File "C:\Python39\lib\socket.py", line 831, in create_connection
-    sock.connect(sa)
-TimeoutError: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat
-2021-07-08 21:55:25,823 Connecting to server...
-2021-07-08 21:55:46,929 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 169, in <module>
-    connection_customer = ftp_connect()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 25, in ftp_connect
-    ftp = FTP(host='ftp.haraldmueller.ch', user='schoolerinvoices', passwd='Berufsschule8005!')
-  File "C:\Python39\lib\ftplib.py", line 121, in __init__
-    self.connect(host)
-  File "C:\Python39\lib\ftplib.py", line 158, in connect
-    self.sock = socket.create_connection((self.host, self.port), self.timeout,
-  File "C:\Python39\lib\socket.py", line 843, in create_connection
-    raise err
-  File "C:\Python39\lib\socket.py", line 831, in create_connection
-    sock.connect(sa)
-TimeoutError: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat
-2021-07-08 22:10:55,793 Connecting to server...
-2021-07-08 22:11:16,916 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 179, in <module>
-    connection_customer = ftp_connect()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 25, in ftp_connect
-    ftp = FTP(host='ftp.haraldmueller.ch', user='schoolerinvoices', passwd='Berufsschule8005!')
-  File "C:\Python39\lib\ftplib.py", line 121, in __init__
-    self.connect(host)
-  File "C:\Python39\lib\ftplib.py", line 158, in connect
-    self.sock = socket.create_connection((self.host, self.port), self.timeout,
-  File "C:\Python39\lib\socket.py", line 843, in create_connection
-    raise err
-  File "C:\Python39\lib\socket.py", line 831, in create_connection
-    sock.connect(sa)
-TimeoutError: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat
-2021-07-08 22:33:28,463 Connecting to server...
-2021-07-08 22:33:49,575 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 194, in <module>
-    connection_customer = ftp_connect()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 25, in ftp_connect
-    ftp = FTP(host='ftp.haraldmueller.ch', user='schoolerinvoices', passwd='Berufsschule8005!')
-  File "C:\Python39\lib\ftplib.py", line 121, in __init__
-    self.connect(host)
-  File "C:\Python39\lib\ftplib.py", line 158, in connect
-    self.sock = socket.create_connection((self.host, self.port), self.timeout,
-  File "C:\Python39\lib\socket.py", line 843, in create_connection
-    raise err
-  File "C:\Python39\lib\socket.py", line 831, in create_connection
-    sock.connect(sa)
-TimeoutError: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat
-2021-07-08 23:00:06,368 Connecting to server...
-2021-07-08 23:00:27,447 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 192, in <module>
-    connection_customer = ftp_connect()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 25, in ftp_connect
-    ftp = FTP(host='ftp.haraldmueller.ch', user='schoolerinvoices', passwd='Berufsschule8005!')
-  File "C:\Python39\lib\ftplib.py", line 121, in __init__
-    self.connect(host)
-  File "C:\Python39\lib\ftplib.py", line 158, in connect
-    self.sock = socket.create_connection((self.host, self.port), self.timeout,
-  File "C:\Python39\lib\socket.py", line 843, in create_connection
-    raise err
-  File "C:\Python39\lib\socket.py", line 831, in create_connection
-    sock.connect(sa)
-TimeoutError: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat
-2021-07-08 23:11:13,580 Connecting to server...
-2021-07-08 23:11:34,704 An error occurred
-Traceback (most recent call last):
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 193, in <module>
-    connection_customer = ftp_connect()
-  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 24, in ftp_connect
-    ftp = FTP(host='ftp.haraldmueller.ch', user='schoolerinvoices', passwd='Berufsschule8005!')
-  File "C:\Python39\lib\ftplib.py", line 121, in __init__
-    self.connect(host)
-  File "C:\Python39\lib\ftplib.py", line 158, in connect
-    self.sock = socket.create_connection((self.host, self.port), self.timeout,
-  File "C:\Python39\lib\socket.py", line 843, in create_connection
-    raise err
-  File "C:\Python39\lib\socket.py", line 831, in create_connection
-    sock.connect(sa)
-TimeoutError: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat
+INFO at 2021-07-14 13:51:36,556: Starting execution
+DEBUG at 2021-07-14 13:51:36,556: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:51:37,078: 250 CWD command successful
+DEBUG at 2021-07-14 13:51:37,079: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:51:37,413: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 13:51:37,679: Downloading rechnung21004.data
+DEBUG at 2021-07-14 13:51:37,934: 226 Transfer complete
+INFO at 2021-07-14 13:51:37,936: Analyzing rechnung21004.data
+WARNING at 2021-07-14 13:51:37,951: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:155: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 13:51:37,987: Position total matches expected value
+INFO at 2021-07-14 13:51:37,987: Position total matches expected value
+INFO at 2021-07-14 13:51:37,988: Position total matches expected value
+INFO at 2021-07-14 13:51:37,988: Position total matches expected value
+DEBUG at 2021-07-14 13:51:37,995: 1228
+DEBUG at 2021-07-14 13:51:38,006: None
+DEBUG at 2021-07-14 13:51:38,008: 57
+DEBUG at 2021-07-14 13:51:38,290: 226-File successfully transferred
+226 0.060 seconds (measured here), 20.91 Kbytes per second
+DEBUG at 2021-07-14 13:51:38,598: 226-File successfully transferred
+226 0.072 seconds (measured here), 55.62 Kbytes per second
+DEBUG at 2021-07-14 13:51:38,600: None
+INFO at 2021-07-14 13:51:38,601: Finished
+INFO at 2021-07-14 13:56:24,375: Starting execution
+DEBUG at 2021-07-14 13:56:24,375: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:56:24,788: 250 CWD command successful
+DEBUG at 2021-07-14 13:56:24,788: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:56:25,144: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 13:56:25,420: Downloading rechnung21004.data
+DEBUG at 2021-07-14 13:56:25,681: 226 Transfer complete
+INFO at 2021-07-14 13:56:25,682: Analyzing rechnung21004.data
+WARNING at 2021-07-14 13:56:25,689: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:155: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 13:56:25,700: Position total matches expected value
+INFO at 2021-07-14 13:56:25,700: Position total matches expected value
+INFO at 2021-07-14 13:56:25,701: Position total matches expected value
+INFO at 2021-07-14 13:56:25,701: Position total matches expected value
+DEBUG at 2021-07-14 13:56:25,701: 1228
+DEBUG at 2021-07-14 13:56:25,705: None
+DEBUG at 2021-07-14 13:56:25,705: 57
+DEBUG at 2021-07-14 13:56:26,012: 226-File successfully transferred
+226 0.053 seconds (measured here), 23.69 Kbytes per second
+DEBUG at 2021-07-14 13:56:26,370: 226-File successfully transferred
+226 0.080 seconds (measured here), 50.10 Kbytes per second
+DEBUG at 2021-07-14 13:56:26,371: None
+INFO at 2021-07-14 13:56:26,372: Finished
+INFO at 2021-07-14 14:09:07,409: Starting execution
+DEBUG at 2021-07-14 14:09:07,410: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 14:09:07,850: 250 CWD command successful
+DEBUG at 2021-07-14 14:09:07,850: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 14:09:08,193: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 14:09:08,468: Downloading rechnung21004.data
+DEBUG at 2021-07-14 14:09:08,733: 226 Transfer complete
+INFO at 2021-07-14 14:09:08,734: Analyzing rechnung21004.data
+WARNING at 2021-07-14 14:09:08,739: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:155: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 14:09:08,749: Position total matches expected value
+INFO at 2021-07-14 14:09:08,749: Position total matches expected value
+INFO at 2021-07-14 14:09:08,749: Position total matches expected value
+INFO at 2021-07-14 14:09:08,749: Position total matches expected value
+DEBUG at 2021-07-14 14:09:08,752: 1228
+DEBUG at 2021-07-14 14:09:08,755: None
+DEBUG at 2021-07-14 14:09:08,756: 57
+DEBUG at 2021-07-14 14:09:09,135: 226-File successfully transferred
+226 0.067 seconds (measured here), 18.76 Kbytes per second
+DEBUG at 2021-07-14 14:09:09,471: 226-File successfully transferred
+226 0.074 seconds (measured here), 54.19 Kbytes per second
+DEBUG at 2021-07-14 14:09:09,471: None
+INFO at 2021-07-14 14:09:09,471: Finished
+INFO at 2021-07-14 14:11:33,397: Starting execution
+DEBUG at 2021-07-14 14:11:33,397: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 14:11:33,832: 250 CWD command successful
+DEBUG at 2021-07-14 14:11:33,832: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 14:11:34,201: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 14:11:34,497: Downloading rechnung21004.data
+DEBUG at 2021-07-14 14:11:34,745: 226 Transfer complete
+INFO at 2021-07-14 14:11:34,746: Analyzing rechnung21004.data
+WARNING at 2021-07-14 14:11:34,751: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:155: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 14:11:34,760: Position total matches expected value
+INFO at 2021-07-14 14:11:34,760: Position total matches expected value
+INFO at 2021-07-14 14:11:34,760: Position total matches expected value
+INFO at 2021-07-14 14:11:34,760: Position total matches expected value
+DEBUG at 2021-07-14 14:11:34,762: 1228
+DEBUG at 2021-07-14 14:11:34,769: None
+DEBUG at 2021-07-14 14:11:34,769: 57
+DEBUG at 2021-07-14 14:11:35,073: 226-File successfully transferred
+226 0.057 seconds (measured here), 21.97 Kbytes per second
+DEBUG at 2021-07-14 14:11:35,382: 226-File successfully transferred
+226 0.070 seconds (measured here), 57.70 Kbytes per second
+DEBUG at 2021-07-14 14:11:35,383: None
+INFO at 2021-07-14 14:11:35,384: Finished
+INFO at 2021-07-14 14:16:13,238: Starting execution
+DEBUG at 2021-07-14 14:16:13,239: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 14:16:13,676: 250 CWD command successful
+DEBUG at 2021-07-14 14:16:13,676: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 14:16:14,033: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 14:16:14,301: Downloading rechnung21004.data
+DEBUG at 2021-07-14 14:16:14,557: 226 Transfer complete
+INFO at 2021-07-14 14:16:14,558: Analyzing rechnung21004.data
+WARNING at 2021-07-14 14:16:14,568: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:155: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 14:16:14,582: Position total matches expected value
+INFO at 2021-07-14 14:16:14,582: Position total matches expected value
+INFO at 2021-07-14 14:16:14,582: Position total matches expected value
+INFO at 2021-07-14 14:16:14,582: Position total matches expected value
+DEBUG at 2021-07-14 14:16:14,584: 1228
+DEBUG at 2021-07-14 14:16:14,595: None
+DEBUG at 2021-07-14 14:16:14,595: 57
+DEBUG at 2021-07-14 14:16:14,907: 226-File successfully transferred
+226 0.068 seconds (measured here), 18.47 Kbytes per second
+DEBUG at 2021-07-14 14:16:15,247: 226-File successfully transferred
+226 0.080 seconds (measured here), 50.22 Kbytes per second
+DEBUG at 2021-07-14 14:16:15,248: None
+INFO at 2021-07-14 14:16:15,248: Finished
+INFO at 2021-07-14 17:44:04,360: Starting execution
+DEBUG at 2021-07-14 17:44:04,364: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 17:44:04,717: 250 CWD command successful
+DEBUG at 2021-07-14 17:44:04,717: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 17:44:04,921: 250 OK. Current directory is /in/AP18cSchuhmacher
+INFO at 2021-07-14 17:44:05,044: Downloading rechnung21004.data
+DEBUG at 2021-07-14 17:44:05,170: 226 Transfer complete
+INFO at 2021-07-14 17:44:05,171: Analyzing rechnung21004.data
+WARNING at 2021-07-14 17:44:05,174: C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py:155: FutureWarning: Possible nested set at position 23
+  result = re.findall(pattern=regex, string=text, flags=re.IGNORECASE)
+
+INFO at 2021-07-14 17:44:05,199: Position total matches expected value
+INFO at 2021-07-14 17:44:05,223: Position total matches expected value
+INFO at 2021-07-14 17:44:05,223: Position total matches expected value
+INFO at 2021-07-14 17:44:05,225: Position total matches expected value
+DEBUG at 2021-07-14 17:44:05,227: 1228
+DEBUG at 2021-07-14 17:44:05,231: None
+DEBUG at 2021-07-14 17:44:05,231: 57
+DEBUG at 2021-07-14 17:44:05,373: 226-File successfully transferred
+226 0.030 seconds (measured here), 41.86 Kbytes per second
+DEBUG at 2021-07-14 17:44:05,508: 226-File successfully transferred
+226 0.028 seconds (measured here), 142.46 Kbytes per second
+DEBUG at 2021-07-14 17:44:05,521: None
+INFO at 2021-07-14 17:44:05,523: Finished

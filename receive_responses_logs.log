@@ -1,0 +1,998 @@
+INFO at 2021-07-12 21:59:42,463: Starting execution
+DEBUG at 2021-07-12 21:59:42,463: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-12 21:59:42,952: 250 CWD command successful
+DEBUG at 2021-07-12 21:59:42,952: Connecting to server 134.119.225.245
+DEBUG at 2021-07-12 21:59:43,187: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-12 21:59:43,319: Downloading rechnung21003.data
+ERROR at 2021-07-12 21:59:43,319: [Errno 2] No such file or directory: '\\files\\in\\rechnung21003.data'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 284, in <module>
+    download_invoices(connection_customer, connection_payment)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\process_invoices.py", line 38, in download_invoices
+    with open(file=f'{config["PATHS"]["pathtoin"]}{file}', mode='wb') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '\\files\\in\\rechnung21003.data'
+INFO at 2021-07-13 22:27:53,937: Starting execution
+DEBUG at 2021-07-13 22:27:53,937: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:27:54,197: 250 CWD command successful
+DEBUG at 2021-07-13 22:27:54,197: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:27:54,369: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:27:54,601: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.24 Mbytes per second
+DEBUG at 2021-07-13 22:27:54,790: 226-File successfully transferred
+226 0.000 seconds (measured here), 8.06 Mbytes per second
+DEBUG at 2021-07-13 22:27:54,923: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.51 Mbytes per second
+ERROR at 2021-07-13 22:27:54,926: unbalanced parenthesis at position 13
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 62, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 34, in get_receipts
+    match_txt = re.findall(pattern=rf'[0-9]+-[0-9]+)  K{split[2]}_{split[0]}_invoice\.txt',
+  File "C:\Python39\lib\re.py", line 241, in findall
+    return _compile(pattern, flags).findall(string)
+  File "C:\Python39\lib\re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Python39\lib\sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Python39\lib\sre_parse.py", line 962, in parse
+    raise source.error("unbalanced parenthesis")
+re.error: unbalanced parenthesis at position 13
+INFO at 2021-07-13 22:28:24,312: Starting execution
+DEBUG at 2021-07-13 22:28:24,312: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:28:24,576: 250 CWD command successful
+DEBUG at 2021-07-13 22:28:24,576: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:28:24,746: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:28:24,978: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.55 Mbytes per second
+DEBUG at 2021-07-13 22:28:25,148: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.98 Mbytes per second
+DEBUG at 2021-07-13 22:28:25,263: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.49 Mbytes per second
+INFO at 2021-07-13 22:28:46,610: Starting execution
+DEBUG at 2021-07-13 22:28:46,610: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:28:46,796: 250 CWD command successful
+DEBUG at 2021-07-13 22:28:46,796: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:28:46,965: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:28:47,182: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.40 Mbytes per second
+DEBUG at 2021-07-13 22:28:47,299: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.70 Mbytes per second
+DEBUG at 2021-07-13 22:28:47,399: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.67 Mbytes per second
+INFO at 2021-07-13 22:29:07,936: Starting execution
+DEBUG at 2021-07-13 22:29:07,936: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:29:08,115: 250 CWD command successful
+DEBUG at 2021-07-13 22:29:08,115: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:29:08,300: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:29:08,501: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.25 Mbytes per second
+DEBUG at 2021-07-13 22:29:08,617: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.67 Mbytes per second
+DEBUG at 2021-07-13 22:29:08,739: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.87 Mbytes per second
+INFO at 2021-07-13 22:29:37,138: Starting execution
+DEBUG at 2021-07-13 22:29:37,138: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:29:37,317: 250 CWD command successful
+DEBUG at 2021-07-13 22:29:37,317: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:29:37,486: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:29:37,739: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.98 Mbytes per second
+DEBUG at 2021-07-13 22:29:37,856: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.50 Mbytes per second
+DEBUG at 2021-07-13 22:29:37,972: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.01 Mbytes per second
+INFO at 2021-07-13 22:30:22,384: Starting execution
+DEBUG at 2021-07-13 22:30:22,384: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:30:22,569: 250 CWD command successful
+DEBUG at 2021-07-13 22:30:22,569: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:30:22,754: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:30:22,987: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.68 Mbytes per second
+DEBUG at 2021-07-13 22:30:23,103: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.88 Mbytes per second
+DEBUG at 2021-07-13 22:30:23,204: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.17 Mbytes per second
+DEBUG at 2021-07-13 22:30:23,320: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.67 Mbytes per second
+INFO at 2021-07-13 22:31:36,583: Starting execution
+DEBUG at 2021-07-13 22:31:36,583: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:31:36,815: 250 CWD command successful
+DEBUG at 2021-07-13 22:31:36,815: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:31:36,985: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:31:37,350: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.25 Mbytes per second
+DEBUG at 2021-07-13 22:31:37,473: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.09 Mbytes per second
+DEBUG at 2021-07-13 22:31:37,589: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.69 Mbytes per second
+DEBUG at 2021-07-13 22:31:37,706: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.51 Mbytes per second
+INFO at 2021-07-13 22:32:41,214: Starting execution
+DEBUG at 2021-07-13 22:32:41,214: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:32:41,478: 250 CWD command successful
+DEBUG at 2021-07-13 22:32:41,478: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:32:41,680: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:32:41,918: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.38 Mbytes per second
+DEBUG at 2021-07-13 22:32:42,034: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.49 Mbytes per second
+DEBUG at 2021-07-13 22:32:42,166: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.33 Mbytes per second
+DEBUG at 2021-07-13 22:32:42,298: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.68 Mbytes per second
+INFO at 2021-07-13 22:38:58,750: Starting execution
+DEBUG at 2021-07-13 22:38:58,750: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:38:59,005: 250 CWD command successful
+DEBUG at 2021-07-13 22:38:59,005: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:38:59,190: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:38:59,407: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.55 Mbytes per second
+DEBUG at 2021-07-13 22:38:59,523: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.50 Mbytes per second
+DEBUG at 2021-07-13 22:38:59,654: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.88 Mbytes per second
+DEBUG at 2021-07-13 22:38:59,824: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.08 Mbytes per second
+INFO at 2021-07-13 22:39:40,777: Starting execution
+DEBUG at 2021-07-13 22:39:40,777: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:39:41,031: 250 CWD command successful
+DEBUG at 2021-07-13 22:39:41,031: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:39:41,195: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:39:41,396: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.01 Mbytes per second
+DEBUG at 2021-07-13 22:39:41,527: 226-File successfully transferred
+226 0.000 seconds (measured here), 7.95 Mbytes per second
+DEBUG at 2021-07-13 22:39:41,634: 226-File successfully transferred
+226 0.000 seconds (measured here), 8.16 Mbytes per second
+DEBUG at 2021-07-13 22:39:41,766: 226-File successfully transferred
+226 0.000 seconds (measured here), 13.80 Mbytes per second
+INFO at 2021-07-13 22:40:11,809: Starting execution
+DEBUG at 2021-07-13 22:40:11,809: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:40:12,042: 250 CWD command successful
+DEBUG at 2021-07-13 22:40:12,042: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:40:12,305: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:40:12,529: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.25 Mbytes per second
+DEBUG at 2021-07-13 22:40:12,660: 226-File successfully transferred
+226 0.000 seconds (measured here), 12.89 Mbytes per second
+DEBUG at 2021-07-13 22:40:12,792: 226-File successfully transferred
+226 0.000 seconds (measured here), 14.72 Mbytes per second
+DEBUG at 2021-07-13 22:40:12,931: 226-File successfully transferred
+226 0.000 seconds (measured here), 12.16 Mbytes per second
+INFO at 2021-07-13 22:40:29,766: Starting execution
+DEBUG at 2021-07-13 22:40:29,766: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:40:29,999: 250 CWD command successful
+DEBUG at 2021-07-13 22:40:29,999: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:40:30,168: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:40:30,384: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.54 Mbytes per second
+DEBUG at 2021-07-13 22:40:30,500: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.50 Mbytes per second
+DEBUG at 2021-07-13 22:40:30,700: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.67 Mbytes per second
+DEBUG at 2021-07-13 22:40:30,816: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.71 Mbytes per second
+INFO at 2021-07-13 22:41:03,312: Starting execution
+DEBUG at 2021-07-13 22:41:03,312: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:41:03,551: 250 CWD command successful
+DEBUG at 2021-07-13 22:41:03,551: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:41:03,745: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:41:03,952: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.69 Mbytes per second
+DEBUG at 2021-07-13 22:41:04,084: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.88 Mbytes per second
+DEBUG at 2021-07-13 22:41:04,201: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.69 Mbytes per second
+DEBUG at 2021-07-13 22:41:04,332: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.52 Mbytes per second
+INFO at 2021-07-13 22:43:03,740: Starting execution
+DEBUG at 2021-07-13 22:43:03,740: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:43:03,903: 250 CWD command successful
+DEBUG at 2021-07-13 22:43:03,903: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:43:04,073: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:43:04,290: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.69 Mbytes per second
+DEBUG at 2021-07-13 22:43:04,406: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.50 Mbytes per second
+DEBUG at 2021-07-13 22:43:04,522: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.51 Mbytes per second
+DEBUG at 2021-07-13 22:43:04,808: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.01 Mbytes per second
+ERROR at 2021-07-13 22:43:04,823: string index out of range
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 69, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 46, in get_receipts
+    f'{time[0]}{time[1]}:{time[2]}{time[3]}:{time[4]}:{time[5]}{time[6]}'
+IndexError: string index out of range
+INFO at 2021-07-13 22:43:29,474: Starting execution
+DEBUG at 2021-07-13 22:43:29,474: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:43:29,660: 250 CWD command successful
+DEBUG at 2021-07-13 22:43:29,660: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:43:29,839: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:43:30,110: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.25 Mbytes per second
+DEBUG at 2021-07-13 22:43:30,225: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.86 Mbytes per second
+DEBUG at 2021-07-13 22:43:30,327: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.34 Mbytes per second
+DEBUG at 2021-07-13 22:43:30,449: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.17 Mbytes per second
+INFO at 2021-07-13 22:43:53,772: Starting execution
+DEBUG at 2021-07-13 22:43:53,772: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:43:53,939: 250 CWD command successful
+DEBUG at 2021-07-13 22:43:53,939: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:43:54,128: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:43:54,364: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.34 Mbytes per second
+DEBUG at 2021-07-13 22:43:54,472: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.48 Mbytes per second
+DEBUG at 2021-07-13 22:43:54,588: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.49 Mbytes per second
+DEBUG at 2021-07-13 22:43:54,704: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.49 Mbytes per second
+INFO at 2021-07-13 22:44:12,895: Starting execution
+DEBUG at 2021-07-13 22:44:12,895: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:44:13,080: 250 CWD command successful
+DEBUG at 2021-07-13 22:44:13,080: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:44:13,219: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:44:13,451: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.33 Mbytes per second
+DEBUG at 2021-07-13 22:44:13,567: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.89 Mbytes per second
+DEBUG at 2021-07-13 22:44:13,684: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.89 Mbytes per second
+DEBUG at 2021-07-13 22:44:13,800: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.33 Mbytes per second
+INFO at 2021-07-13 22:44:21,548: Starting execution
+DEBUG at 2021-07-13 22:44:21,548: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:44:21,712: 250 CWD command successful
+DEBUG at 2021-07-13 22:44:21,712: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:44:21,966: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:44:22,183: 226-File successfully transferred
+226 0.000 seconds (measured here), 8.99 Mbytes per second
+DEBUG at 2021-07-13 22:44:22,284: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.89 Mbytes per second
+DEBUG at 2021-07-13 22:44:22,400: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.71 Mbytes per second
+DEBUG at 2021-07-13 22:44:22,516: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.35 Mbytes per second
+ERROR at 2021-07-13 22:44:22,516: unsupported operand type(s) for -: 'list' and 'int'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 69, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 42, in get_receipts
+    datetime_split = str(match_xml-1).split('-')
+TypeError: unsupported operand type(s) for -: 'list' and 'int'
+INFO at 2021-07-13 22:44:33,366: Starting execution
+DEBUG at 2021-07-13 22:44:33,366: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:44:33,566: 250 CWD command successful
+DEBUG at 2021-07-13 22:44:33,566: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:44:33,737: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:44:33,984: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.85 Mbytes per second
+DEBUG at 2021-07-13 22:44:34,122: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.49 Mbytes per second
+DEBUG at 2021-07-13 22:44:34,239: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.69 Mbytes per second
+DEBUG at 2021-07-13 22:44:34,355: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.71 Mbytes per second
+INFO at 2021-07-13 22:44:48,573: Starting execution
+DEBUG at 2021-07-13 22:44:48,573: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:44:48,768: 250 CWD command successful
+DEBUG at 2021-07-13 22:44:48,768: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:44:48,927: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:44:49,323: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.53 Mbytes per second
+DEBUG at 2021-07-13 22:44:49,461: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.68 Mbytes per second
+DEBUG at 2021-07-13 22:44:49,593: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.68 Mbytes per second
+DEBUG at 2021-07-13 22:44:49,732: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.01 Mbytes per second
+INFO at 2021-07-13 22:46:01,534: Starting execution
+DEBUG at 2021-07-13 22:46:01,534: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:46:01,713: 250 CWD command successful
+DEBUG at 2021-07-13 22:46:01,713: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:46:01,898: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:46:02,153: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.40 Mbytes per second
+DEBUG at 2021-07-13 22:46:02,284: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.34 Mbytes per second
+DEBUG at 2021-07-13 22:46:02,416: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.09 Mbytes per second
+DEBUG at 2021-07-13 22:46:02,539: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.70 Mbytes per second
+DEBUG at 2021-07-13 22:46:02,656: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.52 Mbytes per second
+ERROR at 2021-07-13 22:46:02,671: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 69, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 42, in get_receipts
+    datetime_split = str(match_xml[len(match_xml)]).split('-')
+IndexError: list index out of range
+INFO at 2021-07-13 22:46:12,861: Starting execution
+DEBUG at 2021-07-13 22:46:12,861: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:46:13,062: 250 CWD command successful
+DEBUG at 2021-07-13 22:46:13,062: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:46:13,232: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:46:13,486: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.15 Mbytes per second
+DEBUG at 2021-07-13 22:46:13,617: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.50 Mbytes per second
+DEBUG at 2021-07-13 22:46:13,749: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.06 Mbytes per second
+DEBUG at 2021-07-13 22:46:13,919: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.07 Mbytes per second
+DEBUG at 2021-07-13 22:46:14,050: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.70 Mbytes per second
+INFO at 2021-07-13 22:46:43,244: Starting execution
+DEBUG at 2021-07-13 22:46:43,244: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:46:43,661: 250 CWD command successful
+DEBUG at 2021-07-13 22:46:43,661: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:46:43,848: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:46:44,086: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.24 Mbytes per second
+DEBUG at 2021-07-13 22:46:44,203: 226-File successfully transferred
+226 0.000 seconds (measured here), 8.62 Mbytes per second
+DEBUG at 2021-07-13 22:46:44,320: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.88 Mbytes per second
+DEBUG at 2021-07-13 22:46:44,435: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.69 Mbytes per second
+DEBUG at 2021-07-13 22:46:44,567: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.89 Mbytes per second
+INFO at 2021-07-13 22:48:33,476: Starting execution
+DEBUG at 2021-07-13 22:48:33,476: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:48:33,678: 250 CWD command successful
+DEBUG at 2021-07-13 22:48:33,678: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:48:33,848: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:48:34,077: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.67 Mbytes per second
+DEBUG at 2021-07-13 22:48:34,180: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.50 Mbytes per second
+DEBUG at 2021-07-13 22:48:34,296: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.49 Mbytes per second
+DEBUG at 2021-07-13 22:48:34,413: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.06 Mbytes per second
+DEBUG at 2021-07-13 22:48:34,512: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.68 Mbytes per second
+INFO at 2021-07-13 22:49:29,185: Starting execution
+DEBUG at 2021-07-13 22:49:29,185: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:49:29,370: 250 CWD command successful
+DEBUG at 2021-07-13 22:49:29,370: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:49:29,533: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:49:29,772: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.24 Mbytes per second
+DEBUG at 2021-07-13 22:49:29,889: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.90 Mbytes per second
+DEBUG at 2021-07-13 22:49:30,020: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.89 Mbytes per second
+DEBUG at 2021-07-13 22:49:30,136: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.09 Mbytes per second
+DEBUG at 2021-07-13 22:49:30,252: 226-File successfully transferred
+226 0.000 seconds (measured here), 11.05 Mbytes per second
+INFO at 2021-07-13 22:54:00,827: Starting execution
+DEBUG at 2021-07-13 22:54:00,828: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-13 22:54:00,977: 250 CWD command successful
+DEBUG at 2021-07-13 22:54:00,977: Connecting to server 134.119.225.245
+DEBUG at 2021-07-13 22:54:01,140: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-13 22:54:01,351: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.25 Mbytes per second
+DEBUG at 2021-07-13 22:54:01,458: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.34 Mbytes per second
+DEBUG at 2021-07-13 22:54:01,565: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.71 Mbytes per second
+DEBUG at 2021-07-13 22:54:01,676: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.70 Mbytes per second
+DEBUG at 2021-07-13 22:54:01,780: 226-File successfully transferred
+226 0.000 seconds (measured here), 7.85 Mbytes per second
+DEBUG at 2021-07-13 22:54:01,782: Checking if the invoice belonging to K812_21003_invoice.note was already processed
+INFO at 2021-07-13 22:54:01,783: The invoice number 21003 has not yet been processed, finishing it up
+DEBUG at 2021-07-13 22:54:01,783: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-13 22:54:01,784: The invoice number 21004 has not yet been processed, finishing it up
+INFO at 2021-07-14 09:05:27,745: Starting execution
+DEBUG at 2021-07-14 09:05:27,745: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 09:05:28,439: 250 CWD command successful
+DEBUG at 2021-07-14 09:05:28,439: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 09:05:28,660: 250 OK. Current directory is /out/AP18cSchuhmacher
+ERROR at 2021-07-14 09:05:28,885: 550 Could not delete .: Is a directory
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 79, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 32, in get_receipts
+    logging.debug(download.delete(file))
+  File "C:\Python39\lib\ftplib.py", line 608, in delete
+    resp = self.sendcmd('DELE ' + filename)
+  File "C:\Python39\lib\ftplib.py", line 281, in sendcmd
+    return self.getresp()
+  File "C:\Python39\lib\ftplib.py", line 254, in getresp
+    raise error_perm(resp)
+ftplib.error_perm: 550 Could not delete .: Is a directory
+INFO at 2021-07-14 09:05:48,999: Starting execution
+DEBUG at 2021-07-14 09:05:48,999: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 09:05:49,260: 250 CWD command successful
+DEBUG at 2021-07-14 09:05:49,260: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 09:05:49,513: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 09:05:49,879: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.99 Mbytes per second
+DEBUG at 2021-07-14 09:05:49,926: 250 Deleted quittungsfile20210713_203003.txt
+DEBUG at 2021-07-14 09:05:50,093: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.34 Mbytes per second
+DEBUG at 2021-07-14 09:05:50,152: 250 Deleted quittungsfile20210713_205003.txt
+DEBUG at 2021-07-14 09:05:50,323: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.82 Mbytes per second
+DEBUG at 2021-07-14 09:05:50,379: 250 Deleted quittungsfile20210713_205503.txt
+DEBUG at 2021-07-14 09:05:50,563: 226-File successfully transferred
+226 0.000 seconds (measured here), 10.69 Mbytes per second
+DEBUG at 2021-07-14 09:05:50,619: 250 Deleted quittungsfile20210713_223003.txt
+DEBUG at 2021-07-14 09:05:50,803: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.99 Mbytes per second
+DEBUG at 2021-07-14 09:05:50,846: 250 Deleted quittungsfile20210713_224503.txt
+DEBUG at 2021-07-14 09:05:50,846: Checking if the invoice belonging to K812_21003_invoice.note was already processed
+INFO at 2021-07-14 09:05:50,866: The invoice number 21003 has not yet been processed, finishing it up
+DEBUG at 2021-07-14 09:05:50,866: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 09:05:50,880: The invoice number 21004 has not yet been processed, finishing it up
+INFO at 2021-07-14 09:58:42,290: Starting execution
+DEBUG at 2021-07-14 09:58:42,290: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 09:58:42,922: 250 CWD command successful
+DEBUG at 2021-07-14 09:58:42,922: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 09:58:43,186: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 09:58:43,546: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.52 Mbytes per second
+DEBUG at 2021-07-14 09:58:43,588: 250 Deleted quittungsfile20210714_092003.txt
+DEBUG at 2021-07-14 09:58:43,597: Checking if the invoice belonging to K812_21003_invoice.note was already processed
+INFO at 2021-07-14 09:58:43,598: The invoice number 21003 has been processed, sending confirmation
+ERROR at 2021-07-14 09:58:43,598: 'sender_address'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 122, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 58, in get_receipts
+    send_email(split, match_xml)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 75, in send_email
+    sender = config['EMAIL']['sender_address']  # "Private Person <from@example.com>"
+  File "C:\Python39\lib\configparser.py", line 1254, in __getitem__
+    raise KeyError(key)
+KeyError: 'sender_address'
+INFO at 2021-07-14 09:59:34,425: Starting execution
+DEBUG at 2021-07-14 09:59:34,425: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 09:59:34,693: 250 CWD command successful
+DEBUG at 2021-07-14 09:59:34,693: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 09:59:34,934: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 09:59:35,105: Checking if the invoice belonging to K812_21003_invoice.note was already processed
+INFO at 2021-07-14 09:59:35,107: The invoice number 21003 has not yet been processed
+DEBUG at 2021-07-14 09:59:35,107: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 09:59:35,107: The invoice number 21004 has not yet been processed
+INFO at 2021-07-14 10:01:20,253: Starting execution
+DEBUG at 2021-07-14 10:01:20,253: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 10:01:20,572: 250 CWD command successful
+DEBUG at 2021-07-14 10:01:20,572: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 10:01:20,794: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 10:01:21,178: 226-File successfully transferred
+226 0.000 seconds (measured here), 8.97 Mbytes per second
+DEBUG at 2021-07-14 10:01:21,225: 250 Deleted quittungsfile20210714_100005.txt
+DEBUG at 2021-07-14 10:01:21,226: Checking if the invoice belonging to K812_21003_invoice.note was already processed
+INFO at 2021-07-14 10:01:21,227: The invoice number 21003 has been processed, sending confirmation
+DEBUG at 2021-07-14 10:01:23,013: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 10:01:23,014: The invoice number 21004 has been processed, sending confirmation
+INFO at 2021-07-14 11:20:18,041: Starting execution
+DEBUG at 2021-07-14 11:20:18,041: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:20:18,374: 250 CWD command successful
+DEBUG at 2021-07-14 11:20:18,375: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:20:18,632: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 11:20:18,981: 226-File successfully transferred
+226 0.000 seconds (measured here), 9.68 Mbytes per second
+DEBUG at 2021-07-14 11:20:19,018: 250 Deleted quittungsfile20210714_101503.txt
+DEBUG at 2021-07-14 11:20:19,018: Checking if the invoice belonging to K812_21003_invoice.note was already processed
+INFO at 2021-07-14 11:20:19,032: The invoice number 21003 has been processed, sending confirmation
+ERROR at 2021-07-14 11:20:19,971: 'filetoout'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 161, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 61, in get_receipts
+    send_email(split, match_xml)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 123, in send_email
+    with open(f'{config["PATHS"]["filetoout"]}{note[2]}_{note[0]}_invoice.zip') as fp:
+  File "C:\Python39\lib\configparser.py", line 1254, in __getitem__
+    raise KeyError(key)
+KeyError: 'filetoout'
+INFO at 2021-07-14 11:20:43,854: Starting execution
+DEBUG at 2021-07-14 11:20:43,854: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:20:44,094: 250 CWD command successful
+DEBUG at 2021-07-14 11:20:44,095: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:20:44,329: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 11:20:44,491: Checking if the invoice belonging to K812_21003_invoice.note was already processed
+INFO at 2021-07-14 11:20:44,491: The invoice number 21003 has not yet been processed
+DEBUG at 2021-07-14 11:20:44,491: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 11:20:44,491: The invoice number 21004 has not yet been processed
+DEBUG at 2021-07-14 11:20:44,491: None
+INFO at 2021-07-14 11:20:44,491: Finished
+INFO at 2021-07-14 11:24:33,646: Starting execution
+DEBUG at 2021-07-14 11:24:33,646: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:24:33,964: 250 CWD command successful
+DEBUG at 2021-07-14 11:24:33,965: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:24:34,190: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 11:24:34,358: Checking if the invoice belonging to K812_21003_invoice.note was already processed
+INFO at 2021-07-14 11:24:34,360: The invoice number 21003 has not yet been processed
+DEBUG at 2021-07-14 11:24:34,361: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 11:24:34,363: The invoice number 21004 has not yet been processed
+INFO at 2021-07-14 11:24:34,363: Finished
+INFO at 2021-07-14 11:25:14,622: Starting execution
+DEBUG at 2021-07-14 11:25:14,622: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:25:14,960: 250 CWD command successful
+DEBUG at 2021-07-14 11:25:14,960: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:25:15,188: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 11:25:15,538: 226-File successfully transferred
+226 0.000 seconds (measured here), 4.69 Mbytes per second
+DEBUG at 2021-07-14 11:25:15,571: 250 Deleted quittungsfile20210714_112503.txt
+DEBUG at 2021-07-14 11:25:15,571: Checking if the invoice belonging to K812_21003_invoice.note was already processed
+INFO at 2021-07-14 11:25:15,588: The invoice number 21003 has not yet been processed
+DEBUG at 2021-07-14 11:25:15,588: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 11:25:15,588: The invoice number 21004 has been processed, sending confirmation
+ERROR at 2021-07-14 11:25:16,459: [Errno 2] No such file or directory: '.\\files\\out\\K812_21004_invoice.zip'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 160, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 61, in get_receipts
+    send_email(split, match_xml)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 122, in send_email
+    with open(f'{config["PATHS"]["pathtoout"]}{note[2]}_{note[0]}_invoice.zip') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '.\\files\\out\\K812_21004_invoice.zip'
+INFO at 2021-07-14 11:28:27,820: Starting execution
+DEBUG at 2021-07-14 11:28:27,820: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:28:28,159: 250 CWD command successful
+DEBUG at 2021-07-14 11:28:28,160: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:28:28,392: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 11:28:28,571: Checking if the invoice belonging to K812_21003_invoice.note was already processed
+INFO at 2021-07-14 11:28:28,573: The invoice number 21003 has not yet been processed
+DEBUG at 2021-07-14 11:28:28,573: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 11:28:28,573: The invoice number 21004 has not yet been processed
+DEBUG at 2021-07-14 11:28:28,573: None
+INFO at 2021-07-14 11:28:28,578: Finished
+INFO at 2021-07-14 11:36:12,207: Starting execution
+DEBUG at 2021-07-14 11:36:12,207: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:36:12,542: 250 CWD command successful
+DEBUG at 2021-07-14 11:36:12,542: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:36:12,790: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 11:36:13,138: 226-File successfully transferred
+226 0.000 seconds (measured here), 4.99 Mbytes per second
+DEBUG at 2021-07-14 11:36:13,199: 250 Deleted quittungsfile20210714_113003.txt
+DEBUG at 2021-07-14 11:36:13,200: Checking if the invoice belonging to K812_21003_invoice.note was already processed
+INFO at 2021-07-14 11:36:13,201: The invoice number 21003 has not yet been processed
+DEBUG at 2021-07-14 11:36:13,201: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 11:36:13,201: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 11:36:13,201: Creating ZIP file
+ERROR at 2021-07-14 11:36:13,201: 'filetoout'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 163, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 61, in get_receipts
+    make_zip_file(split, upload)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 81, in make_zip_file
+    filename = f'{config["PATHS"]["filetoout"]}{note[2]}_{note[0]}_invoice'
+  File "C:\Python39\lib\configparser.py", line 1254, in __getitem__
+    raise KeyError(key)
+KeyError: 'filetoout'
+INFO at 2021-07-14 11:36:34,875: Starting execution
+DEBUG at 2021-07-14 11:36:34,875: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:36:35,250: 250 CWD command successful
+DEBUG at 2021-07-14 11:36:35,250: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:36:35,494: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 11:36:35,659: Checking if the invoice belonging to K812_21003_invoice.note was already processed
+INFO at 2021-07-14 11:36:35,659: The invoice number 21003 has not yet been processed
+DEBUG at 2021-07-14 11:36:35,659: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 11:36:35,659: The invoice number 21004 has not yet been processed
+DEBUG at 2021-07-14 11:36:35,659: None
+INFO at 2021-07-14 11:36:35,659: Finished
+INFO at 2021-07-14 11:39:06,238: Starting execution
+DEBUG at 2021-07-14 11:39:06,238: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:39:06,510: 250 CWD command successful
+DEBUG at 2021-07-14 11:39:06,510: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:39:06,753: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 11:39:06,904: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 11:39:06,905: The invoice number 21004 has not yet been processed
+INFO at 2021-07-14 11:39:06,905: Finished
+INFO at 2021-07-14 11:45:04,945: Starting execution
+DEBUG at 2021-07-14 11:45:04,949: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:45:05,399: 250 CWD command successful
+DEBUG at 2021-07-14 11:45:05,399: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:45:05,623: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 11:45:05,983: 226-File successfully transferred
+226 0.000 seconds (measured here), 4.50 Mbytes per second
+DEBUG at 2021-07-14 11:45:06,028: 250 Deleted quittungsfile20210714_114003.txt
+DEBUG at 2021-07-14 11:45:06,032: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 11:45:06,034: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 11:45:06,034: Creating ZIP file
+DEBUG at 2021-07-14 11:45:06,057: None
+DEBUG at 2021-07-14 11:45:06,076: None
+ERROR at 2021-07-14 11:45:06,081: 'filetowait'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 163, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 61, in get_receipts
+    make_zip_file(split, upload)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 89, in make_zip_file
+    logging.debug(z.write(f'{config["PATHS"]["filetowait"]}{file}.'))
+  File "C:\Python39\lib\configparser.py", line 1254, in __getitem__
+    raise KeyError(key)
+KeyError: 'filetowait'
+INFO at 2021-07-14 11:55:27,815: Starting execution
+DEBUG at 2021-07-14 11:55:27,815: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:55:28,058: 250 CWD command successful
+DEBUG at 2021-07-14 11:55:28,058: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:55:28,309: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 11:55:28,669: 226-File successfully transferred
+226 0.000 seconds (measured here), 4.76 Mbytes per second
+DEBUG at 2021-07-14 11:55:28,723: 250 Deleted quittungsfile20210714_115003.txt
+DEBUG at 2021-07-14 11:55:28,723: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 11:55:28,725: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 11:55:28,725: Creating ZIP file
+DEBUG at 2021-07-14 11:55:28,744: None
+DEBUG at 2021-07-14 11:55:28,764: None
+DEBUG at 2021-07-14 11:55:28,774: None
+DEBUG at 2021-07-14 11:55:28,793: None
+DEBUG at 2021-07-14 11:55:29,024: 226 Transfer complete
+ERROR at 2021-07-14 11:55:29,907: 'charmap' codec can't decode byte 0x9d in position 93: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 166, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 67, in get_receipts
+    send_email(split, match_xml)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 129, in send_email
+    message.add_attachment(fp.read())
+  File "C:\Python39\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 93: character maps to <undefined>
+INFO at 2021-07-14 11:56:35,593: Starting execution
+DEBUG at 2021-07-14 11:56:35,593: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 11:56:35,874: 250 CWD command successful
+DEBUG at 2021-07-14 11:56:35,874: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 11:56:36,120: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 11:56:36,291: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 11:56:36,294: The invoice number 21004 has not yet been processed
+DEBUG at 2021-07-14 11:56:36,296: None
+DEBUG at 2021-07-14 11:56:36,297: None
+INFO at 2021-07-14 11:56:36,298: Finished
+INFO at 2021-07-14 12:05:22,716: Starting execution
+DEBUG at 2021-07-14 12:05:22,716: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 12:05:23,127: 250 CWD command successful
+DEBUG at 2021-07-14 12:05:23,127: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 12:05:23,360: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 12:05:23,737: 226-File successfully transferred
+226 0.000 seconds (measured here), 4.77 Mbytes per second
+DEBUG at 2021-07-14 12:05:23,797: 250 Deleted quittungsfile20210714_120005.txt
+DEBUG at 2021-07-14 12:05:23,797: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 12:05:23,807: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 12:05:23,808: Creating ZIP file
+DEBUG at 2021-07-14 12:05:23,825: None
+DEBUG at 2021-07-14 12:05:23,843: None
+DEBUG at 2021-07-14 12:05:23,849: None
+DEBUG at 2021-07-14 12:05:24,087: 226 Transfer complete
+ERROR at 2021-07-14 12:05:24,952: set_bytes_content() missing 2 required positional arguments: 'maintype' and 'subtype'
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 166, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 67, in get_receipts
+    send_email(split, match_xml)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 129, in send_email
+    message.add_attachment(fp.read())
+  File "C:\Python39\lib\email\message.py", line 1156, in add_attachment
+    self._add_multipart('mixed', *args, _disp='attachment', **kw)
+  File "C:\Python39\lib\email\message.py", line 1144, in _add_multipart
+    part.set_content(*args, **kw)
+  File "C:\Python39\lib\email\message.py", line 1171, in set_content
+    super().set_content(*args, **kw)
+  File "C:\Python39\lib\email\message.py", line 1101, in set_content
+    content_manager.set_content(self, *args, **kw)
+  File "C:\Python39\lib\email\contentmanager.py", line 37, in set_content
+    handler(msg, obj, *args, **kw)
+TypeError: set_bytes_content() missing 2 required positional arguments: 'maintype' and 'subtype'
+INFO at 2021-07-14 12:12:09,111: Starting execution
+DEBUG at 2021-07-14 12:12:09,112: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 12:12:09,434: 250 CWD command successful
+DEBUG at 2021-07-14 12:12:09,434: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 12:12:09,665: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 12:12:09,819: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 12:12:09,820: The invoice number 21004 has not yet been processed
+DEBUG at 2021-07-14 12:12:09,820: None
+INFO at 2021-07-14 12:12:09,820: Finished
+INFO at 2021-07-14 12:14:42,362: Starting execution
+DEBUG at 2021-07-14 12:14:42,362: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 12:14:42,630: 250 CWD command successful
+DEBUG at 2021-07-14 12:14:42,630: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 12:14:42,873: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 12:14:43,045: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 12:14:43,045: The invoice number 21004 has not yet been processed
+INFO at 2021-07-14 12:14:43,045: Finished
+INFO at 2021-07-14 12:18:12,483: Starting execution
+DEBUG at 2021-07-14 12:18:12,487: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 12:18:12,747: 250 CWD command successful
+DEBUG at 2021-07-14 12:18:12,747: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 12:18:12,983: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 12:18:13,353: 226-File successfully transferred
+226 0.000 seconds (measured here), 4.63 Mbytes per second
+DEBUG at 2021-07-14 12:18:13,404: 250 Deleted quittungsfile20210714_121503.txt
+DEBUG at 2021-07-14 12:18:13,404: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 12:18:13,411: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 12:18:13,411: Creating ZIP file
+DEBUG at 2021-07-14 12:18:13,438: None
+DEBUG at 2021-07-14 12:18:13,465: None
+DEBUG at 2021-07-14 12:18:13,498: None
+DEBUG at 2021-07-14 12:18:13,689: 226 Transfer complete
+ERROR at 2021-07-14 12:18:13,712: Attach is not valid on a message with a non-multipart payload
+Traceback (most recent call last):
+  File "C:\Python39\lib\email\message.py", line 208, in attach
+    self._payload.append(payload)
+AttributeError: 'str' object has no attribute 'append'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 167, in <module>
+    get_receipts(connection_payment, connection_customer)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 69, in get_receipts
+    send_email(split, match_xml)
+  File "C:\Users\grish\PycharmProjects\M112_LB2\receive_responses.py", line 131, in send_email
+    message.attach(MIMEApplication(fp.read(), Name='archive.zip'))
+  File "C:\Python39\lib\email\message.py", line 210, in attach
+    raise TypeError("Attach is not valid on a message with a"
+TypeError: Attach is not valid on a message with a non-multipart payload
+INFO at 2021-07-14 12:23:02,206: Starting execution
+DEBUG at 2021-07-14 12:23:02,206: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 12:23:02,483: 250 CWD command successful
+DEBUG at 2021-07-14 12:23:02,483: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 12:23:02,718: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 12:23:03,050: 226-File successfully transferred
+226 0.000 seconds (measured here), 4.70 Mbytes per second
+DEBUG at 2021-07-14 12:23:03,093: 250 Deleted quittungsfile20210714_122003.txt
+DEBUG at 2021-07-14 12:23:03,094: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 12:23:03,096: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 12:23:03,096: Creating ZIP file
+DEBUG at 2021-07-14 12:23:03,117: None
+DEBUG at 2021-07-14 12:23:03,154: None
+DEBUG at 2021-07-14 12:23:03,174: None
+DEBUG at 2021-07-14 12:23:03,189: None
+DEBUG at 2021-07-14 12:23:03,400: 226 Transfer complete
+DEBUG at 2021-07-14 12:23:05,398: None
+DEBUG at 2021-07-14 12:23:05,400: None
+DEBUG at 2021-07-14 12:23:05,402: None
+INFO at 2021-07-14 12:23:05,402: Finished
+INFO at 2021-07-14 13:07:59,454: Starting execution
+DEBUG at 2021-07-14 13:07:59,455: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:07:59,917: 250 CWD command successful
+DEBUG at 2021-07-14 13:07:59,917: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:08:00,175: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 13:08:00,547: 226-File successfully transferred
+226 0.000 seconds (measured here), 5.26 Mbytes per second
+DEBUG at 2021-07-14 13:08:00,602: 250 Deleted quittungsfile20210714_122503.txt
+DEBUG at 2021-07-14 13:08:00,603: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 13:08:00,605: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 13:08:00,606: Creating ZIP file
+DEBUG at 2021-07-14 13:08:00,610: None
+DEBUG at 2021-07-14 13:08:00,611: None
+DEBUG at 2021-07-14 13:08:00,612: None
+DEBUG at 2021-07-14 13:08:00,828: 226 Transfer complete
+DEBUG at 2021-07-14 13:08:04,442: None
+DEBUG at 2021-07-14 13:08:04,444: None
+INFO at 2021-07-14 13:08:04,444: Finished
+INFO at 2021-07-14 13:11:44,669: Starting execution
+DEBUG at 2021-07-14 13:11:44,669: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:11:44,970: 250 CWD command successful
+DEBUG at 2021-07-14 13:11:44,970: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:11:45,209: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 13:11:45,567: 226-File successfully transferred
+226 0.000 seconds (measured here), 4.63 Mbytes per second
+DEBUG at 2021-07-14 13:11:45,610: 250 Deleted quittungsfile20210714_131003.txt
+DEBUG at 2021-07-14 13:11:45,610: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 13:11:45,610: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 13:11:45,610: Creating ZIP file
+DEBUG at 2021-07-14 13:11:45,610: None
+DEBUG at 2021-07-14 13:11:45,610: None
+DEBUG at 2021-07-14 13:11:45,610: None
+DEBUG at 2021-07-14 13:11:46,889: 226 Transfer complete
+DEBUG at 2021-07-14 13:11:50,745: None
+INFO at 2021-07-14 13:11:50,746: Finished
+INFO at 2021-07-14 13:14:02,491: Starting execution
+DEBUG at 2021-07-14 13:14:02,491: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:14:02,912: 250 CWD command successful
+DEBUG at 2021-07-14 13:14:02,912: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:14:03,161: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 13:14:03,316: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 13:14:03,318: The invoice number 21004 has not yet been processed
+INFO at 2021-07-14 13:14:03,318: Finished
+INFO at 2021-07-14 13:15:52,912: Starting execution
+DEBUG at 2021-07-14 13:15:52,912: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:15:53,270: 250 CWD command successful
+DEBUG at 2021-07-14 13:15:53,270: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:15:53,525: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 13:15:53,916: 226-File successfully transferred
+226 0.000 seconds (measured here), 4.85 Mbytes per second
+DEBUG at 2021-07-14 13:15:53,973: 250 Deleted quittungsfile20210714_131503.txt
+DEBUG at 2021-07-14 13:15:53,973: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 13:15:53,974: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 13:15:53,974: Creating ZIP file
+DEBUG at 2021-07-14 13:15:53,975: None
+DEBUG at 2021-07-14 13:15:53,976: None
+DEBUG at 2021-07-14 13:15:53,976: None
+DEBUG at 2021-07-14 13:15:53,978: None
+DEBUG at 2021-07-14 13:15:54,180: 226 Transfer complete
+DEBUG at 2021-07-14 13:15:57,537: None
+INFO at 2021-07-14 13:15:57,538: Finished
+INFO at 2021-07-14 13:18:34,475: Starting execution
+DEBUG at 2021-07-14 13:18:34,475: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:18:34,802: 250 CWD command successful
+DEBUG at 2021-07-14 13:18:34,802: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:18:35,054: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 13:18:35,218: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 13:18:35,221: The invoice number 21004 has not yet been processed
+INFO at 2021-07-14 13:18:35,221: Finished
+INFO at 2021-07-14 13:20:30,209: Starting execution
+DEBUG at 2021-07-14 13:20:30,209: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:20:30,544: 250 CWD command successful
+DEBUG at 2021-07-14 13:20:30,544: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:20:30,765: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 13:20:31,115: 226-File successfully transferred
+226 0.000 seconds (measured here), 5.08 Mbytes per second
+DEBUG at 2021-07-14 13:20:31,167: 250 Deleted quittungsfile20210714_132004.txt
+DEBUG at 2021-07-14 13:20:31,167: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 13:20:31,173: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 13:20:31,173: Creating ZIP file
+DEBUG at 2021-07-14 13:20:31,173: None
+DEBUG at 2021-07-14 13:20:31,173: None
+DEBUG at 2021-07-14 13:20:31,173: None
+DEBUG at 2021-07-14 13:20:31,173: None
+DEBUG at 2021-07-14 13:20:31,173: None
+DEBUG at 2021-07-14 13:20:31,183: None
+DEBUG at 2021-07-14 13:20:31,185: None
+DEBUG at 2021-07-14 13:20:31,187: None
+DEBUG at 2021-07-14 13:20:31,367: 226 Transfer complete
+DEBUG at 2021-07-14 13:20:35,132: None
+INFO at 2021-07-14 13:20:35,133: Finished
+INFO at 2021-07-14 13:31:20,273: Starting execution
+DEBUG at 2021-07-14 13:31:20,274: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:31:20,660: 250 CWD command successful
+DEBUG at 2021-07-14 13:31:20,660: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:31:20,918: 250 OK. Current directory is /out/AP18cSchuhmacher
+INFO at 2021-07-14 13:31:21,090: Finished
+INFO at 2021-07-14 13:32:14,727: Starting execution
+DEBUG at 2021-07-14 13:32:14,727: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:32:15,083: 250 CWD command successful
+DEBUG at 2021-07-14 13:32:15,083: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:32:15,319: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 13:32:15,502: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 13:32:15,505: The invoice number 21004 has not yet been processed
+INFO at 2021-07-14 13:32:15,505: Finished
+INFO at 2021-07-14 13:34:41,713: Starting execution
+DEBUG at 2021-07-14 13:34:41,717: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:34:42,167: 250 CWD command successful
+DEBUG at 2021-07-14 13:34:42,167: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:34:42,413: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 13:34:42,614: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 13:34:42,619: The invoice number 21004 has not yet been processed
+INFO at 2021-07-14 13:34:42,619: Finished
+INFO at 2021-07-14 13:36:13,802: Starting execution
+DEBUG at 2021-07-14 13:36:13,802: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:36:14,163: 250 CWD command successful
+DEBUG at 2021-07-14 13:36:14,163: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:36:14,397: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 13:36:14,753: 226-File successfully transferred
+226 0.000 seconds (measured here), 4.84 Mbytes per second
+DEBUG at 2021-07-14 13:36:14,796: 250 Deleted quittungsfile20210714_133504.txt
+DEBUG at 2021-07-14 13:36:14,802: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 13:36:14,803: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 13:36:14,803: Creating ZIP file
+DEBUG at 2021-07-14 13:36:14,813: None
+DEBUG at 2021-07-14 13:36:14,813: None
+DEBUG at 2021-07-14 13:36:14,813: None
+DEBUG at 2021-07-14 13:36:14,813: None
+DEBUG at 2021-07-14 13:36:14,998: 226 Transfer complete
+DEBUG at 2021-07-14 13:36:18,570: None
+INFO at 2021-07-14 13:36:18,571: Finished
+INFO at 2021-07-14 13:45:44,152: Starting execution
+DEBUG at 2021-07-14 13:45:44,153: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:45:44,400: 250 CWD command successful
+DEBUG at 2021-07-14 13:45:44,400: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:45:44,630: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 13:45:44,953: 226-File successfully transferred
+226 0.000 seconds (measured here), 5.26 Mbytes per second
+DEBUG at 2021-07-14 13:45:45,002: 250 Deleted quittungsfile20210714_134503.txt
+DEBUG at 2021-07-14 13:45:45,006: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 13:45:45,009: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 13:45:45,009: Creating ZIP file
+DEBUG at 2021-07-14 13:45:45,012: None
+DEBUG at 2021-07-14 13:45:45,013: None
+DEBUG at 2021-07-14 13:45:45,014: None
+DEBUG at 2021-07-14 13:45:45,015: None
+DEBUG at 2021-07-14 13:45:45,016: None
+DEBUG at 2021-07-14 13:45:45,017: None
+DEBUG at 2021-07-14 13:45:45,187: 226 Transfer complete
+DEBUG at 2021-07-14 13:45:48,717: None
+INFO at 2021-07-14 13:45:48,718: Finished
+INFO at 2021-07-14 13:51:49,385: Starting execution
+DEBUG at 2021-07-14 13:51:49,386: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:51:49,829: 250 CWD command successful
+DEBUG at 2021-07-14 13:51:49,830: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:51:50,148: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 13:51:50,385: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 13:51:50,387: The invoice number 21004 has not yet been processed
+INFO at 2021-07-14 13:51:50,387: Finished
+INFO at 2021-07-14 13:56:13,157: Starting execution
+DEBUG at 2021-07-14 13:56:13,157: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 13:56:13,607: 250 CWD command successful
+DEBUG at 2021-07-14 13:56:13,607: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 13:56:13,936: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 13:56:14,399: 226-File successfully transferred
+226 0.000 seconds (measured here), 5.01 Mbytes per second
+DEBUG at 2021-07-14 13:56:14,477: 250 Deleted quittungsfile20210714_135503.txt
+DEBUG at 2021-07-14 13:56:14,478: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 13:56:14,479: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 13:56:14,479: Creating ZIP file
+DEBUG at 2021-07-14 13:56:14,479: None
+DEBUG at 2021-07-14 13:56:14,480: None
+DEBUG at 2021-07-14 13:56:14,481: None
+DEBUG at 2021-07-14 13:56:14,481: None
+DEBUG at 2021-07-14 13:56:14,482: None
+DEBUG at 2021-07-14 13:56:14,482: None
+DEBUG at 2021-07-14 13:56:14,772: 226 Transfer complete
+DEBUG at 2021-07-14 13:56:16,604: None
+INFO at 2021-07-14 13:56:16,604: Finished
+INFO at 2021-07-14 14:07:52,516: Starting execution
+DEBUG at 2021-07-14 14:07:52,517: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 14:07:52,990: 250 CWD command successful
+DEBUG at 2021-07-14 14:07:52,991: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 14:07:53,312: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 14:07:53,785: 226-File successfully transferred
+226 0.000 seconds (measured here), 4.42 Mbytes per second
+DEBUG at 2021-07-14 14:07:53,852: 250 Deleted quittungsfile20210714_140004.txt
+DEBUG at 2021-07-14 14:07:53,853: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 14:07:53,856: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 14:07:53,856: Creating ZIP file
+DEBUG at 2021-07-14 14:07:53,877: None
+DEBUG at 2021-07-14 14:07:53,878: None
+DEBUG at 2021-07-14 14:07:53,897: None
+DEBUG at 2021-07-14 14:07:53,899: None
+DEBUG at 2021-07-14 14:07:53,916: None
+DEBUG at 2021-07-14 14:07:53,917: None
+DEBUG at 2021-07-14 14:07:54,185: 226 Transfer complete
+DEBUG at 2021-07-14 14:07:55,804: None
+INFO at 2021-07-14 14:07:55,804: Finished
+INFO at 2021-07-14 14:10:21,315: Starting execution
+DEBUG at 2021-07-14 14:10:21,316: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 14:10:21,771: 250 CWD command successful
+DEBUG at 2021-07-14 14:10:21,771: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 14:10:22,092: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 14:10:22,566: 226-File successfully transferred
+226 0.000 seconds (measured here), 4.85 Mbytes per second
+DEBUG at 2021-07-14 14:10:22,632: 250 Deleted quittungsfile20210714_141004.txt
+DEBUG at 2021-07-14 14:10:22,633: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 14:10:22,635: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 14:10:22,635: Creating ZIP file
+DEBUG at 2021-07-14 14:10:22,639: None
+DEBUG at 2021-07-14 14:10:22,640: None
+DEBUG at 2021-07-14 14:10:22,642: None
+DEBUG at 2021-07-14 14:10:22,643: None
+DEBUG at 2021-07-14 14:10:22,644: None
+DEBUG at 2021-07-14 14:10:22,645: None
+DEBUG at 2021-07-14 14:10:22,913: 226 Transfer complete
+DEBUG at 2021-07-14 14:10:24,467: None
+INFO at 2021-07-14 14:10:24,468: Finished
+INFO at 2021-07-14 14:16:04,703: Starting execution
+DEBUG at 2021-07-14 14:16:04,704: Connecting to server ftp.haraldmueller.ch
+DEBUG at 2021-07-14 14:16:05,088: 250 CWD command successful
+DEBUG at 2021-07-14 14:16:05,088: Connecting to server 134.119.225.245
+DEBUG at 2021-07-14 14:16:05,429: 250 OK. Current directory is /out/AP18cSchuhmacher
+DEBUG at 2021-07-14 14:16:05,934: 226-File successfully transferred
+226 0.000 seconds (measured here), 4.85 Mbytes per second
+DEBUG at 2021-07-14 14:16:06,000: 250 Deleted quittungsfile20210714_141503.txt
+DEBUG at 2021-07-14 14:16:06,001: Checking if the invoice belonging to K812_21004_invoice.note was already processed
+INFO at 2021-07-14 14:16:06,003: The invoice number 21004 has been processed, sending confirmation
+DEBUG at 2021-07-14 14:16:06,003: Creating ZIP file
+DEBUG at 2021-07-14 14:16:06,012: None
+DEBUG at 2021-07-14 14:16:06,012: None
+DEBUG at 2021-07-14 14:16:06,014: None
+DEBUG at 2021-07-14 14:16:06,016: None
+DEBUG at 2021-07-14 14:16:06,016: None
+DEBUG at 2021-07-14 14:16:06,018: None
+DEBUG at 2021-07-14 14:16:06,288: 226 Transfer complete
+DEBUG at 2021-07-14 14:16:07,818: None
+INFO at 2021-07-14 14:16:07,818: Finished
